@@ -32,10 +32,12 @@ Pod ima vlastiti disk (volumen), pa se repozitorij klonira **unutar Jupytera**, 
 
 1. Pokrenite Jupyter pod i otvorite Jupyter u pregledniku.
 2. U pregledniku datoteka odaberite **New → Terminal**.
-3. U terminal upišite:
+3. U terminal upišite (prvi redak je važan – terminal se otvara u mapi `/`, a Jupyter prikazuje mapu `/opt/notebooks`):
    ```bash
+   cd /opt/notebooks
    git clone https://github.com/MySlav/Podatkovno-inzenjerstvo-2026-2027.git
    ```
+   Ako ste klonirali bez `cd` pa mapu ne vidite, premjestite je: `mv /Podatkovno-inzenjerstvo-2026-2027 /opt/notebooks/`.
 4. U pregledniku datoteka pojavit će se mapa `Podatkovno-inzenjerstvo-2026-2027`. Otvorite mapu vježbe i pratite njezin README.
 
 Za vježbe sa SQL-om skripte otvarate u alatu koji ta vježba navodi (npr. pgAdmin). Kako ih prenijeti, piše u README-u te vježbe.
@@ -44,7 +46,7 @@ Za vježbe sa SQL-om skripte otvarate u alatu koji ta vježba navodi (npr. pgAdm
 
 U Jupyter terminalu:
 ```bash
-cd Podatkovno-inzenjerstvo-2026-2027
+cd /opt/notebooks/Podatkovno-inzenjerstvo-2026-2027
 git pull
 ```
 U Jupyter bilježnicama isto možete napraviti i iz bilježnice – prva ćelija je `!git pull`.
