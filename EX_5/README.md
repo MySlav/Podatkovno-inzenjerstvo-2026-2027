@@ -17,6 +17,7 @@ Trajanje: 90 minuta. Okruženje: [Jupyter pod](../okruzenje/README.md).
 | Datoteka / mapa | Opis |
 |---|---|
 | `EX_5_Nedostajuce_vrijednosti_i_outlieri.ipynb` | bilježnica s teorijom, demo kodom i zadacima |
+| `provjere.py` | provjere zadataka koje bilježnica poziva u ćelijama ✅ (ne treba je otvarati ni mijenjati) |
 | `podaci/titanic/train.csv`, `test.csv` | putnici Titanica |
 | `podaci/air-quality-data-in-india/city_day.csv` | dnevna kvaliteta zraka u 26 indijskih gradova, 2015.–2020. |
 | `podaci/cars.csv` | tehnički podaci i cijene automobila |
