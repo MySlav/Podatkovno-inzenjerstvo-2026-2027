@@ -1,12 +1,24 @@
-# Studentske kopije bilježnica
-*_moj_rad.ipynb
+# Studentske kopije (bilježnice, SQL skripte, kod): EX_5_moj_rad.ipynb, EX_6_zadaci_moj_rad.sql …
+*_moj_rad.*
 
-# Rješenja se ne objavljuju prije vježbe (namjerno ih dodajte s git add -f kad ih želite objaviti)
-*RJESENJA*.ipynb
+# Rješenja se ne objavljuju prije vježbe – bilo koja vrsta datoteke s RJESENJA u nazivu
+# (namjerno ih dodajte s git add -f kad ih želite objaviti)
+*RJESENJA*
 
 # Jupyter / Python
 .ipynb_checkpoints/
 __pycache__/
+*.pyc
+.venv/
+venv/
+
+# Lozinke i lokalne postavke – nikad u repozitorij
+.env
+
+# Uređivači i alati
+.vscode/
+.idea/
+*.log
 
 # Windows / macOS
 Thumbs.db

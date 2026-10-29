@@ -1,7 +1,8 @@
 # Podatkovno inženjerstvo (2026./2027.)
 
 Materijali za laboratorijske vježbe kolegija **Podatkovno inženjerstvo** na Sveučilištu Algebra Bernays, ak. god. 2026./2027.
-Bilježnice (Jupyter notebook), podaci i pomoćne datoteke za svaku vježbu nalaze se u zasebnoj mapi.
+Za svaku vježbu postoji zasebna mapa s materijalima: Jupyter bilježnice, SQL skripte, Python i drugi kod, podaci i pomoćne datoteke.
+Što je u kojoj mapi i kako s tim raditi, piše u README-u te mape.
 
 ## Vježbe
 
@@ -16,12 +17,12 @@ Nove vježbe dodavat će se tijekom semestra u nove mape (`EX_6/`, `EX_7/` …),
 ```
 Podatkovno-inzenjerstvo-2026-2027/
 ├─ README.md            ← ova datoteka
-├─ okruzenje/           ← YAML datoteke za Podman podove (Jupyter, kasnije SQL)
-└─ EX_5/                ← jedna mapa po vježbi
+├─ okruzenje/           ← YAML datoteke za Podman podove (Jupyter, kasnije i SQL)
+└─ EX_n/                ← jedna mapa po vježbi
    ├─ README.md         ← upute za tu vježbu
-   ├─ *.ipynb           ← bilježnica
-   ├─ podaci/           ← skupovi podataka
-   └─ slike/            ← slike koje bilježnica prikazuje
+   ├─ *.ipynb, *.sql, *.py …  ← bilježnice, SQL skripte i drugi kod (ovisno o vježbi)
+   ├─ podaci/           ← skupovi podataka (ako ih vježba koristi)
+   └─ slike/            ← slike za bilježnice (ako ih ima)
 ```
 
 ## Prvi put: preuzimanje repozitorija
@@ -35,7 +36,9 @@ Pod ima vlastiti disk (volumen), pa se repozitorij klonira **unutar Jupytera**, 
    ```bash
    git clone https://github.com/MySlav/Podatkovno-inzenjerstvo-2026-2027.git
    ```
-4. U pregledniku datoteka pojavit će se mapa `Podatkovno-inzenjerstvo-2026-2027`. Otvorite mapu vježbe i bilježnicu u njoj.
+4. U pregledniku datoteka pojavit će se mapa `Podatkovno-inzenjerstvo-2026-2027`. Otvorite mapu vježbe i pratite njezin README.
+
+Za vježbe sa SQL-om skripte otvarate u alatu koji ta vježba navodi (npr. pgAdmin). Kako ih prenijeti, piše u README-u te vježbe.
 
 ## Prije svake vježbe: povlačenje novosti
 
@@ -44,14 +47,16 @@ U Jupyter terminalu:
 cd Podatkovno-inzenjerstvo-2026-2027
 git pull
 ```
-Isto možete napraviti i iz bilježnice – prva ćelija svake bilježnice je `!git pull`.
+U Jupyter bilježnicama isto možete napraviti i iz bilježnice – prva ćelija je `!git pull`.
 
-## Radite u svojoj kopiji bilježnice
+## Radite u svojoj kopiji
 
-Prije nego što počnete rješavati zadatke, spremite kopiju: **File → Save Notebook As…** → npr. `EX_5_moj_rad.ipynb`.
+Prije nego što počnete rješavati zadatke, spremite kopiju datoteke sa zadacima i dodajte nazivu `_moj_rad`:
+* bilježnica: **File → Save Notebook As…** → npr. `EX_5_moj_rad.ipynb`,
+* SQL skripta ili drugi kod: npr. `EX_6_zadaci_moj_rad.sql`.
 
-Ako mijenjate originalnu bilježnicu, a nastavnik u međuvremenu objavi ispravak iste datoteke, `git pull` će javiti grešku
-(*Your local changes … would be overwritten by merge*). Kopije s nastavkom `_moj_rad.ipynb` git ne prati, pa ih `git pull` nikad ne dira.
+Ako mijenjate originalnu datoteku, a nastavnik u međuvremenu objavi ispravak iste datoteke, `git pull` će javiti grešku
+(*Your local changes … would be overwritten by merge*). Datoteke s `_moj_rad` u nazivu git ne prati, pa ih `git pull` nikad ne dira.
 
 Ako vam se to ipak dogodi:
 ```bash
@@ -63,8 +68,8 @@ git stash pop       # vraća vaše izmjene (ako javi sukob, spremite svoj rad ka
 
 ## Ako `git clone` ne radi
 
-Na GitHubu kliknite **Code → Download ZIP**, raspakirajte arhivu na računalu i mapu vježbe prenesite u Jupyter gumbom **Upload**
-(datoteke unutar mapa `podaci/` i `slike/` prenesite u iste podmape).
+Na GitHubu kliknite **Code → Download ZIP** i raspakirajte arhivu na računalu.
+Za Jupyter vježbe mapu vježbe prenesite u Jupyter gumbom **Upload** (datoteke unutar mapa `podaci/` i `slike/` prenesite u iste podmape).
 Novosti tada nećete moći povući s `git pull`, nego ponovno preuzimate ZIP.
 
 ## Rješenja
