@@ -1,0 +1,14 @@
+# Studentske kopije bilježnica
+*_moj_rad.ipynb
+
+# Rješenja se ne objavljuju prije vježbe (namjerno ih dodajte s git add -f kad ih želite objaviti)
+*RJESENJA*.ipynb
+
+# Jupyter / Python
+.ipynb_checkpoints/
+__pycache__/
+
+# Windows / macOS
+Thumbs.db
+desktop.ini
+.DS_Store
