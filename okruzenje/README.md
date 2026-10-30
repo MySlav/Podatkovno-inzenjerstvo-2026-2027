@@ -5,7 +5,7 @@ Upute za instalaciju (WSL 2, Podman Desktop, Git) dobili ste na početku semestr
 
 | Datoteka | Što pokreće | Za koje vježbe |
 |---|---|---|
-| [`anaconda_jupyter.yaml`](anaconda_jupyter.yaml) | Jupyter Notebook s Anaconda distribucijom (pandas, numpy, matplotlib, seaborn, scikit-learn …) | EX_5 |
+| [`anaconda_jupyter.yaml`](anaconda_jupyter.yaml) | Jupyter Notebook s Anaconda distribucijom (pandas, numpy, matplotlib, seaborn, scikit-learn …) | EX_5, EX_6 |
 
 ## Pokretanje Jupyter poda
 

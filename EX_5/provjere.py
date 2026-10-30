@@ -5,35 +5,22 @@ Očekivani rezultati spremljeni su kao sažeci (hash), a ne kao brojevi – rje�
 Ako nakon `git pull` dobijete novu verziju ove datoteke, ponovno pokrenite ćelije cjeline 0.
 """
 import hashlib
+import sqlite3
 
 import numpy as np
 import pandas as pd
 
-_OCEKIVANO = {'z1_broj': 'c3f66ebb96dde64a',
- 'z1_godina': 'cdca8820438008a7',
- 'z2_cabin': 'a24754f2eb361895',
- 'z2_embarked': '8efc3331500e01fc',
- 'z2d': '2e59135480d67aba',
- 'z3_postotak': '0f9f891e77d3852a',
- 'z3_redaka': 'cb413b3dfc8283cd',
- 'z3_svi': '2746a8bf7a522080',
- 'z4_indikator': 'ce7997bc350e7fa6',
- 'z4_medijani': '35fcd3ac558fed5f',
- 'z4_redak5': '23204079de0215d0',
- 'z5b_preostalo': '97329ec779c0cf2d',
- 'z6_granice': 'd24c3d43590ebc78',
- 'z6_z': '96ce644edada39f0',
- 'z7_2000': 'cb6a5ceebed97625',
- 'z7_elektricni': 'aec04af1827d5336',
- 'z7_ford': '0e8323ade9a18a4b',
- 'z9_cilindri': '76d3b2b1c1c3c67b',
- 'z9_hp': 'cfe619377063b232',
- 'z9_max': 'db1f5740bb87acd9',
- 'z9_msrp': '99eab6f9b8f8efc8',
- 'z9_redaka': '37f1cdc7a7bc31a7'}
+_OCEKIVANO = {'z10_kat': 'b73be535cc1bf5a1',
+ 'z10_redaka': 'cf22d5a7596393a0',
+ 'z1_mjere': '8c4c22fcbc2386c8',
+ 'z2_kupaca': 'b47825c26fb4e368',
+ 'z4': '0c7c37d18e2d629c',
+ 'z5': '7b717fe6b7101e40',
+ 'z6': '4fae6c7d0dce2934',
+ 'z7_redaka': 'd833e06acdb74b8a',
+ 'z8_iznos': '64e67eb35c696e94',
+ 'z8_k3': 'edd4049cc1c266b3'}
 
-
-# ---------------------------------------------------------------- pomoćne funkcije
 
 def _norm(x):
     if isinstance(x, (list, tuple, np.ndarray, pd.Series)):
@@ -49,7 +36,7 @@ def _norm(x):
 
 
 def _sazetak(x):
-    return hashlib.sha256(("ex5|" + _norm(x)).encode("utf-8")).hexdigest()[:16]
+    return hashlib.sha256(("ex5m|" + _norm(x)).encode("utf-8")).hexdigest()[:16]
 
 
 def _tocno(kljuc, vrijednost):
@@ -77,164 +64,122 @@ def _sigurno(test):
         return False
 
 
-# ---------------------------------------------------------------- 1. kvaliteta podataka
-
-def zadatak_1(broj_cijena_2000, najnovija_godina_2000):
-    _nije_rijeseno(broj_cijena_2000, najnovija_godina_2000)
-    _provjeri(_tocno("z1_broj", broj_cijena_2000),
-              "a) Broj nije dobar – usporedi stupac MSRP s 2000 i zbroji True vrijednosti.")
-    _provjeri(_tocno("z1_godina", najnovija_godina_2000),
-              "b) Godina nije dobra – filtriraj retke s MSRP == 2000 i uzmi max stupca Year.",
-              "✅ Točno! Nijedan automobil noviji od te godine nema cijenu 2000 – to nije cijena, nego oznaka 'cijena nepoznata'.")
-
-
-# ---------------------------------------------------------------- 3. MCAR / MAR / MNAR
-
-def zadatak_2(cabin_po_klasi, embarked_nedostaje):
-    _nije_rijeseno(cabin_po_klasi, embarked_nedostaje)
-    _provjeri(isinstance(cabin_po_klasi, pd.Series) and len(cabin_po_klasi) == 3,
-              "a) cabin_po_klasi treba biti Series s po jednom vrijednošću za svaku klasu – grupiraj isna() po titanic['Pclass'].")
-    _provjeri(_tocno("z2_cabin", cabin_po_klasi.sort_index()),
-              "a) Udjeli nisu dobri – trebaju biti udjeli između 0 i 1 (srednja vrijednost od isna()), kao u demu za Age.")
-    _provjeri(isinstance(embarked_nedostaje, pd.DataFrame) and _tocno("z2_embarked", len(embarked_nedostaje)),
-              "b) Krivi retci – filtriraj titanic maskom titanic['Embarked'].isna().")
+def _izvrsi_upit(sql, upit):
+    _nije_rijeseno(upit)
+    if "___" in upit:
+        raise AssertionError("❌ Zadatak još nije riješen – popuni sva mjesta označena s ___ i ponovno pokreni ćeliju zadatka.")
+    try:
+        return sql(upit)
+    except Exception as greska:
+        raise AssertionError(f"❌ Upit se ne može izvršiti: {str(greska).splitlines()[0][:150]}")
 
 
-def zadatak_2d(prezivljavanje_po_age):
-    _nije_rijeseno(prezivljavanje_po_age)
-    _provjeri(_sigurno(lambda: _tocno("z2d", [prezivljavanje_po_age.loc[False], prezivljavanje_po_age.loc[True]])),
-              "Grupiraj titanic po titanic['Age'].isna() i uzmi srednju vrijednost stupca 'Survived'.",
-              "✅ Točno! Putnici bez upisane dobi preživljavali su rjeđe. Sama činjenica da podatak nedostaje nosi "
-              "informaciju – zato ćemo u cjelini 5 dodati indikator nedostajanja (sl. 64–66).")
+def zadatak_1(prodaja, stupci_granulacije, mjere):
+    _nije_rijeseno(stupci_granulacije, mjere)
+    stupci = list(stupci_granulacije)
+    _provjeri(_sigurno(lambda: prodaja.duplicated(subset=stupci).sum() == 0),
+              "a) Ti stupci ne određuju redak jednoznačno – neke se kombinacije ponavljaju.")
+    _provjeri(len(stupci) <= 2, "a) Dovoljna su dva stupca: koji račun i koja stavka na njemu?")
+    _provjeri(_tocno("z1_mjere", sorted(mjere)),
+              "b) Mjere se zbrajaju i svaka stavka ima svoju vrijednost. Što se događa s popust_racuna na računu s više stavki?")
 
 
-# ---------------------------------------------------------------- 4. brisanje
-
-def zadatak_3(titanic_bez_age_nan, titanic_bez_cabin, postotak_izgubljenih):
-    _nije_rijeseno(titanic_bez_age_nan, titanic_bez_cabin, postotak_izgubljenih)
-    print("a)", titanic_bez_age_nan.shape, " b)", titanic_bez_cabin.shape, " c)", round(float(postotak_izgubljenih), 2), "%")
-    _provjeri(_tocno("z3_redaka", len(titanic_bez_age_nan)) and titanic_bez_age_nan["Age"].notna().all(),
-              "a) Obriši samo retke kojima nedostaje Age – dropna(subset=['Age']).")
-    _provjeri("Cabin" not in titanic_bez_cabin.columns and _tocno("z3_svi", len(titanic_bez_cabin)),
-              "b) Stupac Cabin mora nestati, a broj redaka ostati isti – drop(columns=['Cabin']).")
-    _provjeri(_tocno("z3_postotak", postotak_izgubljenih),
-              "c) Usporedi len(titanic) i len(titanic.dropna()) i pretvori razliku u postotak (0–100).",
-              "✅ Točno! Gubimo većinu putnika, i to uglavnom zbog stupca Cabin. Slijepi dropna() je loša ideja.")
+def zadatak_2(dim_kupac_df):
+    _nije_rijeseno(dim_kupac_df)
+    _provjeri(isinstance(dim_kupac_df, pd.DataFrame), "dim_kupac_df treba biti DataFrame.")
+    _provjeri(list(dim_kupac_df.columns) == ["kupac_key", "sifra_kupca", "kupac", "grad"],
+              "Stupci trebaju biti redom: kupac_key, sifra_kupca, kupac, grad. Ako nedostaje kupac_key, dovrši drugi TODO.")
+    _provjeri(_tocno("z2_kupaca", len(dim_kupac_df)), "Krivi broj redaka – svaki kupac smije se pojaviti samo jednom (drop_duplicates).")
+    _provjeri(dim_kupac_df["kupac_key"].is_unique and dim_kupac_df["kupac_key"].min() == 1,
+              "kupac_key mora biti jedinstven i počinjati od 1.",
+              "✅ Točno! Dimenzija kupca je gotova.")
 
 
-# ---------------------------------------------------------------- 5. imputacija
-
-def zadatak_4(titanic_imp, medijan_po_klasi):
-    _nije_rijeseno(medijan_po_klasi)
-    _provjeri(_sigurno(lambda: _tocno("z4_medijani", medijan_po_klasi.sort_index())),
-              "Medijani po klasi nisu dobri – groupby('Pclass')['Age'].median().")
-    _provjeri(_sigurno(lambda: _tocno("z4_indikator", titanic_imp["Age_nedostaje"].astype(bool).sum())),
-              "Age_nedostaje treba biti True točno za putnike bez dobi – je li napravljen PRIJE popunjavanja?")
-    _provjeri(_sigurno(lambda: titanic_imp["Age"].isna().sum() == 0), "U stupcu Age još ima NaN vrijednosti.")
-    _provjeri(_sigurno(lambda: _tocno("z4_redak5", titanic_imp.loc[5, "Age"])),
-              "Putnik u retku 5 je u 3. klasi i nema dob – trebao bi dobiti medijan 3. klase.",
-              "✅ Točno! Svaki putnik dobio je medijan svoje klase, a stupac Age_nedostaje čuva informaciju o tome tko je imao prazninu.")
+def zadatak_3(f, prodaja):
+    _nije_rijeseno(f)
+    _provjeri(isinstance(f, pd.DataFrame) and {"proizvod_key", "kupac_key"} <= set(f.columns),
+              "Tablica treba imati stupce proizvod_key i kupac_key – dovrši oba merge.")
+    _provjeri(len(f) == len(prodaja), "Broj redaka se promijenio: merge ne smije izgubiti ni udvostručiti retke. Provjeri dimenziju.")
+    _provjeri(f[["proizvod_key", "kupac_key", "trgovina_key"]].notna().all().all(), "Neki ključevi su prazni.")
+    _provjeri(np.isclose(f["iznos"].sum(), prodaja["iznos"].sum()), "Ukupan iznos se promijenio.",
+              "✅ Točno! Poslovni ključevi zamijenjeni su surogatnim, a broj redaka i ukupan iznos su isti.")
 
 
-def zadatak_4b(titanic_test, titanic_test_imp, medijan_po_klasi):
-    _nije_rijeseno(titanic_test_imp["Age"].iloc[0])
-    popunjeni = titanic_test["Age"].isna()
-    _provjeri(titanic_test_imp["Age"].isna().sum() == 0, "U test skupu još ima NaN vrijednosti u stupcu Age.")
-    ocekivano = titanic_test.loc[popunjeni, "Pclass"].map(medijan_po_klasi)
-    _provjeri(_sigurno(lambda: np.allclose(titanic_test_imp.loc[popunjeni, "Age"].astype(float), ocekivano)),
-              "Popunjene vrijednosti ne odgovaraju medijanima iz TRAIN skupa (medijan_po_klasi). "
-              "Medijane test skupa ne smijemo koristiti.",
-              "✅ Točno! Test skup popunjen je onim što smo 'naučili' na train skupu – bez curenja podataka.")
+def zadatak_4(sql, upit):
+    r = _izvrsi_upit(sql, upit)
+    _provjeri(list(r.columns) == ["naziv_mjeseca", "grad", "prihod"], "Rezultat treba imati stupce naziv_mjeseca, grad, prihod.")
+    _provjeri(_tocno("z4", sorted(round(float(v), 2) for v in r["prihod"])),
+              "Brojevi nisu dobri. Zbrajamo iznos, a trgovinu spajamo po trgovina_key.",
+              "✅ Točno! Upit ima uvijek isti oblik: fact + JOIN dimenzija + GROUP BY.")
+    return r
 
 
-# ---------------------------------------------------------------- 6. vremenski nizovi
-
-def zadatak_5(zrak, zrak_ffill, zrak_naivno, stupci):
-    _nije_rijeseno(zrak_ffill[stupci[0]].iloc[0])
-    nan_prije = zrak[stupci].isna().sum().sum()
-    _provjeri(zrak_ffill[stupci].isna().sum().sum() < nan_prije, "Ništa nije popunjeno – jesi li pozvao/la ffill()?")
-    prvi_prije = zrak.groupby("City").head(1)[stupci].isna().sum().sum()
-    prvi_poslije = zrak_ffill.groupby("City").head(1)[stupci].isna().sum().sum()
-    _provjeri(prvi_poslije == prvi_prije,
-              "Prvi dan nekog grada dobio je vrijednost iz PRETHODNOG grada – grupiraj po 'City' prije ffill().")
-    _provjeri(zrak_ffill.loc[zrak_ffill["City"] == "Aizawl", "Xylene"].isna().all(),
-              "Aizawl ne bi smio imati nijednu vrijednost Xylene.",
-              "✅ Točno! Vrijednosti se prenose samo unutar istog grada.")
-    print("Naivno popunjeno ćelija:", (zrak[stupci].isna() & zrak_naivno[stupci].notna()).sum().sum(),
-          "| ispravno popunjeno:", (zrak[stupci].isna() & zrak_ffill[stupci].notna()).sum().sum())
+def zadatak_5(sql, upit):
+    r = _izvrsi_upit(sql, upit)
+    _provjeri(_tocno("z5", sorted(round(float(v), 2) for v in r["prihod"])),
+              "Brojevi nisu dobri. Pod-dimenzija je dim_grad, a spaja se po grad_key.",
+              "✅ Točno! Rezultat je isti kao u star shemi, ali uz jedno spajanje više.")
+    return r
 
 
-def zadatak_5b(zrak, aqi_interp):
-    _nije_rijeseno(aqi_interp)
-    nan_prije = zrak["AQI"].isna().sum()
-    _provjeri(aqi_interp.isna().sum() < nan_prije, "Ništa nije popunjeno.")
-    _provjeri(aqi_interp[zrak["City"] == "Mumbai"].isna().sum() > 1000,
-              "Mumbai je popunjen predugo – postavi limit=7 i limit_area='inside'.")
-    _provjeri(_tocno("z5b_preostalo", aqi_interp.isna().sum()),
-              "Nije dobro – interpoliraj unutar svakog grada (groupby('City')['AQI'].transform(...)), "
-              "s limit=7 i limit_area='inside'.",
-              f"✅ Točno! Popunjeno {nan_prije - aqi_interp.isna().sum()} od {nan_prije} praznina; "
-              "dugačke rupe ostaju NaN, jer bismo ih inače izmislili.")
+def zadatak_6(stvarni_popust):
+    _nije_rijeseno(stvarni_popust)
+    _provjeri(_tocno("z6", stvarni_popust), "Nije dobro: svaki račun mora se brojati jednom – drop_duplicates(subset='broj_racuna').",
+              f"✅ Točno! Stvarni popust je {float(stvarni_popust):.2f} €.")
 
 
-# ---------------------------------------------------------------- 7. ekstremne vrijednosti
-
-def zadatak_6(iqr_granice, z_vrijednosti, sample):
-    _nije_rijeseno(iqr_granice(sample), z_vrijednosti(sample))
-    donja, gornja = iqr_granice(sample)
-    z = np.asarray(z_vrijednosti(sample), dtype=float)
-    print("IQR granice:", donja, gornja)
-    print("Z-vrijednosti:", np.round(z, 2))
-    _provjeri(_tocno("z6_granice", [donja, gornja]),
-              "IQR granice nisu dobre – q1 i q3 su np.percentile(podaci, 25) i (…, 75); granice su q1 − k·IQR i q3 + k·IQR. "
-              "Usporedi s ručnim izračunom iz radnog lista 6.1.")
-    _provjeri(_tocno("z6_z", z[1]),
-              "Z-vrijednost za 101 nije dobra – (x − np.mean) / np.std (np.std računa populacijsku standardnu devijaciju).")
-    print("Ekstremne po IQR:", sample[(sample < donja) | (sample > gornja)])
-    print("Ekstremne po Z (|z| > 3):", sample[np.abs(z) > 3])
-
-
-def zadatak_7(fordovi_uklonjeno, fordovi_ukupno, elektricni_uklonjeno, elektricni_ukupno, cijena_2000_ostalo):
-    _nije_rijeseno(fordovi_uklonjeno, fordovi_ukupno, elektricni_uklonjeno, elektricni_ukupno, cijena_2000_ostalo)
-    _provjeri(_tocno("z7_ford", [fordovi_uklonjeno, fordovi_ukupno]),
-              "a) Usporedi stupac Make s 'Ford' u tablicama uklonjeni i auti_bd i zbroji.")
-    _provjeri(_tocno("z7_elektricni", [elektricni_uklonjeno, elektricni_ukupno]),
-              "b) Usporedi stupac 'Engine Fuel Type' s 'electric' u obje tablice.")
-    _provjeri(_tocno("z7_2000", cijena_2000_ostalo),
-              "c) Broji MSRP == 2000 u tablici auti_slijepo (to su oni koje IQR NIJE uklonio).",
-              f"✅ Točno! Uklonjeno je {fordovi_uklonjeno} od {fordovi_ukupno} Fordova i {elektricni_uklonjeno} od "
-              f"{elektricni_ukupno} električnih automobila, a {cijena_2000_ostalo} lažnih cijena od 2000 je ostalo.")
+def zadatak_7(conn, primijeni_scd2, promjene):
+    kopija = sqlite3.connect(":memory:")
+    conn.backup(kopija)
+    try:
+        for _, p in promjene.iterrows():
+            primijeni_scd2(kopija, p["sifra_kupca"], p["novi_grad"], p["datum_promjene"])
+    except sqlite3.Error as greska:
+        tekst = str(greska)
+        if "___" in tekst or "near" in tekst or "no such column" in tekst:
+            raise AssertionError("❌ Zadatak još nije riješen – popuni sva mjesta označena s ___ u funkciji primijeni_scd2.")
+        raise AssertionError("❌ Greška u SQL-u: " + tekst[:150])
+    d = pd.read_sql_query("SELECT * FROM dim_kupac ORDER BY kupac_key", kopija)
+    k1 = d[d["sifra_kupca"] == "K001"].sort_values("valid_from")
+    _provjeri(_tocno("z7_redaka", len(d)), "Krivi broj redaka: svaka promjena mora dodati točno jedan redak.")
+    _provjeri(d["kupac_key"].is_unique, "kupac_key se ponavlja.")
+    _provjeri(_sigurno(lambda: k1["is_current"].tolist() == [0, 1] and k1["valid_to"].iloc[1] == "9999-12-31"),
+              "Stari redak treba imati is_current = 0, a novi is_current = 1 i valid_to = 9999-12-31.")
+    _provjeri(_sigurno(lambda: k1["valid_to"].iloc[0] == "2026-05-31" and k1["valid_from"].iloc[1] == "2026-06-01"),
+              "Razdoblja se ne smiju preklapati: stari redak završava dan prije nego što novi počinje.")
+    _provjeri(d.groupby("sifra_kupca")["is_current"].sum().eq(1).all(), "Svaki kupac mora imati točno jedan trenutni redak.",
+              "✅ Točno! Kupac ima dvije verzije, a povijest je sačuvana.")
+    print(k1[["kupac_key", "sifra_kupca", "grad", "valid_from", "valid_to", "is_current"]].to_string(index=False))
 
 
-# ---------------------------------------------------------------- 9. završni zadatak
+def zadatak_8(nova_prodaja, nova_s_kljucem):
+    _nije_rijeseno(nova_s_kljucem)
+    _provjeri(len(nova_s_kljucem) == len(nova_prodaja),
+              "Svaka stavka mora imati točno jednu verziju kupca. Uvjet: datum >= valid_from I datum <= valid_to.")
+    k1 = nova_s_kljucem[nova_s_kljucem["sifra_kupca"] == "K003"]
+    _provjeri(_tocno("z8_k3", sorted(int(v) for v in k1["kupac_key"].unique())),
+              "Kupac K003 selio se u srpnju, pa mora imati dvije verzije ključa.")
+    _provjeri(_tocno("z8_iznos", round(float(nova_s_kljucem.groupby("kupac_key")["iznos"].sum().max()), 2)),
+              "Ključevi nisu dobro dodijeljeni. Provjeri granice uvjeta (uključivo).",
+              "✅ Točno! Svaka stavka dobila je verziju kupca koja je vrijedila na datum prodaje.")
 
-def zadatak_9(auti, silver):
+
+def zadatak_10(sql, nova_prodaja, nova_s_proizvodom):
     def korak(opis, test):
         uspjeh = _sigurno(test)
         print(("✅ " if uspjeh else "❌ ") + opis)
         return uspjeh
 
-    el = silver["Engine Fuel Type"] == "electric"
+    d = sql("SELECT * FROM dim_proizvod")
+    p = d[d["sifra_proizvoda"] == "P003"].sort_values("valid_from")
     rezultati = [
-        korak("0) ulazna tablica auti nije promijenjena",
-              lambda: auti.shape == (11914, 16) and _tocno("z1_broj", (auti["MSRP"] == 2000).sum())),
-        korak("1) nema potpunih duplikata",
-              lambda: _tocno("z9_redaka", len(silver))),
-        korak("2) stupac MSRP_nepoznat postoji, nema više cijene 2000",
-              lambda: _tocno("z9_msrp", silver["MSRP_nepoznat"].astype(bool).sum())
-                      and (silver["MSRP"] == 2000).sum() == 0
-                      and silver["MSRP"].isna().sum() == silver["MSRP_nepoznat"].astype(bool).sum()),
-        korak("3) nema benzinaca s highway MPG > 60, električni netaknuti",
-              lambda: silver.loc[~el, "highway MPG"].max() <= 60 and silver.loc[el, "highway MPG"].min() > 60),
-        korak("4) električni automobili imaju 0 cilindara, Mazde RX ostaju NaN",
-              lambda: silver.loc[el, "Engine Cylinders"].eq(0).all()
-                      and silver.loc[silver["Engine Cylinders"].isna(), "Model"].isin(["RX-7", "RX-8"]).all()
-                      and _tocno("z9_cilindri", silver["Engine Cylinders"].isna().sum())),
-        korak("5) Engine HP bez NaN, indikator Engine_HP_nedostaje postoji",
-              lambda: silver["Engine HP"].isna().sum() == 0
-                      and _tocno("z9_hp", silver["Engine_HP_nedostaje"].astype(bool).sum())),
-        korak("6) najskuplji automobili su i dalje u tablici, log_MSRP postoji",
-              lambda: _tocno("z9_max", silver["MSRP"].max())
-                      and np.isclose(silver["log_MSRP"].max(), np.log10(silver["MSRP"].max()))),
+        korak("1) P003 ima dvije verzije", lambda: len(p) == 2 and p["proizvod_key"].is_unique),
+        korak("2) stari redak je zatvoren dan prije promjene", lambda: p["valid_to"].iloc[0] == "2026-05-31" and p["is_current"].iloc[0] == 0),
+        korak("3) novi redak je trenutni i ima novu kategoriju", lambda: _tocno("z10_kat", p["kategorija"].iloc[1])
+              and p["is_current"].iloc[1] == 1 and p["valid_to"].iloc[1] == "9999-12-31"),
+        korak("4) ostali proizvodi su netaknuti", lambda: _tocno("z10_redaka", len(d))),
+        korak("5) nova prodaja ima po jedan redak za svaku stavku", lambda: nova_s_proizvodom is not ... and len(nova_s_proizvodom) == len(nova_prodaja)),
+        korak("6) sva nova prodaja soka ima ključ nove verzije",
+              lambda: set(nova_s_proizvodom.loc[nova_s_proizvodom["sifra_proizvoda"] == "P003", "proizvod_key"]) == {int(p["proizvod_key"].iloc[1])}),
     ]
     print(f"\n{sum(rezultati)}/{len(rezultati)} koraka točno")

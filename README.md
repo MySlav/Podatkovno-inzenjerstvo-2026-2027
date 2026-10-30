@@ -8,9 +8,10 @@ Za svaku vježbu postoji zasebna mapa s materijalima: Jupyter bilježnice, SQL s
 
 | Mapa | Tema | Okruženje |
 |---|---|---|
-| [`EX_5/`](EX_5/) | Nedostajuće vrijednosti i ekstremne vrijednosti (outlieri) | Jupyter pod |
+| [`EX_5/`](EX_5/) | Dimenzijsko modeliranje: star shema, snowflake i SCD | Jupyter pod |
+| [`EX_6/`](EX_6/) | Nedostajuće vrijednosti i ekstremne vrijednosti (outlieri) | Jupyter pod |
 
-Nove vježbe dodavat će se tijekom semestra u nove mape (`EX_6/`, `EX_7/` …), pa prije svake vježbe povucite najnoviju verziju (vidi dolje).
+Nove vježbe dodavat će se tijekom semestra u nove mape (`EX_7/`, `EX_8/` …), pa prije svake vježbe povucite najnoviju verziju (vidi dolje).
 
 ## Struktura repozitorija
 

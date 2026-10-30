@@ -1,62 +1,62 @@
-# Vježba 5 – Nedostajuće vrijednosti i ekstremne vrijednosti (outlieri)
+# Vježba 5 – Dimenzijsko modeliranje u praksi: star shema, snowflake i SCD
 
-Vezano uz predavanje: **2. prezentacija – Rad s nedostajućim podacima** (kvaliteta podataka, nedostajuće vrijednosti, ekstremne vrijednosti).
-Trajanje: 90 minuta. Okruženje: [Jupyter pod](../okruzenje/README.md).
+Vezano uz predavanje: **1. prezentacija** (podatkovna skladišta, dimenzijsko modeliranje) i **radni list 3 – Star vs. Snowflake** (maloprodajni lanac MarketPlus).
+Trajanje: 90 minuta. Okruženje: [Jupyter pod](../okruzenje/README.md). Baza je SQLite, koji dolazi s Pythonom, pa **ne treba dodatni pod**.
 
 ## Nakon vježbe znat ćete
 
-* brzo pregledati tablicu (`info`, `describe`, `isna`, `duplicated`, `value_counts`) i prepoznati koja je dimenzija kvalitete podataka narušena,
-* iz podataka procijeniti je li nedostajanje MCAR ili MAR (udio nedostajućih vrijednosti po skupinama),
-* odabrati između brisanja i imputacije (srednja vrijednost, medijan, mod, konstanta, imputacija po skupini, indikator nedostajanja) i izbjeći curenje podataka,
-* popunjavati vremenske nizove (`ffill`, `bfill`, `interpolate`) unutar svake serije,
-* otkriti ekstremne vrijednosti (IQR, Z-vrijednost, kutijasti dijagram) i odlučiti je li riječ o pogrešci ili stvarnoj vrijednosti,
-* napisati funkciju za čišćenje podataka (korak Bronze → Silver s vježbe 4) s obrazloženjem svake odluke.
+* primijeniti korake dimenzijskog modeliranja i odrediti granularnost tablice činjenica,
+* izgraditi star shemu: dimenzije sa surogatnim ključevima i tablicu činjenica,
+* pisati analitičke upite po obrascu „fact + JOIN dimenzija + GROUP BY” (upiti su pripremljeni, popunjavate označena mjesta),
+* usporediti star i snowflake shemu,
+* prepoznati vrijednost koja nije na granularnosti tablice i izbjeći krivi zbroj,
+* razlikovati SCD 1, 2 i 3 te implementirati SCD 2 i učitati novu prodaju uz verziju dimenzije koja je vrijedila na datum prodaje.
 
 ## Sadržaj mape
 
 | Datoteka / mapa | Opis |
 |---|---|
-| `EX_5_Nedostajuce_vrijednosti_i_outlieri.ipynb` | bilježnica s teorijom, demo kodom i zadacima |
+| `EX_5_Dimenzijsko_modeliranje_MarketPlus.ipynb` | bilježnica s teorijom, demo kodom i zadacima |
 | `provjere.py` | provjere zadataka koje bilježnica poziva u ćelijama ✅ (ne treba je otvarati ni mijenjati) |
-| `podaci/titanic/train.csv`, `test.csv` | putnici Titanica |
-| `podaci/air-quality-data-in-india/city_day.csv` | dnevna kvaliteta zraka u 26 indijskih gradova, 2015.–2020. |
-| `podaci/cars.csv` | tehnički podaci i cijene automobila |
-| `slike/` | dijagrami metoda obrade nedostajućih vrijednosti |
+| `podaci/prodaja_sirovo.csv` | sirova prodaja od 5. 3. do 31. 5. 2026. |
+| `podaci/nova_prodaja.csv` | prodaja za lipanj i srpanj (novo učitavanje) |
+| `podaci/promjene_kupaca.csv`, `promjene_proizvoda.csv` | promjene za SCD zadatke |
+| `podaci/dim_kupac_scd2.csv` | gotova dimenzija kupca nakon promjena |
+| `podaci/marketplus_gotovo.db`, `marketplus_scd2_gotovo.db` | gotove SQLite baze od kojih kreću kasnije cjeline |
+
+Bilježnica u mapi vježbe stvara `marketplus.db` i `marketplus_rad.db`. To su vaše radne baze, git ih ne prati i možete ih slobodno obrisati.
 
 ## Kako krenuti
 
 1. Povucite novosti (`git pull`) – vidi [glavni README](../README.md#prije-svake-vježbe-povlačenje-novosti).
-2. Otvorite `EX_5_Nedostajuce_vrijednosti_i_outlieri.ipynb` i odmah ga spremite kao **`EX_5_moj_rad.ipynb`** (File → Save Notebook As…).
-3. Pokrenite ćelije cjeline 0 – instaliraju biblioteku `missingno` i učitavaju podatke.
-4. Ćelije pokrećite redom. Upute su u bilježnici:
+2. Otvorite `EX_5_Dimenzijsko_modeliranje_MarketPlus.ipynb` i odmah ga spremite kao **`EX_5_moj_rad.ipynb`** (File → Save Notebook As…).
+3. Ćelije pokrećite redom. Upute su u bilježnici:
    * 📖 teorija (s brojem slajda s predavanja),
    * ▶️ demo,
-   * 🧩 zadatak – zamijenite `...` svojim kodom,
+   * 🧩 zadatak – zamijenite `...` ili `___` svojim kodom,
    * ✅ provjera – ispisuje ✅ ili objašnjava što ne valja,
    * ✏️ odgovor u markdown ćeliji,
    * ⭐ dodatni zadatak.
 
+SQL još ne trebate znati: upiti su pripremljeni, a vi popunjavate označena mjesta.
+
 ## Cjeline
 
-| # | Cjelina | Podaci | ≈ min |
-|---|---|---|---|
-| 0 | Priprema okruženja | – | 5 |
-| 1 | Kvaliteta podataka – brzi pregled | automobili | 7 |
-| 2 | Otkrivanje nedostajućih vrijednosti | Titanic | 5 |
-| 3 | Vrste nedostajanja: MCAR, MAR, MNAR | Titanic | 10 |
-| 4 | Brisanje nedostajućih vrijednosti | Titanic | 6 |
-| 5 | Imputacija nedostajućih vrijednosti | Titanic | 12 |
-| 6 | Nedostajuće vrijednosti u vremenskim nizovima | kvaliteta zraka | 10 |
-| 7 | Ekstremne vrijednosti – otkrivanje i obrada | niz s predavanja | 10 |
-| 8 | Ekstremne vrijednosti na stvarnim podacima | automobili | 13 |
-| 9 | ⭐ Završni zadatak: od sirovih do očišćenih podataka | automobili | 12 + doma |
+| # | Cjelina | ≈ min |
+|---|---|---|
+| 0 | Priprema okruženja | 4 |
+| 1 | SQLite u dvije minute i sirovi podaci | 6 |
+| 2 | Pet koraka dimenzijskog modeliranja | 10 |
+| 3 | Gradnja star sheme | 20 |
+| 4 | Analitički upiti nad star shemom | 10 |
+| 5 | Snowflake shema | 8 |
+| 6 | Zamka granulacije | 7 |
+| 7 | Sporo mijenjajuće dimenzije (SCD) | 25 |
+| 8 | ⭐ Završni zadatak: SCD 2 za proizvod | doma |
+| 9 | Neobavezno: veza sa SQL podom | – |
 
-Zadaci označeni s ⭐ nisu obavezni na satu. **Završni zadatak (cjelina 9)** započinjemo na satu, a dovršavate ga samostalno kod kuće.
-Ne predaje se – ćelija s provjerom za svaki korak ispisuje je li točan.
+Završni zadatak (cjelina 8) nije obavezan i ne predaje se. Cjelina 9 je samo za one koji su već pokrenuli SQL pod.
 
-## Izvori podataka
+## Podaci
 
-* Titanic – [Kaggle: Titanic – Machine Learning from Disaster](https://www.kaggle.com/c/titanic)
-* Kvaliteta zraka – [Kaggle: Air Quality Data in India (2015–2020)](https://www.kaggle.com/datasets/rohanrao/air-quality-data-in-india), Vopani (Rohan Rao)
-* Automobili – [Kaggle: Car Features and MSRP](https://www.kaggle.com/datasets/CooperUnion/cardataset), CooperUnion
-* Slike u mapi `slike/` i dio primjera prilagođeni su iz Kaggle bilježnice *A Guide to Handling Missing values in Python* (Parul Pandey).
+Podaci su **izmišljeni** za potrebe vježbe. Prva četiri retka sirove prodaje iste su prodaje kao u radnom listu 3.

@@ -5,6 +5,10 @@
 # (namjerno ih dodajte s git add -f kad ih želite objaviti)
 *RJESENJA*
 
+# Radne SQLite baze koje bilježnice stvaraju u mapi vježbe (gotove baze u podaci/ se prate)
+/EX_*/*.db
+/EX_*/*.db-journal
+
 # Jupyter / Python
 .ipynb_checkpoints/
 __pycache__/

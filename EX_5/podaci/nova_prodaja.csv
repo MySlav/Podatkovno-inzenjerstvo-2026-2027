@@ -1,0 +1,1359 @@
+datum,broj_racuna,stavka,sifra_trgovine,trgovina,grad_trgovine,regija,sifra_proizvoda,proizvod,kategorija,sifra_kupca,kupac,grad_kupca,kolicina,iznos,popust_racuna
+2026-06-01,R00777,1,T01,MP Centar,Zagreb,Središnja Hrvatska,P002,Deterdžent 2L,Kućanstvo,K004,T. Horvat,Zagreb,2,17.0,0.0
+2026-06-01,R00778,1,T05,MP Riva,Rijeka,Primorje,P002,Deterdžent 2L,Kućanstvo,K006,J. Marić,Rijeka,3,25.5,0.0
+2026-06-01,R00778,2,T05,MP Riva,Rijeka,Primorje,P008,Papirnati ručnici 2/1,Kućanstvo,K006,J. Marić,Rijeka,3,10.2,0.0
+2026-06-01,R00779,1,T04,MP Istok,Zagreb,Središnja Hrvatska,P008,Papirnati ručnici 2/1,Kućanstvo,K003,I. Šimić,Osijek,4,13.6,0.0
+2026-06-01,R00779,2,T04,MP Istok,Zagreb,Središnja Hrvatska,P010,Pasta za zube 75ml,Higijena,K003,I. Šimić,Osijek,3,8.7,0.0
+2026-06-01,R00779,3,T04,MP Istok,Zagreb,Središnja Hrvatska,P004,Maslinovo ulje 1L,Prehrana,K003,I. Šimić,Osijek,1,11.9,0.0
+2026-06-01,R00779,4,T04,MP Istok,Zagreb,Središnja Hrvatska,P001,Kava 500g,Prehrana,K003,I. Šimić,Osijek,1,7.5,0.0
+2026-06-01,R00780,1,T02,MP Sjever,Osijek,Slavonija,P002,Deterdžent 2L,Kućanstvo,K016,H. Lučić,Osijek,1,8.5,0.0
+2026-06-01,R00781,1,T05,MP Riva,Rijeka,Primorje,P008,Papirnati ručnici 2/1,Kućanstvo,K011,F. Matić,Rijeka,4,13.6,0.0
+2026-06-01,R00781,2,T05,MP Riva,Rijeka,Primorje,P002,Deterdžent 2L,Kućanstvo,K011,F. Matić,Rijeka,4,34.0,0.0
+2026-06-01,R00781,3,T05,MP Riva,Rijeka,Primorje,P006,Čokolada 100g,Prehrana,K011,F. Matić,Rijeka,4,6.0,0.0
+2026-06-01,R00782,1,T01,MP Centar,Zagreb,Središnja Hrvatska,P001,Kava 500g,Prehrana,K015,V. Pavić,Varaždin,4,30.0,0.0
+2026-06-01,R00783,1,T02,MP Sjever,Osijek,Slavonija,P003,Sok naranča 1L,Prehrana,K003,I. Šimić,Osijek,4,12.0,0.0
+2026-06-01,R00783,2,T02,MP Sjever,Osijek,Slavonija,P006,Čokolada 100g,Prehrana,K003,I. Šimić,Osijek,2,3.0,0.0
+2026-06-01,R00784,1,T04,MP Istok,Zagreb,Središnja Hrvatska,P009,Šampon 400ml,Higijena,K014,B. Tomić,Zagreb,1,5.6,0.0
+2026-06-01,R00785,1,T05,MP Riva,Rijeka,Primorje,P010,Pasta za zube 75ml,Higijena,K017,G. Filipović,Rijeka,1,2.9,0.0
+2026-06-01,R00785,2,T05,MP Riva,Rijeka,Primorje,P001,Kava 500g,Prehrana,K017,G. Filipović,Rijeka,4,30.0,0.0
+2026-06-01,R00786,1,T05,MP Riva,Rijeka,Primorje,P006,Čokolada 100g,Prehrana,K017,G. Filipović,Rijeka,2,3.0,0.0
+2026-06-01,R00786,2,T05,MP Riva,Rijeka,Primorje,P007,Spužve 3/1,Kućanstvo,K017,G. Filipović,Rijeka,4,8.8,0.0
+2026-06-01,R00786,3,T05,MP Riva,Rijeka,Primorje,P010,Pasta za zube 75ml,Higijena,K017,G. Filipović,Rijeka,3,8.7,0.0
+2026-06-02,R00787,1,T02,MP Sjever,Osijek,Slavonija,P010,Pasta za zube 75ml,Higijena,K003,I. Šimić,Osijek,4,11.6,0.0
+2026-06-02,R00787,2,T02,MP Sjever,Osijek,Slavonija,P002,Deterdžent 2L,Kućanstvo,K003,I. Šimić,Osijek,1,8.5,0.0
+2026-06-02,R00787,3,T02,MP Sjever,Osijek,Slavonija,P009,Šampon 400ml,Higijena,K003,I. Šimić,Osijek,3,16.8,0.0
+2026-06-02,R00788,1,T05,MP Riva,Rijeka,Primorje,P004,Maslinovo ulje 1L,Prehrana,K011,F. Matić,Rijeka,3,35.7,0.0
+2026-06-02,R00788,2,T05,MP Riva,Rijeka,Primorje,P009,Šampon 400ml,Higijena,K011,F. Matić,Rijeka,1,5.6,0.0
+2026-06-02,R00788,3,T05,MP Riva,Rijeka,Primorje,P005,Tjestenina 500g,Prehrana,K011,F. Matić,Rijeka,1,1.8,0.0
+2026-06-02,R00789,1,T02,MP Sjever,Osijek,Slavonija,P009,Šampon 400ml,Higijena,K016,H. Lučić,Osijek,4,22.4,0.0
+2026-06-02,R00789,2,T02,MP Sjever,Osijek,Slavonija,P002,Deterdžent 2L,Kućanstvo,K016,H. Lučić,Osijek,2,17.0,0.0
+2026-06-02,R00789,3,T02,MP Sjever,Osijek,Slavonija,P001,Kava 500g,Prehrana,K016,H. Lučić,Osijek,3,22.5,0.0
+2026-06-02,R00789,4,T02,MP Sjever,Osijek,Slavonija,P008,Papirnati ručnici 2/1,Kućanstvo,K016,H. Lučić,Osijek,1,3.4,0.0
+2026-06-02,R00790,1,T06,MP Stari grad,Split,Dalmacija,P002,Deterdžent 2L,Kućanstvo,K005,L. Babić,Split,1,8.5,0.0
+2026-06-02,R00790,2,T06,MP Stari grad,Split,Dalmacija,P005,Tjestenina 500g,Prehrana,K005,L. Babić,Split,3,5.4,0.0
+2026-06-02,R00790,3,T06,MP Stari grad,Split,Dalmacija,P008,Papirnati ručnici 2/1,Kućanstvo,K005,L. Babić,Split,2,6.8,0.0
+2026-06-02,R00790,4,T06,MP Stari grad,Split,Dalmacija,P007,Spužve 3/1,Kućanstvo,K005,L. Babić,Split,1,2.2,0.0
+2026-06-02,R00791,1,T02,MP Sjever,Osijek,Slavonija,P005,Tjestenina 500g,Prehrana,K016,H. Lučić,Osijek,4,7.2,0.0
+2026-06-02,R00792,1,T06,MP Stari grad,Split,Dalmacija,P003,Sok naranča 1L,Prehrana,K008,D. Jurić,Split,1,3.0,0.0
+2026-06-02,R00792,2,T06,MP Stari grad,Split,Dalmacija,P004,Maslinovo ulje 1L,Prehrana,K008,D. Jurić,Split,4,47.6,0.0
+2026-06-02,R00793,1,T02,MP Sjever,Osijek,Slavonija,P008,Papirnati ručnici 2/1,Kućanstvo,K001,A. Kovač,Split,4,13.6,0.0
+2026-06-02,R00794,1,T01,MP Centar,Zagreb,Središnja Hrvatska,P007,Spužve 3/1,Kućanstvo,K014,B. Tomić,Zagreb,1,2.2,0.0
+2026-06-02,R00794,2,T01,MP Centar,Zagreb,Središnja Hrvatska,P009,Šampon 400ml,Higijena,K014,B. Tomić,Zagreb,2,11.2,0.0
+2026-06-02,R00794,3,T01,MP Centar,Zagreb,Središnja Hrvatska,P008,Papirnati ručnici 2/1,Kućanstvo,K014,B. Tomić,Zagreb,1,3.4,0.0
+2026-06-02,R00794,4,T01,MP Centar,Zagreb,Središnja Hrvatska,P006,Čokolada 100g,Prehrana,K014,B. Tomić,Zagreb,3,4.5,0.0
+2026-06-02,R00795,1,T02,MP Sjever,Osijek,Slavonija,P009,Šampon 400ml,Higijena,K001,A. Kovač,Split,1,5.6,0.0
+2026-06-02,R00796,1,T02,MP Sjever,Osijek,Slavonija,P003,Sok naranča 1L,Prehrana,K003,I. Šimić,Osijek,2,6.0,1.0
+2026-06-02,R00796,2,T02,MP Sjever,Osijek,Slavonija,P010,Pasta za zube 75ml,Higijena,K003,I. Šimić,Osijek,2,5.8,1.0
+2026-06-03,R00797,1,T04,MP Istok,Zagreb,Središnja Hrvatska,P005,Tjestenina 500g,Prehrana,K004,T. Horvat,Zagreb,3,5.4,0.0
+2026-06-03,R00797,2,T04,MP Istok,Zagreb,Središnja Hrvatska,P009,Šampon 400ml,Higijena,K004,T. Horvat,Zagreb,4,22.4,0.0
+2026-06-03,R00798,1,T05,MP Riva,Rijeka,Primorje,P008,Papirnati ručnici 2/1,Kućanstvo,K006,J. Marić,Rijeka,3,10.2,0.0
+2026-06-03,R00799,1,T06,MP Stari grad,Split,Dalmacija,P009,Šampon 400ml,Higijena,K019,Z. Bošnjak,V. Gorica,4,22.4,0.0
+2026-06-03,R00799,2,T06,MP Stari grad,Split,Dalmacija,P006,Čokolada 100g,Prehrana,K019,Z. Bošnjak,V. Gorica,3,4.5,0.0
+2026-06-03,R00800,1,T04,MP Istok,Zagreb,Središnja Hrvatska,P002,Deterdžent 2L,Kućanstvo,K002,M. Perić,V. Gorica,3,25.5,0.0
+2026-06-03,R00800,2,T04,MP Istok,Zagreb,Središnja Hrvatska,P001,Kava 500g,Prehrana,K002,M. Perić,V. Gorica,1,7.5,0.0
+2026-06-03,R00800,3,T04,MP Istok,Zagreb,Središnja Hrvatska,P003,Sok naranča 1L,Prehrana,K002,M. Perić,V. Gorica,2,6.0,0.0
+2026-06-03,R00801,1,T04,MP Istok,Zagreb,Središnja Hrvatska,P008,Papirnati ručnici 2/1,Kućanstvo,K004,T. Horvat,Zagreb,4,13.6,0.0
+2026-06-03,R00801,2,T04,MP Istok,Zagreb,Središnja Hrvatska,P003,Sok naranča 1L,Prehrana,K004,T. Horvat,Zagreb,3,9.0,0.0
+2026-06-03,R00801,3,T04,MP Istok,Zagreb,Središnja Hrvatska,P007,Spužve 3/1,Kućanstvo,K004,T. Horvat,Zagreb,3,6.6,0.0
+2026-06-03,R00801,4,T04,MP Istok,Zagreb,Središnja Hrvatska,P002,Deterdžent 2L,Kućanstvo,K004,T. Horvat,Zagreb,3,25.5,0.0
+2026-06-03,R00802,1,T06,MP Stari grad,Split,Dalmacija,P010,Pasta za zube 75ml,Higijena,K005,L. Babić,Split,4,11.6,0.0
+2026-06-03,R00802,2,T06,MP Stari grad,Split,Dalmacija,P004,Maslinovo ulje 1L,Prehrana,K005,L. Babić,Split,4,47.6,0.0
+2026-06-03,R00803,1,T06,MP Stari grad,Split,Dalmacija,P007,Spužve 3/1,Kućanstvo,K002,M. Perić,V. Gorica,1,2.2,0.0
+2026-06-03,R00803,2,T06,MP Stari grad,Split,Dalmacija,P003,Sok naranča 1L,Prehrana,K002,M. Perić,V. Gorica,1,3.0,0.0
+2026-06-03,R00804,1,T05,MP Riva,Rijeka,Primorje,P003,Sok naranča 1L,Prehrana,K015,V. Pavić,Varaždin,4,12.0,0.0
+2026-06-03,R00804,2,T05,MP Riva,Rijeka,Primorje,P001,Kava 500g,Prehrana,K015,V. Pavić,Varaždin,3,22.5,0.0
+2026-06-03,R00804,3,T05,MP Riva,Rijeka,Primorje,P005,Tjestenina 500g,Prehrana,K015,V. Pavić,Varaždin,3,5.4,0.0
+2026-06-03,R00804,4,T05,MP Riva,Rijeka,Primorje,P009,Šampon 400ml,Higijena,K015,V. Pavić,Varaždin,3,16.8,0.0
+2026-06-03,R00805,1,T02,MP Sjever,Osijek,Slavonija,P002,Deterdžent 2L,Kućanstvo,K003,I. Šimić,Osijek,1,8.5,3.0
+2026-06-03,R00805,2,T02,MP Sjever,Osijek,Slavonija,P008,Papirnati ručnici 2/1,Kućanstvo,K003,I. Šimić,Osijek,4,13.6,3.0
+2026-06-03,R00805,3,T02,MP Sjever,Osijek,Slavonija,P010,Pasta za zube 75ml,Higijena,K003,I. Šimić,Osijek,4,11.6,3.0
+2026-06-03,R00805,4,T02,MP Sjever,Osijek,Slavonija,P005,Tjestenina 500g,Prehrana,K003,I. Šimić,Osijek,1,1.8,3.0
+2026-06-03,R00806,1,T02,MP Sjever,Osijek,Slavonija,P005,Tjestenina 500g,Prehrana,K003,I. Šimić,Osijek,1,1.8,0.0
+2026-06-03,R00807,1,T02,MP Sjever,Osijek,Slavonija,P009,Šampon 400ml,Higijena,K010,N. Vuković,Zagreb,4,22.4,0.0
+2026-06-03,R00807,2,T02,MP Sjever,Osijek,Slavonija,P004,Maslinovo ulje 1L,Prehrana,K010,N. Vuković,Zagreb,2,23.8,0.0
+2026-06-03,R00807,3,T02,MP Sjever,Osijek,Slavonija,P007,Spužve 3/1,Kućanstvo,K010,N. Vuković,Zagreb,4,8.8,0.0
+2026-06-03,R00807,4,T02,MP Sjever,Osijek,Slavonija,P008,Papirnati ručnici 2/1,Kućanstvo,K010,N. Vuković,Zagreb,4,13.6,0.0
+2026-06-04,R00808,1,T02,MP Sjever,Osijek,Slavonija,P004,Maslinovo ulje 1L,Prehrana,K016,H. Lučić,Osijek,3,35.7,0.0
+2026-06-04,R00808,2,T02,MP Sjever,Osijek,Slavonija,P008,Papirnati ručnici 2/1,Kućanstvo,K016,H. Lučić,Osijek,1,3.4,0.0
+2026-06-04,R00808,3,T02,MP Sjever,Osijek,Slavonija,P010,Pasta za zube 75ml,Higijena,K016,H. Lučić,Osijek,3,8.7,0.0
+2026-06-04,R00808,4,T02,MP Sjever,Osijek,Slavonija,P002,Deterdžent 2L,Kućanstvo,K016,H. Lučić,Osijek,3,25.5,0.0
+2026-06-04,R00809,1,T02,MP Sjever,Osijek,Slavonija,P008,Papirnati ručnici 2/1,Kućanstvo,K003,I. Šimić,Osijek,2,6.8,0.0
+2026-06-04,R00810,1,T06,MP Stari grad,Split,Dalmacija,P002,Deterdžent 2L,Kućanstvo,K005,L. Babić,Split,2,17.0,0.0
+2026-06-04,R00810,2,T06,MP Stari grad,Split,Dalmacija,P003,Sok naranča 1L,Prehrana,K005,L. Babić,Split,2,6.0,0.0
+2026-06-04,R00811,1,T02,MP Sjever,Osijek,Slavonija,P007,Spužve 3/1,Kućanstvo,K003,I. Šimić,Osijek,2,4.4,0.0
+2026-06-04,R00811,2,T02,MP Sjever,Osijek,Slavonija,P008,Papirnati ručnici 2/1,Kućanstvo,K003,I. Šimić,Osijek,1,3.4,0.0
+2026-06-04,R00811,3,T02,MP Sjever,Osijek,Slavonija,P005,Tjestenina 500g,Prehrana,K003,I. Šimić,Osijek,3,5.4,0.0
+2026-06-04,R00811,4,T02,MP Sjever,Osijek,Slavonija,P004,Maslinovo ulje 1L,Prehrana,K003,I. Šimić,Osijek,3,35.7,0.0
+2026-06-04,R00812,1,T01,MP Centar,Zagreb,Središnja Hrvatska,P007,Spužve 3/1,Kućanstvo,K004,T. Horvat,Zagreb,4,8.8,1.0
+2026-06-04,R00812,2,T01,MP Centar,Zagreb,Središnja Hrvatska,P006,Čokolada 100g,Prehrana,K004,T. Horvat,Zagreb,4,6.0,1.0
+2026-06-04,R00813,1,T02,MP Sjever,Osijek,Slavonija,P003,Sok naranča 1L,Prehrana,K016,H. Lučić,Osijek,2,6.0,0.0
+2026-06-04,R00813,2,T02,MP Sjever,Osijek,Slavonija,P007,Spužve 3/1,Kućanstvo,K016,H. Lučić,Osijek,1,2.2,0.0
+2026-06-04,R00813,3,T02,MP Sjever,Osijek,Slavonija,P001,Kava 500g,Prehrana,K016,H. Lučić,Osijek,2,15.0,0.0
+2026-06-04,R00814,1,T05,MP Riva,Rijeka,Primorje,P009,Šampon 400ml,Higijena,K017,G. Filipović,Rijeka,4,22.4,0.0
+2026-06-05,R00815,1,T05,MP Riva,Rijeka,Primorje,P005,Tjestenina 500g,Prehrana,K006,J. Marić,Rijeka,4,7.2,0.0
+2026-06-05,R00815,2,T05,MP Riva,Rijeka,Primorje,P004,Maslinovo ulje 1L,Prehrana,K006,J. Marić,Rijeka,2,23.8,0.0
+2026-06-05,R00816,1,T03,MP Jadran,Split,Dalmacija,P003,Sok naranča 1L,Prehrana,K010,N. Vuković,Zagreb,2,6.0,0.0
+2026-06-05,R00816,2,T03,MP Jadran,Split,Dalmacija,P001,Kava 500g,Prehrana,K010,N. Vuković,Zagreb,1,7.5,0.0
+2026-06-05,R00817,1,T04,MP Istok,Zagreb,Središnja Hrvatska,P005,Tjestenina 500g,Prehrana,K003,I. Šimić,Osijek,3,5.4,0.0
+2026-06-05,R00818,1,T02,MP Sjever,Osijek,Slavonija,P003,Sok naranča 1L,Prehrana,K016,H. Lučić,Osijek,1,3.0,0.0
+2026-06-05,R00818,2,T02,MP Sjever,Osijek,Slavonija,P001,Kava 500g,Prehrana,K016,H. Lučić,Osijek,1,7.5,0.0
+2026-06-05,R00818,3,T02,MP Sjever,Osijek,Slavonija,P007,Spužve 3/1,Kućanstvo,K016,H. Lučić,Osijek,2,4.4,0.0
+2026-06-05,R00818,4,T02,MP Sjever,Osijek,Slavonija,P006,Čokolada 100g,Prehrana,K016,H. Lučić,Osijek,4,6.0,0.0
+2026-06-05,R00819,1,T02,MP Sjever,Osijek,Slavonija,P004,Maslinovo ulje 1L,Prehrana,K009,S. Knežević,Osijek,4,47.6,0.0
+2026-06-05,R00819,2,T02,MP Sjever,Osijek,Slavonija,P006,Čokolada 100g,Prehrana,K009,S. Knežević,Osijek,3,4.5,0.0
+2026-06-05,R00819,3,T02,MP Sjever,Osijek,Slavonija,P005,Tjestenina 500g,Prehrana,K009,S. Knežević,Osijek,4,7.2,0.0
+2026-06-05,R00820,1,T03,MP Jadran,Split,Dalmacija,P010,Pasta za zube 75ml,Higijena,K005,L. Babić,Split,3,8.7,0.0
+2026-06-05,R00820,2,T03,MP Jadran,Split,Dalmacija,P006,Čokolada 100g,Prehrana,K005,L. Babić,Split,3,4.5,0.0
+2026-06-05,R00821,1,T05,MP Riva,Rijeka,Primorje,P006,Čokolada 100g,Prehrana,K017,G. Filipović,Rijeka,2,3.0,0.0
+2026-06-05,R00822,1,T05,MP Riva,Rijeka,Primorje,P005,Tjestenina 500g,Prehrana,K019,Z. Bošnjak,V. Gorica,2,3.6,0.0
+2026-06-05,R00823,1,T02,MP Sjever,Osijek,Slavonija,P004,Maslinovo ulje 1L,Prehrana,K009,S. Knežević,Osijek,4,47.6,0.0
+2026-06-05,R00824,1,T06,MP Stari grad,Split,Dalmacija,P007,Spužve 3/1,Kućanstvo,K012,R. Kralj,Zadar,4,8.8,0.0
+2026-06-05,R00824,2,T06,MP Stari grad,Split,Dalmacija,P005,Tjestenina 500g,Prehrana,K012,R. Kralj,Zadar,2,3.6,0.0
+2026-06-05,R00824,3,T06,MP Stari grad,Split,Dalmacija,P008,Papirnati ručnici 2/1,Kućanstvo,K012,R. Kralj,Zadar,3,10.2,0.0
+2026-06-05,R00824,4,T06,MP Stari grad,Split,Dalmacija,P006,Čokolada 100g,Prehrana,K012,R. Kralj,Zadar,3,4.5,0.0
+2026-06-06,R00825,1,T03,MP Jadran,Split,Dalmacija,P005,Tjestenina 500g,Prehrana,K001,A. Kovač,Split,2,3.6,0.0
+2026-06-06,R00826,1,T06,MP Stari grad,Split,Dalmacija,P007,Spužve 3/1,Kućanstvo,K020,C. Grgić,Split,1,2.2,0.0
+2026-06-06,R00826,2,T06,MP Stari grad,Split,Dalmacija,P003,Sok naranča 1L,Prehrana,K020,C. Grgić,Split,4,12.0,0.0
+2026-06-06,R00826,3,T06,MP Stari grad,Split,Dalmacija,P008,Papirnati ručnici 2/1,Kućanstvo,K020,C. Grgić,Split,2,6.8,0.0
+2026-06-06,R00827,1,T03,MP Jadran,Split,Dalmacija,P010,Pasta za zube 75ml,Higijena,K001,A. Kovač,Split,3,8.7,0.0
+2026-06-06,R00827,2,T03,MP Jadran,Split,Dalmacija,P005,Tjestenina 500g,Prehrana,K001,A. Kovač,Split,4,7.2,0.0
+2026-06-06,R00828,1,T03,MP Jadran,Split,Dalmacija,P005,Tjestenina 500g,Prehrana,K005,L. Babić,Split,3,5.4,0.0
+2026-06-06,R00829,1,T03,MP Jadran,Split,Dalmacija,P005,Tjestenina 500g,Prehrana,K008,D. Jurić,Split,2,3.6,0.0
+2026-06-06,R00830,1,T05,MP Riva,Rijeka,Primorje,P008,Papirnati ručnici 2/1,Kućanstvo,K015,V. Pavić,Varaždin,2,6.8,0.0
+2026-06-06,R00830,2,T05,MP Riva,Rijeka,Primorje,P006,Čokolada 100g,Prehrana,K015,V. Pavić,Varaždin,1,1.5,0.0
+2026-06-06,R00831,1,T05,MP Riva,Rijeka,Primorje,P003,Sok naranča 1L,Prehrana,K006,J. Marić,Rijeka,3,9.0,0.0
+2026-06-06,R00831,2,T05,MP Riva,Rijeka,Primorje,P010,Pasta za zube 75ml,Higijena,K006,J. Marić,Rijeka,1,2.9,0.0
+2026-06-06,R00831,3,T05,MP Riva,Rijeka,Primorje,P007,Spužve 3/1,Kućanstvo,K006,J. Marić,Rijeka,3,6.6,0.0
+2026-06-06,R00832,1,T03,MP Jadran,Split,Dalmacija,P007,Spužve 3/1,Kućanstvo,K001,A. Kovač,Split,3,6.6,0.0
+2026-06-06,R00832,2,T03,MP Jadran,Split,Dalmacija,P008,Papirnati ručnici 2/1,Kućanstvo,K001,A. Kovač,Split,2,6.8,0.0
+2026-06-06,R00832,3,T03,MP Jadran,Split,Dalmacija,P006,Čokolada 100g,Prehrana,K001,A. Kovač,Split,3,4.5,0.0
+2026-06-07,R00833,1,T06,MP Stari grad,Split,Dalmacija,P008,Papirnati ručnici 2/1,Kućanstvo,K012,R. Kralj,Zadar,3,10.2,0.0
+2026-06-07,R00833,2,T06,MP Stari grad,Split,Dalmacija,P003,Sok naranča 1L,Prehrana,K012,R. Kralj,Zadar,1,3.0,0.0
+2026-06-07,R00834,1,T02,MP Sjever,Osijek,Slavonija,P001,Kava 500g,Prehrana,K002,M. Perić,V. Gorica,4,30.0,0.0
+2026-06-07,R00834,2,T02,MP Sjever,Osijek,Slavonija,P003,Sok naranča 1L,Prehrana,K002,M. Perić,V. Gorica,4,12.0,0.0
+2026-06-07,R00835,1,T02,MP Sjever,Osijek,Slavonija,P001,Kava 500g,Prehrana,K001,A. Kovač,Split,3,22.5,0.0
+2026-06-07,R00836,1,T05,MP Riva,Rijeka,Primorje,P005,Tjestenina 500g,Prehrana,K020,C. Grgić,Split,2,3.6,0.0
+2026-06-07,R00836,2,T05,MP Riva,Rijeka,Primorje,P009,Šampon 400ml,Higijena,K020,C. Grgić,Split,4,22.4,0.0
+2026-06-07,R00837,1,T01,MP Centar,Zagreb,Središnja Hrvatska,P006,Čokolada 100g,Prehrana,K020,C. Grgić,Split,3,4.5,0.0
+2026-06-07,R00837,2,T01,MP Centar,Zagreb,Središnja Hrvatska,P008,Papirnati ručnici 2/1,Kućanstvo,K020,C. Grgić,Split,2,6.8,0.0
+2026-06-07,R00837,3,T01,MP Centar,Zagreb,Središnja Hrvatska,P005,Tjestenina 500g,Prehrana,K020,C. Grgić,Split,1,1.8,0.0
+2026-06-07,R00838,1,T02,MP Sjever,Osijek,Slavonija,P007,Spužve 3/1,Kućanstvo,K003,I. Šimić,Osijek,3,6.6,0.0
+2026-06-07,R00838,2,T02,MP Sjever,Osijek,Slavonija,P004,Maslinovo ulje 1L,Prehrana,K003,I. Šimić,Osijek,1,11.9,0.0
+2026-06-07,R00838,3,T02,MP Sjever,Osijek,Slavonija,P009,Šampon 400ml,Higijena,K003,I. Šimić,Osijek,2,11.2,0.0
+2026-06-07,R00838,4,T02,MP Sjever,Osijek,Slavonija,P006,Čokolada 100g,Prehrana,K003,I. Šimić,Osijek,1,1.5,0.0
+2026-06-07,R00839,1,T03,MP Jadran,Split,Dalmacija,P005,Tjestenina 500g,Prehrana,K013,M. Šarić,Split,2,3.6,0.0
+2026-06-08,R00840,1,T02,MP Sjever,Osijek,Slavonija,P009,Šampon 400ml,Higijena,K003,I. Šimić,Osijek,3,16.8,0.0
+2026-06-08,R00840,2,T02,MP Sjever,Osijek,Slavonija,P010,Pasta za zube 75ml,Higijena,K003,I. Šimić,Osijek,2,5.8,0.0
+2026-06-08,R00840,3,T02,MP Sjever,Osijek,Slavonija,P007,Spužve 3/1,Kućanstvo,K003,I. Šimić,Osijek,3,6.6,0.0
+2026-06-08,R00841,1,T03,MP Jadran,Split,Dalmacija,P009,Šampon 400ml,Higijena,K001,A. Kovač,Split,1,5.6,0.0
+2026-06-08,R00842,1,T02,MP Sjever,Osijek,Slavonija,P004,Maslinovo ulje 1L,Prehrana,K004,T. Horvat,Zagreb,2,23.8,0.0
+2026-06-08,R00842,2,T02,MP Sjever,Osijek,Slavonija,P001,Kava 500g,Prehrana,K004,T. Horvat,Zagreb,1,7.5,0.0
+2026-06-08,R00843,1,T02,MP Sjever,Osijek,Slavonija,P005,Tjestenina 500g,Prehrana,K020,C. Grgić,Split,4,7.2,0.0
+2026-06-08,R00843,2,T02,MP Sjever,Osijek,Slavonija,P002,Deterdžent 2L,Kućanstvo,K020,C. Grgić,Split,1,8.5,0.0
+2026-06-08,R00843,3,T02,MP Sjever,Osijek,Slavonija,P003,Sok naranča 1L,Prehrana,K020,C. Grgić,Split,1,3.0,0.0
+2026-06-08,R00843,4,T02,MP Sjever,Osijek,Slavonija,P010,Pasta za zube 75ml,Higijena,K020,C. Grgić,Split,1,2.9,0.0
+2026-06-08,R00844,1,T04,MP Istok,Zagreb,Središnja Hrvatska,P007,Spužve 3/1,Kućanstvo,K018,E. Radić,Zagreb,4,8.8,0.0
+2026-06-08,R00844,2,T04,MP Istok,Zagreb,Središnja Hrvatska,P008,Papirnati ručnici 2/1,Kućanstvo,K018,E. Radić,Zagreb,3,10.2,0.0
+2026-06-08,R00844,3,T04,MP Istok,Zagreb,Središnja Hrvatska,P001,Kava 500g,Prehrana,K018,E. Radić,Zagreb,1,7.5,0.0
+2026-06-08,R00845,1,T02,MP Sjever,Osijek,Slavonija,P004,Maslinovo ulje 1L,Prehrana,K016,H. Lučić,Osijek,4,47.6,0.0
+2026-06-08,R00845,2,T02,MP Sjever,Osijek,Slavonija,P005,Tjestenina 500g,Prehrana,K016,H. Lučić,Osijek,4,7.2,0.0
+2026-06-08,R00845,3,T02,MP Sjever,Osijek,Slavonija,P008,Papirnati ručnici 2/1,Kućanstvo,K016,H. Lučić,Osijek,4,13.6,0.0
+2026-06-08,R00846,1,T03,MP Jadran,Split,Dalmacija,P010,Pasta za zube 75ml,Higijena,K012,R. Kralj,Zadar,4,11.6,0.0
+2026-06-08,R00846,2,T03,MP Jadran,Split,Dalmacija,P007,Spužve 3/1,Kućanstvo,K012,R. Kralj,Zadar,1,2.2,0.0
+2026-06-08,R00847,1,T06,MP Stari grad,Split,Dalmacija,P006,Čokolada 100g,Prehrana,K001,A. Kovač,Split,2,3.0,0.0
+2026-06-08,R00848,1,T03,MP Jadran,Split,Dalmacija,P004,Maslinovo ulje 1L,Prehrana,K001,A. Kovač,Split,1,11.9,0.0
+2026-06-08,R00848,2,T03,MP Jadran,Split,Dalmacija,P007,Spužve 3/1,Kućanstvo,K001,A. Kovač,Split,1,2.2,0.0
+2026-06-08,R00848,3,T03,MP Jadran,Split,Dalmacija,P006,Čokolada 100g,Prehrana,K001,A. Kovač,Split,2,3.0,0.0
+2026-06-08,R00848,4,T03,MP Jadran,Split,Dalmacija,P002,Deterdžent 2L,Kućanstvo,K001,A. Kovač,Split,2,17.0,0.0
+2026-06-08,R00849,1,T03,MP Jadran,Split,Dalmacija,P004,Maslinovo ulje 1L,Prehrana,K001,A. Kovač,Split,1,11.9,0.0
+2026-06-09,R00850,1,T06,MP Stari grad,Split,Dalmacija,P007,Spužve 3/1,Kućanstvo,K013,M. Šarić,Split,2,4.4,0.0
+2026-06-09,R00851,1,T02,MP Sjever,Osijek,Slavonija,P007,Spužve 3/1,Kućanstvo,K009,S. Knežević,Osijek,2,4.4,0.0
+2026-06-09,R00851,2,T02,MP Sjever,Osijek,Slavonija,P008,Papirnati ručnici 2/1,Kućanstvo,K009,S. Knežević,Osijek,4,13.6,0.0
+2026-06-09,R00851,3,T02,MP Sjever,Osijek,Slavonija,P003,Sok naranča 1L,Prehrana,K009,S. Knežević,Osijek,2,6.0,0.0
+2026-06-09,R00852,1,T03,MP Jadran,Split,Dalmacija,P008,Papirnati ručnici 2/1,Kućanstvo,K005,L. Babić,Split,1,3.4,0.0
+2026-06-09,R00852,2,T03,MP Jadran,Split,Dalmacija,P003,Sok naranča 1L,Prehrana,K005,L. Babić,Split,2,6.0,0.0
+2026-06-09,R00853,1,T05,MP Riva,Rijeka,Primorje,P004,Maslinovo ulje 1L,Prehrana,K017,G. Filipović,Rijeka,4,47.6,1.0
+2026-06-09,R00853,2,T05,MP Riva,Rijeka,Primorje,P008,Papirnati ručnici 2/1,Kućanstvo,K017,G. Filipović,Rijeka,2,6.8,1.0
+2026-06-09,R00853,3,T05,MP Riva,Rijeka,Primorje,P002,Deterdžent 2L,Kućanstvo,K017,G. Filipović,Rijeka,1,8.5,1.0
+2026-06-09,R00854,1,T01,MP Centar,Zagreb,Središnja Hrvatska,P005,Tjestenina 500g,Prehrana,K004,T. Horvat,Zagreb,3,5.4,0.0
+2026-06-09,R00854,2,T01,MP Centar,Zagreb,Središnja Hrvatska,P010,Pasta za zube 75ml,Higijena,K004,T. Horvat,Zagreb,1,2.9,0.0
+2026-06-09,R00854,3,T01,MP Centar,Zagreb,Središnja Hrvatska,P004,Maslinovo ulje 1L,Prehrana,K004,T. Horvat,Zagreb,2,23.8,0.0
+2026-06-09,R00855,1,T02,MP Sjever,Osijek,Slavonija,P001,Kava 500g,Prehrana,K002,M. Perić,V. Gorica,2,15.0,3.0
+2026-06-09,R00855,2,T02,MP Sjever,Osijek,Slavonija,P006,Čokolada 100g,Prehrana,K002,M. Perić,V. Gorica,3,4.5,3.0
+2026-06-09,R00856,1,T02,MP Sjever,Osijek,Slavonija,P007,Spužve 3/1,Kućanstvo,K003,I. Šimić,Osijek,3,6.6,2.0
+2026-06-09,R00856,2,T02,MP Sjever,Osijek,Slavonija,P009,Šampon 400ml,Higijena,K003,I. Šimić,Osijek,3,16.8,2.0
+2026-06-09,R00857,1,T04,MP Istok,Zagreb,Središnja Hrvatska,P009,Šampon 400ml,Higijena,K018,E. Radić,Zagreb,1,5.6,0.0
+2026-06-09,R00857,2,T04,MP Istok,Zagreb,Središnja Hrvatska,P008,Papirnati ručnici 2/1,Kućanstvo,K018,E. Radić,Zagreb,1,3.4,0.0
+2026-06-09,R00857,3,T04,MP Istok,Zagreb,Središnja Hrvatska,P010,Pasta za zube 75ml,Higijena,K018,E. Radić,Zagreb,2,5.8,0.0
+2026-06-09,R00858,1,T04,MP Istok,Zagreb,Središnja Hrvatska,P010,Pasta za zube 75ml,Higijena,K006,J. Marić,Rijeka,4,11.6,0.0
+2026-06-10,R00859,1,T03,MP Jadran,Split,Dalmacija,P006,Čokolada 100g,Prehrana,K001,A. Kovač,Split,4,6.0,0.0
+2026-06-10,R00859,2,T03,MP Jadran,Split,Dalmacija,P004,Maslinovo ulje 1L,Prehrana,K001,A. Kovač,Split,4,47.6,0.0
+2026-06-10,R00859,3,T03,MP Jadran,Split,Dalmacija,P001,Kava 500g,Prehrana,K001,A. Kovač,Split,1,7.5,0.0
+2026-06-10,R00860,1,T03,MP Jadran,Split,Dalmacija,P008,Papirnati ručnici 2/1,Kućanstvo,K001,A. Kovač,Split,1,3.4,0.0
+2026-06-10,R00860,2,T03,MP Jadran,Split,Dalmacija,P005,Tjestenina 500g,Prehrana,K001,A. Kovač,Split,2,3.6,0.0
+2026-06-10,R00860,3,T03,MP Jadran,Split,Dalmacija,P010,Pasta za zube 75ml,Higijena,K001,A. Kovač,Split,4,11.6,0.0
+2026-06-10,R00860,4,T03,MP Jadran,Split,Dalmacija,P001,Kava 500g,Prehrana,K001,A. Kovač,Split,2,15.0,0.0
+2026-06-10,R00861,1,T03,MP Jadran,Split,Dalmacija,P002,Deterdžent 2L,Kućanstvo,K005,L. Babić,Split,3,25.5,0.0
+2026-06-10,R00862,1,T05,MP Riva,Rijeka,Primorje,P001,Kava 500g,Prehrana,K017,G. Filipović,Rijeka,3,22.5,0.0
+2026-06-10,R00862,2,T05,MP Riva,Rijeka,Primorje,P007,Spužve 3/1,Kućanstvo,K017,G. Filipović,Rijeka,3,6.6,0.0
+2026-06-10,R00863,1,T01,MP Centar,Zagreb,Središnja Hrvatska,P010,Pasta za zube 75ml,Higijena,K012,R. Kralj,Zadar,2,5.8,0.0
+2026-06-10,R00864,1,T03,MP Jadran,Split,Dalmacija,P007,Spužve 3/1,Kućanstvo,K012,R. Kralj,Zadar,3,6.6,2.0
+2026-06-10,R00864,2,T03,MP Jadran,Split,Dalmacija,P008,Papirnati ručnici 2/1,Kućanstvo,K012,R. Kralj,Zadar,4,13.6,2.0
+2026-06-10,R00864,3,T03,MP Jadran,Split,Dalmacija,P010,Pasta za zube 75ml,Higijena,K012,R. Kralj,Zadar,3,8.7,2.0
+2026-06-10,R00865,1,T01,MP Centar,Zagreb,Središnja Hrvatska,P001,Kava 500g,Prehrana,K015,V. Pavić,Varaždin,4,30.0,0.0
+2026-06-10,R00866,1,T05,MP Riva,Rijeka,Primorje,P009,Šampon 400ml,Higijena,K020,C. Grgić,Split,2,11.2,0.0
+2026-06-10,R00866,2,T05,MP Riva,Rijeka,Primorje,P004,Maslinovo ulje 1L,Prehrana,K020,C. Grgić,Split,4,47.6,0.0
+2026-06-10,R00866,3,T05,MP Riva,Rijeka,Primorje,P010,Pasta za zube 75ml,Higijena,K020,C. Grgić,Split,1,2.9,0.0
+2026-06-10,R00867,1,T04,MP Istok,Zagreb,Središnja Hrvatska,P009,Šampon 400ml,Higijena,K007,P. Novak,Zagreb,3,16.8,0.0
+2026-06-10,R00867,2,T04,MP Istok,Zagreb,Središnja Hrvatska,P006,Čokolada 100g,Prehrana,K007,P. Novak,Zagreb,2,3.0,0.0
+2026-06-10,R00867,3,T04,MP Istok,Zagreb,Središnja Hrvatska,P007,Spužve 3/1,Kućanstvo,K007,P. Novak,Zagreb,4,8.8,0.0
+2026-06-10,R00867,4,T04,MP Istok,Zagreb,Središnja Hrvatska,P003,Sok naranča 1L,Prehrana,K007,P. Novak,Zagreb,3,9.0,0.0
+2026-06-10,R00868,1,T05,MP Riva,Rijeka,Primorje,P004,Maslinovo ulje 1L,Prehrana,K011,F. Matić,Rijeka,3,35.7,0.0
+2026-06-10,R00868,2,T05,MP Riva,Rijeka,Primorje,P007,Spužve 3/1,Kućanstvo,K011,F. Matić,Rijeka,1,2.2,0.0
+2026-06-10,R00868,3,T05,MP Riva,Rijeka,Primorje,P003,Sok naranča 1L,Prehrana,K011,F. Matić,Rijeka,4,12.0,0.0
+2026-06-10,R00868,4,T05,MP Riva,Rijeka,Primorje,P002,Deterdžent 2L,Kućanstvo,K011,F. Matić,Rijeka,4,34.0,0.0
+2026-06-10,R00869,1,T02,MP Sjever,Osijek,Slavonija,P009,Šampon 400ml,Higijena,K009,S. Knežević,Osijek,2,11.2,0.0
+2026-06-10,R00869,2,T02,MP Sjever,Osijek,Slavonija,P007,Spužve 3/1,Kućanstvo,K009,S. Knežević,Osijek,1,2.2,0.0
+2026-06-10,R00869,3,T02,MP Sjever,Osijek,Slavonija,P010,Pasta za zube 75ml,Higijena,K009,S. Knežević,Osijek,1,2.9,0.0
+2026-06-10,R00869,4,T02,MP Sjever,Osijek,Slavonija,P006,Čokolada 100g,Prehrana,K009,S. Knežević,Osijek,2,3.0,0.0
+2026-06-11,R00870,1,T06,MP Stari grad,Split,Dalmacija,P003,Sok naranča 1L,Prehrana,K020,C. Grgić,Split,4,12.0,0.0
+2026-06-11,R00870,2,T06,MP Stari grad,Split,Dalmacija,P008,Papirnati ručnici 2/1,Kućanstvo,K020,C. Grgić,Split,4,13.6,0.0
+2026-06-11,R00870,3,T06,MP Stari grad,Split,Dalmacija,P009,Šampon 400ml,Higijena,K020,C. Grgić,Split,4,22.4,0.0
+2026-06-11,R00871,1,T04,MP Istok,Zagreb,Središnja Hrvatska,P003,Sok naranča 1L,Prehrana,K007,P. Novak,Zagreb,3,9.0,0.0
+2026-06-11,R00871,2,T04,MP Istok,Zagreb,Središnja Hrvatska,P002,Deterdžent 2L,Kućanstvo,K007,P. Novak,Zagreb,3,25.5,0.0
+2026-06-11,R00871,3,T04,MP Istok,Zagreb,Središnja Hrvatska,P006,Čokolada 100g,Prehrana,K007,P. Novak,Zagreb,2,3.0,0.0
+2026-06-11,R00871,4,T04,MP Istok,Zagreb,Središnja Hrvatska,P004,Maslinovo ulje 1L,Prehrana,K007,P. Novak,Zagreb,1,11.9,0.0
+2026-06-11,R00872,1,T04,MP Istok,Zagreb,Središnja Hrvatska,P004,Maslinovo ulje 1L,Prehrana,K004,T. Horvat,Zagreb,1,11.9,0.0
+2026-06-11,R00872,2,T04,MP Istok,Zagreb,Središnja Hrvatska,P008,Papirnati ručnici 2/1,Kućanstvo,K004,T. Horvat,Zagreb,4,13.6,0.0
+2026-06-11,R00872,3,T04,MP Istok,Zagreb,Središnja Hrvatska,P002,Deterdžent 2L,Kućanstvo,K004,T. Horvat,Zagreb,1,8.5,0.0
+2026-06-11,R00873,1,T04,MP Istok,Zagreb,Središnja Hrvatska,P009,Šampon 400ml,Higijena,K007,P. Novak,Zagreb,1,5.6,0.0
+2026-06-11,R00873,2,T04,MP Istok,Zagreb,Središnja Hrvatska,P008,Papirnati ručnici 2/1,Kućanstvo,K007,P. Novak,Zagreb,3,10.2,0.0
+2026-06-11,R00874,1,T02,MP Sjever,Osijek,Slavonija,P006,Čokolada 100g,Prehrana,K019,Z. Bošnjak,V. Gorica,2,3.0,0.0
+2026-06-11,R00874,2,T02,MP Sjever,Osijek,Slavonija,P007,Spužve 3/1,Kućanstvo,K019,Z. Bošnjak,V. Gorica,2,4.4,0.0
+2026-06-11,R00875,1,T01,MP Centar,Zagreb,Središnja Hrvatska,P006,Čokolada 100g,Prehrana,K004,T. Horvat,Zagreb,2,3.0,0.0
+2026-06-11,R00875,2,T01,MP Centar,Zagreb,Središnja Hrvatska,P001,Kava 500g,Prehrana,K004,T. Horvat,Zagreb,1,7.5,0.0
+2026-06-11,R00875,3,T01,MP Centar,Zagreb,Središnja Hrvatska,P008,Papirnati ručnici 2/1,Kućanstvo,K004,T. Horvat,Zagreb,3,10.2,0.0
+2026-06-11,R00876,1,T01,MP Centar,Zagreb,Središnja Hrvatska,P008,Papirnati ručnici 2/1,Kućanstvo,K004,T. Horvat,Zagreb,1,3.4,0.0
+2026-06-11,R00876,2,T01,MP Centar,Zagreb,Središnja Hrvatska,P002,Deterdžent 2L,Kućanstvo,K004,T. Horvat,Zagreb,1,8.5,0.0
+2026-06-11,R00876,3,T01,MP Centar,Zagreb,Središnja Hrvatska,P009,Šampon 400ml,Higijena,K004,T. Horvat,Zagreb,4,22.4,0.0
+2026-06-11,R00877,1,T04,MP Istok,Zagreb,Središnja Hrvatska,P010,Pasta za zube 75ml,Higijena,K012,R. Kralj,Zadar,4,11.6,0.0
+2026-06-11,R00877,2,T04,MP Istok,Zagreb,Središnja Hrvatska,P003,Sok naranča 1L,Prehrana,K012,R. Kralj,Zadar,2,6.0,0.0
+2026-06-11,R00878,1,T05,MP Riva,Rijeka,Primorje,P008,Papirnati ručnici 2/1,Kućanstvo,K017,G. Filipović,Rijeka,3,10.2,3.0
+2026-06-11,R00878,2,T05,MP Riva,Rijeka,Primorje,P005,Tjestenina 500g,Prehrana,K017,G. Filipović,Rijeka,1,1.8,3.0
+2026-06-11,R00878,3,T05,MP Riva,Rijeka,Primorje,P009,Šampon 400ml,Higijena,K017,G. Filipović,Rijeka,3,16.8,3.0
+2026-06-11,R00878,4,T05,MP Riva,Rijeka,Primorje,P001,Kava 500g,Prehrana,K017,G. Filipović,Rijeka,4,30.0,3.0
+2026-06-12,R00879,1,T01,MP Centar,Zagreb,Središnja Hrvatska,P002,Deterdžent 2L,Kućanstvo,K010,N. Vuković,Zagreb,1,8.5,0.0
+2026-06-12,R00880,1,T06,MP Stari grad,Split,Dalmacija,P005,Tjestenina 500g,Prehrana,K019,Z. Bošnjak,V. Gorica,3,5.4,0.0
+2026-06-12,R00880,2,T06,MP Stari grad,Split,Dalmacija,P008,Papirnati ručnici 2/1,Kućanstvo,K019,Z. Bošnjak,V. Gorica,3,10.2,0.0
+2026-06-12,R00880,3,T06,MP Stari grad,Split,Dalmacija,P007,Spužve 3/1,Kućanstvo,K019,Z. Bošnjak,V. Gorica,1,2.2,0.0
+2026-06-12,R00880,4,T06,MP Stari grad,Split,Dalmacija,P010,Pasta za zube 75ml,Higijena,K019,Z. Bošnjak,V. Gorica,2,5.8,0.0
+2026-06-12,R00881,1,T01,MP Centar,Zagreb,Središnja Hrvatska,P008,Papirnati ručnici 2/1,Kućanstvo,K014,B. Tomić,Zagreb,1,3.4,0.0
+2026-06-12,R00881,2,T01,MP Centar,Zagreb,Središnja Hrvatska,P010,Pasta za zube 75ml,Higijena,K014,B. Tomić,Zagreb,3,8.7,0.0
+2026-06-12,R00882,1,T06,MP Stari grad,Split,Dalmacija,P007,Spužve 3/1,Kućanstvo,K020,C. Grgić,Split,3,6.6,0.0
+2026-06-12,R00882,2,T06,MP Stari grad,Split,Dalmacija,P008,Papirnati ručnici 2/1,Kućanstvo,K020,C. Grgić,Split,1,3.4,0.0
+2026-06-12,R00882,3,T06,MP Stari grad,Split,Dalmacija,P002,Deterdžent 2L,Kućanstvo,K020,C. Grgić,Split,3,25.5,0.0
+2026-06-12,R00883,1,T06,MP Stari grad,Split,Dalmacija,P008,Papirnati ručnici 2/1,Kućanstvo,K005,L. Babić,Split,1,3.4,2.0
+2026-06-12,R00883,2,T06,MP Stari grad,Split,Dalmacija,P010,Pasta za zube 75ml,Higijena,K005,L. Babić,Split,1,2.9,2.0
+2026-06-12,R00883,3,T06,MP Stari grad,Split,Dalmacija,P006,Čokolada 100g,Prehrana,K005,L. Babić,Split,1,1.5,2.0
+2026-06-12,R00884,1,T03,MP Jadran,Split,Dalmacija,P002,Deterdžent 2L,Kućanstvo,K005,L. Babić,Split,4,34.0,0.0
+2026-06-12,R00884,2,T03,MP Jadran,Split,Dalmacija,P008,Papirnati ručnici 2/1,Kućanstvo,K005,L. Babić,Split,2,6.8,0.0
+2026-06-12,R00884,3,T03,MP Jadran,Split,Dalmacija,P004,Maslinovo ulje 1L,Prehrana,K005,L. Babić,Split,1,11.9,0.0
+2026-06-12,R00884,4,T03,MP Jadran,Split,Dalmacija,P009,Šampon 400ml,Higijena,K005,L. Babić,Split,4,22.4,0.0
+2026-06-12,R00885,1,T03,MP Jadran,Split,Dalmacija,P006,Čokolada 100g,Prehrana,K015,V. Pavić,Varaždin,3,4.5,0.0
+2026-06-12,R00885,2,T03,MP Jadran,Split,Dalmacija,P003,Sok naranča 1L,Prehrana,K015,V. Pavić,Varaždin,3,9.0,0.0
+2026-06-12,R00886,1,T05,MP Riva,Rijeka,Primorje,P001,Kava 500g,Prehrana,K011,F. Matić,Rijeka,3,22.5,0.0
+2026-06-12,R00886,2,T05,MP Riva,Rijeka,Primorje,P003,Sok naranča 1L,Prehrana,K011,F. Matić,Rijeka,2,6.0,0.0
+2026-06-12,R00886,3,T05,MP Riva,Rijeka,Primorje,P008,Papirnati ručnici 2/1,Kućanstvo,K011,F. Matić,Rijeka,1,3.4,0.0
+2026-06-12,R00886,4,T05,MP Riva,Rijeka,Primorje,P007,Spužve 3/1,Kućanstvo,K011,F. Matić,Rijeka,3,6.6,0.0
+2026-06-12,R00887,1,T04,MP Istok,Zagreb,Središnja Hrvatska,P006,Čokolada 100g,Prehrana,K007,P. Novak,Zagreb,4,6.0,2.0
+2026-06-12,R00887,2,T04,MP Istok,Zagreb,Središnja Hrvatska,P001,Kava 500g,Prehrana,K007,P. Novak,Zagreb,3,22.5,2.0
+2026-06-12,R00887,3,T04,MP Istok,Zagreb,Središnja Hrvatska,P009,Šampon 400ml,Higijena,K007,P. Novak,Zagreb,3,16.8,2.0
+2026-06-12,R00887,4,T04,MP Istok,Zagreb,Središnja Hrvatska,P005,Tjestenina 500g,Prehrana,K007,P. Novak,Zagreb,3,5.4,2.0
+2026-06-13,R00888,1,T06,MP Stari grad,Split,Dalmacija,P003,Sok naranča 1L,Prehrana,K001,A. Kovač,Split,4,12.0,0.0
+2026-06-13,R00888,2,T06,MP Stari grad,Split,Dalmacija,P004,Maslinovo ulje 1L,Prehrana,K001,A. Kovač,Split,3,35.7,0.0
+2026-06-13,R00888,3,T06,MP Stari grad,Split,Dalmacija,P002,Deterdžent 2L,Kućanstvo,K001,A. Kovač,Split,1,8.5,0.0
+2026-06-13,R00889,1,T05,MP Riva,Rijeka,Primorje,P008,Papirnati ručnici 2/1,Kućanstvo,K011,F. Matić,Rijeka,4,13.6,0.0
+2026-06-13,R00890,1,T05,MP Riva,Rijeka,Primorje,P005,Tjestenina 500g,Prehrana,K006,J. Marić,Rijeka,1,1.8,0.0
+2026-06-13,R00891,1,T06,MP Stari grad,Split,Dalmacija,P004,Maslinovo ulje 1L,Prehrana,K001,A. Kovač,Split,3,35.7,0.0
+2026-06-13,R00891,2,T06,MP Stari grad,Split,Dalmacija,P008,Papirnati ručnici 2/1,Kućanstvo,K001,A. Kovač,Split,2,6.8,0.0
+2026-06-13,R00891,3,T06,MP Stari grad,Split,Dalmacija,P001,Kava 500g,Prehrana,K001,A. Kovač,Split,4,30.0,0.0
+2026-06-13,R00892,1,T01,MP Centar,Zagreb,Središnja Hrvatska,P009,Šampon 400ml,Higijena,K010,N. Vuković,Zagreb,3,16.8,0.0
+2026-06-13,R00892,2,T01,MP Centar,Zagreb,Središnja Hrvatska,P007,Spužve 3/1,Kućanstvo,K010,N. Vuković,Zagreb,2,4.4,0.0
+2026-06-13,R00892,3,T01,MP Centar,Zagreb,Središnja Hrvatska,P010,Pasta za zube 75ml,Higijena,K010,N. Vuković,Zagreb,4,11.6,0.0
+2026-06-13,R00893,1,T04,MP Istok,Zagreb,Središnja Hrvatska,P002,Deterdžent 2L,Kućanstvo,K002,M. Perić,V. Gorica,2,17.0,0.0
+2026-06-13,R00893,2,T04,MP Istok,Zagreb,Središnja Hrvatska,P003,Sok naranča 1L,Prehrana,K002,M. Perić,V. Gorica,4,12.0,0.0
+2026-06-13,R00893,3,T04,MP Istok,Zagreb,Središnja Hrvatska,P006,Čokolada 100g,Prehrana,K002,M. Perić,V. Gorica,1,1.5,0.0
+2026-06-13,R00894,1,T05,MP Riva,Rijeka,Primorje,P004,Maslinovo ulje 1L,Prehrana,K003,I. Šimić,Osijek,2,23.8,0.0
+2026-06-13,R00894,2,T05,MP Riva,Rijeka,Primorje,P009,Šampon 400ml,Higijena,K003,I. Šimić,Osijek,3,16.8,0.0
+2026-06-13,R00894,3,T05,MP Riva,Rijeka,Primorje,P001,Kava 500g,Prehrana,K003,I. Šimić,Osijek,2,15.0,0.0
+2026-06-13,R00895,1,T05,MP Riva,Rijeka,Primorje,P001,Kava 500g,Prehrana,K006,J. Marić,Rijeka,2,15.0,0.0
+2026-06-13,R00895,2,T05,MP Riva,Rijeka,Primorje,P004,Maslinovo ulje 1L,Prehrana,K006,J. Marić,Rijeka,3,35.7,0.0
+2026-06-13,R00895,3,T05,MP Riva,Rijeka,Primorje,P009,Šampon 400ml,Higijena,K006,J. Marić,Rijeka,4,22.4,0.0
+2026-06-13,R00895,4,T05,MP Riva,Rijeka,Primorje,P006,Čokolada 100g,Prehrana,K006,J. Marić,Rijeka,1,1.5,0.0
+2026-06-14,R00896,1,T03,MP Jadran,Split,Dalmacija,P002,Deterdžent 2L,Kućanstvo,K002,M. Perić,V. Gorica,3,25.5,0.0
+2026-06-14,R00896,2,T03,MP Jadran,Split,Dalmacija,P007,Spužve 3/1,Kućanstvo,K002,M. Perić,V. Gorica,1,2.2,0.0
+2026-06-14,R00897,1,T05,MP Riva,Rijeka,Primorje,P010,Pasta za zube 75ml,Higijena,K011,F. Matić,Rijeka,4,11.6,0.0
+2026-06-14,R00898,1,T06,MP Stari grad,Split,Dalmacija,P005,Tjestenina 500g,Prehrana,K015,V. Pavić,Varaždin,1,1.8,0.0
+2026-06-14,R00898,2,T06,MP Stari grad,Split,Dalmacija,P006,Čokolada 100g,Prehrana,K015,V. Pavić,Varaždin,4,6.0,0.0
+2026-06-14,R00899,1,T03,MP Jadran,Split,Dalmacija,P004,Maslinovo ulje 1L,Prehrana,K001,A. Kovač,Split,2,23.8,0.0
+2026-06-14,R00899,2,T03,MP Jadran,Split,Dalmacija,P003,Sok naranča 1L,Prehrana,K001,A. Kovač,Split,3,9.0,0.0
+2026-06-14,R00899,3,T03,MP Jadran,Split,Dalmacija,P007,Spužve 3/1,Kućanstvo,K001,A. Kovač,Split,4,8.8,0.0
+2026-06-14,R00900,1,T01,MP Centar,Zagreb,Središnja Hrvatska,P009,Šampon 400ml,Higijena,K015,V. Pavić,Varaždin,1,5.6,0.0
+2026-06-14,R00901,1,T06,MP Stari grad,Split,Dalmacija,P006,Čokolada 100g,Prehrana,K008,D. Jurić,Split,1,1.5,0.0
+2026-06-14,R00901,2,T06,MP Stari grad,Split,Dalmacija,P008,Papirnati ručnici 2/1,Kućanstvo,K008,D. Jurić,Split,1,3.4,0.0
+2026-06-14,R00902,1,T04,MP Istok,Zagreb,Središnja Hrvatska,P010,Pasta za zube 75ml,Higijena,K018,E. Radić,Zagreb,1,2.9,0.0
+2026-06-14,R00902,2,T04,MP Istok,Zagreb,Središnja Hrvatska,P003,Sok naranča 1L,Prehrana,K018,E. Radić,Zagreb,1,3.0,0.0
+2026-06-14,R00902,3,T04,MP Istok,Zagreb,Središnja Hrvatska,P008,Papirnati ručnici 2/1,Kućanstvo,K018,E. Radić,Zagreb,4,13.6,0.0
+2026-06-14,R00902,4,T04,MP Istok,Zagreb,Središnja Hrvatska,P007,Spužve 3/1,Kućanstvo,K018,E. Radić,Zagreb,2,4.4,0.0
+2026-06-14,R00903,1,T02,MP Sjever,Osijek,Slavonija,P006,Čokolada 100g,Prehrana,K010,N. Vuković,Zagreb,1,1.5,0.0
+2026-06-14,R00903,2,T02,MP Sjever,Osijek,Slavonija,P004,Maslinovo ulje 1L,Prehrana,K010,N. Vuković,Zagreb,3,35.7,0.0
+2026-06-14,R00903,3,T02,MP Sjever,Osijek,Slavonija,P001,Kava 500g,Prehrana,K010,N. Vuković,Zagreb,4,30.0,0.0
+2026-06-15,R00904,1,T02,MP Sjever,Osijek,Slavonija,P009,Šampon 400ml,Higijena,K019,Z. Bošnjak,V. Gorica,3,16.8,0.0
+2026-06-15,R00904,2,T02,MP Sjever,Osijek,Slavonija,P007,Spužve 3/1,Kućanstvo,K019,Z. Bošnjak,V. Gorica,2,4.4,0.0
+2026-06-15,R00904,3,T02,MP Sjever,Osijek,Slavonija,P003,Sok naranča 1L,Prehrana,K019,Z. Bošnjak,V. Gorica,4,12.0,0.0
+2026-06-15,R00904,4,T02,MP Sjever,Osijek,Slavonija,P004,Maslinovo ulje 1L,Prehrana,K019,Z. Bošnjak,V. Gorica,3,35.7,0.0
+2026-06-15,R00905,1,T04,MP Istok,Zagreb,Središnja Hrvatska,P010,Pasta za zube 75ml,Higijena,K004,T. Horvat,Zagreb,1,2.9,0.0
+2026-06-15,R00906,1,T03,MP Jadran,Split,Dalmacija,P005,Tjestenina 500g,Prehrana,K001,A. Kovač,Split,3,5.4,0.0
+2026-06-15,R00906,2,T03,MP Jadran,Split,Dalmacija,P003,Sok naranča 1L,Prehrana,K001,A. Kovač,Split,2,6.0,0.0
+2026-06-15,R00906,3,T03,MP Jadran,Split,Dalmacija,P004,Maslinovo ulje 1L,Prehrana,K001,A. Kovač,Split,2,23.8,0.0
+2026-06-15,R00906,4,T03,MP Jadran,Split,Dalmacija,P001,Kava 500g,Prehrana,K001,A. Kovač,Split,2,15.0,0.0
+2026-06-15,R00907,1,T02,MP Sjever,Osijek,Slavonija,P005,Tjestenina 500g,Prehrana,K008,D. Jurić,Split,1,1.8,0.0
+2026-06-15,R00907,2,T02,MP Sjever,Osijek,Slavonija,P006,Čokolada 100g,Prehrana,K008,D. Jurić,Split,1,1.5,0.0
+2026-06-15,R00907,3,T02,MP Sjever,Osijek,Slavonija,P004,Maslinovo ulje 1L,Prehrana,K008,D. Jurić,Split,1,11.9,0.0
+2026-06-15,R00907,4,T02,MP Sjever,Osijek,Slavonija,P010,Pasta za zube 75ml,Higijena,K008,D. Jurić,Split,2,5.8,0.0
+2026-06-15,R00908,1,T05,MP Riva,Rijeka,Primorje,P002,Deterdžent 2L,Kućanstvo,K005,L. Babić,Split,1,8.5,0.0
+2026-06-15,R00909,1,T01,MP Centar,Zagreb,Središnja Hrvatska,P009,Šampon 400ml,Higijena,K015,V. Pavić,Varaždin,1,5.6,0.0
+2026-06-15,R00909,2,T01,MP Centar,Zagreb,Središnja Hrvatska,P002,Deterdžent 2L,Kućanstvo,K015,V. Pavić,Varaždin,4,34.0,0.0
+2026-06-15,R00910,1,T01,MP Centar,Zagreb,Središnja Hrvatska,P002,Deterdžent 2L,Kućanstvo,K014,B. Tomić,Zagreb,4,34.0,0.0
+2026-06-15,R00910,2,T01,MP Centar,Zagreb,Središnja Hrvatska,P004,Maslinovo ulje 1L,Prehrana,K014,B. Tomić,Zagreb,1,11.9,0.0
+2026-06-15,R00911,1,T05,MP Riva,Rijeka,Primorje,P007,Spužve 3/1,Kućanstvo,K011,F. Matić,Rijeka,3,6.6,0.0
+2026-06-15,R00911,2,T05,MP Riva,Rijeka,Primorje,P008,Papirnati ručnici 2/1,Kućanstvo,K011,F. Matić,Rijeka,4,13.6,0.0
+2026-06-15,R00912,1,T02,MP Sjever,Osijek,Slavonija,P007,Spužve 3/1,Kućanstvo,K016,H. Lučić,Osijek,1,2.2,0.0
+2026-06-15,R00912,2,T02,MP Sjever,Osijek,Slavonija,P003,Sok naranča 1L,Prehrana,K016,H. Lučić,Osijek,1,3.0,0.0
+2026-06-16,R00913,1,T06,MP Stari grad,Split,Dalmacija,P001,Kava 500g,Prehrana,K015,V. Pavić,Varaždin,4,30.0,0.0
+2026-06-16,R00913,2,T06,MP Stari grad,Split,Dalmacija,P009,Šampon 400ml,Higijena,K015,V. Pavić,Varaždin,3,16.8,0.0
+2026-06-16,R00913,3,T06,MP Stari grad,Split,Dalmacija,P006,Čokolada 100g,Prehrana,K015,V. Pavić,Varaždin,3,4.5,0.0
+2026-06-16,R00913,4,T06,MP Stari grad,Split,Dalmacija,P003,Sok naranča 1L,Prehrana,K015,V. Pavić,Varaždin,3,9.0,0.0
+2026-06-16,R00914,1,T02,MP Sjever,Osijek,Slavonija,P008,Papirnati ručnici 2/1,Kućanstvo,K003,I. Šimić,Osijek,4,13.6,0.0
+2026-06-16,R00914,2,T02,MP Sjever,Osijek,Slavonija,P007,Spužve 3/1,Kućanstvo,K003,I. Šimić,Osijek,4,8.8,0.0
+2026-06-16,R00915,1,T06,MP Stari grad,Split,Dalmacija,P005,Tjestenina 500g,Prehrana,K002,M. Perić,V. Gorica,3,5.4,0.0
+2026-06-16,R00915,2,T06,MP Stari grad,Split,Dalmacija,P006,Čokolada 100g,Prehrana,K002,M. Perić,V. Gorica,3,4.5,0.0
+2026-06-16,R00915,3,T06,MP Stari grad,Split,Dalmacija,P004,Maslinovo ulje 1L,Prehrana,K002,M. Perić,V. Gorica,2,23.8,0.0
+2026-06-16,R00916,1,T01,MP Centar,Zagreb,Središnja Hrvatska,P006,Čokolada 100g,Prehrana,K004,T. Horvat,Zagreb,3,4.5,0.0
+2026-06-16,R00916,2,T01,MP Centar,Zagreb,Središnja Hrvatska,P004,Maslinovo ulje 1L,Prehrana,K004,T. Horvat,Zagreb,2,23.8,0.0
+2026-06-16,R00917,1,T01,MP Centar,Zagreb,Središnja Hrvatska,P010,Pasta za zube 75ml,Higijena,K014,B. Tomić,Zagreb,4,11.6,0.0
+2026-06-16,R00917,2,T01,MP Centar,Zagreb,Središnja Hrvatska,P005,Tjestenina 500g,Prehrana,K014,B. Tomić,Zagreb,1,1.8,0.0
+2026-06-16,R00917,3,T01,MP Centar,Zagreb,Središnja Hrvatska,P009,Šampon 400ml,Higijena,K014,B. Tomić,Zagreb,3,16.8,0.0
+2026-06-16,R00918,1,T06,MP Stari grad,Split,Dalmacija,P002,Deterdžent 2L,Kućanstvo,K013,M. Šarić,Split,2,17.0,0.0
+2026-06-16,R00918,2,T06,MP Stari grad,Split,Dalmacija,P001,Kava 500g,Prehrana,K013,M. Šarić,Split,3,22.5,0.0
+2026-06-16,R00918,3,T06,MP Stari grad,Split,Dalmacija,P008,Papirnati ručnici 2/1,Kućanstvo,K013,M. Šarić,Split,1,3.4,0.0
+2026-06-16,R00919,1,T02,MP Sjever,Osijek,Slavonija,P005,Tjestenina 500g,Prehrana,K001,A. Kovač,Split,4,7.2,0.0
+2026-06-16,R00920,1,T01,MP Centar,Zagreb,Središnja Hrvatska,P002,Deterdžent 2L,Kućanstvo,K014,B. Tomić,Zagreb,1,8.5,0.0
+2026-06-16,R00921,1,T02,MP Sjever,Osijek,Slavonija,P009,Šampon 400ml,Higijena,K003,I. Šimić,Osijek,4,22.4,2.0
+2026-06-16,R00921,2,T02,MP Sjever,Osijek,Slavonija,P006,Čokolada 100g,Prehrana,K003,I. Šimić,Osijek,4,6.0,2.0
+2026-06-16,R00921,3,T02,MP Sjever,Osijek,Slavonija,P010,Pasta za zube 75ml,Higijena,K003,I. Šimić,Osijek,4,11.6,2.0
+2026-06-16,R00922,1,T04,MP Istok,Zagreb,Središnja Hrvatska,P002,Deterdžent 2L,Kućanstvo,K004,T. Horvat,Zagreb,4,34.0,0.0
+2026-06-16,R00922,2,T04,MP Istok,Zagreb,Središnja Hrvatska,P001,Kava 500g,Prehrana,K004,T. Horvat,Zagreb,3,22.5,0.0
+2026-06-16,R00922,3,T04,MP Istok,Zagreb,Središnja Hrvatska,P004,Maslinovo ulje 1L,Prehrana,K004,T. Horvat,Zagreb,3,35.7,0.0
+2026-06-16,R00922,4,T04,MP Istok,Zagreb,Središnja Hrvatska,P007,Spužve 3/1,Kućanstvo,K004,T. Horvat,Zagreb,4,8.8,0.0
+2026-06-17,R00923,1,T01,MP Centar,Zagreb,Središnja Hrvatska,P002,Deterdžent 2L,Kućanstvo,K007,P. Novak,Zagreb,1,8.5,0.0
+2026-06-17,R00923,2,T01,MP Centar,Zagreb,Središnja Hrvatska,P006,Čokolada 100g,Prehrana,K007,P. Novak,Zagreb,2,3.0,0.0
+2026-06-17,R00923,3,T01,MP Centar,Zagreb,Središnja Hrvatska,P010,Pasta za zube 75ml,Higijena,K007,P. Novak,Zagreb,4,11.6,0.0
+2026-06-17,R00924,1,T03,MP Jadran,Split,Dalmacija,P008,Papirnati ručnici 2/1,Kućanstvo,K017,G. Filipović,Rijeka,1,3.4,0.0
+2026-06-17,R00924,2,T03,MP Jadran,Split,Dalmacija,P006,Čokolada 100g,Prehrana,K017,G. Filipović,Rijeka,2,3.0,0.0
+2026-06-17,R00924,3,T03,MP Jadran,Split,Dalmacija,P004,Maslinovo ulje 1L,Prehrana,K017,G. Filipović,Rijeka,3,35.7,0.0
+2026-06-17,R00924,4,T03,MP Jadran,Split,Dalmacija,P002,Deterdžent 2L,Kućanstvo,K017,G. Filipović,Rijeka,4,34.0,0.0
+2026-06-17,R00925,1,T03,MP Jadran,Split,Dalmacija,P007,Spužve 3/1,Kućanstvo,K020,C. Grgić,Split,4,8.8,0.0
+2026-06-17,R00925,2,T03,MP Jadran,Split,Dalmacija,P010,Pasta za zube 75ml,Higijena,K020,C. Grgić,Split,3,8.7,0.0
+2026-06-17,R00926,1,T06,MP Stari grad,Split,Dalmacija,P004,Maslinovo ulje 1L,Prehrana,K008,D. Jurić,Split,4,47.6,2.0
+2026-06-17,R00926,2,T06,MP Stari grad,Split,Dalmacija,P003,Sok naranča 1L,Prehrana,K008,D. Jurić,Split,1,3.0,2.0
+2026-06-17,R00927,1,T05,MP Riva,Rijeka,Primorje,P002,Deterdžent 2L,Kućanstvo,K006,J. Marić,Rijeka,3,25.5,0.0
+2026-06-17,R00927,2,T05,MP Riva,Rijeka,Primorje,P008,Papirnati ručnici 2/1,Kućanstvo,K006,J. Marić,Rijeka,2,6.8,0.0
+2026-06-17,R00927,3,T05,MP Riva,Rijeka,Primorje,P006,Čokolada 100g,Prehrana,K006,J. Marić,Rijeka,1,1.5,0.0
+2026-06-17,R00927,4,T05,MP Riva,Rijeka,Primorje,P005,Tjestenina 500g,Prehrana,K006,J. Marić,Rijeka,4,7.2,0.0
+2026-06-17,R00928,1,T02,MP Sjever,Osijek,Slavonija,P007,Spužve 3/1,Kućanstvo,K016,H. Lučić,Osijek,4,8.8,0.0
+2026-06-17,R00928,2,T02,MP Sjever,Osijek,Slavonija,P004,Maslinovo ulje 1L,Prehrana,K016,H. Lučić,Osijek,4,47.6,0.0
+2026-06-17,R00929,1,T05,MP Riva,Rijeka,Primorje,P010,Pasta za zube 75ml,Higijena,K019,Z. Bošnjak,V. Gorica,3,8.7,0.0
+2026-06-17,R00930,1,T03,MP Jadran,Split,Dalmacija,P001,Kava 500g,Prehrana,K020,C. Grgić,Split,2,15.0,0.0
+2026-06-17,R00930,2,T03,MP Jadran,Split,Dalmacija,P008,Papirnati ručnici 2/1,Kućanstvo,K020,C. Grgić,Split,4,13.6,0.0
+2026-06-17,R00930,3,T03,MP Jadran,Split,Dalmacija,P005,Tjestenina 500g,Prehrana,K020,C. Grgić,Split,4,7.2,0.0
+2026-06-17,R00930,4,T03,MP Jadran,Split,Dalmacija,P002,Deterdžent 2L,Kućanstvo,K020,C. Grgić,Split,1,8.5,0.0
+2026-06-18,R00931,1,T05,MP Riva,Rijeka,Primorje,P003,Sok naranča 1L,Prehrana,K009,S. Knežević,Osijek,1,3.0,0.0
+2026-06-18,R00931,2,T05,MP Riva,Rijeka,Primorje,P005,Tjestenina 500g,Prehrana,K009,S. Knežević,Osijek,3,5.4,0.0
+2026-06-18,R00931,3,T05,MP Riva,Rijeka,Primorje,P006,Čokolada 100g,Prehrana,K009,S. Knežević,Osijek,2,3.0,0.0
+2026-06-18,R00932,1,T03,MP Jadran,Split,Dalmacija,P010,Pasta za zube 75ml,Higijena,K001,A. Kovač,Split,2,5.8,0.0
+2026-06-18,R00933,1,T02,MP Sjever,Osijek,Slavonija,P001,Kava 500g,Prehrana,K008,D. Jurić,Split,3,22.5,0.0
+2026-06-18,R00933,2,T02,MP Sjever,Osijek,Slavonija,P006,Čokolada 100g,Prehrana,K008,D. Jurić,Split,2,3.0,0.0
+2026-06-18,R00933,3,T02,MP Sjever,Osijek,Slavonija,P009,Šampon 400ml,Higijena,K008,D. Jurić,Split,4,22.4,0.0
+2026-06-18,R00934,1,T04,MP Istok,Zagreb,Središnja Hrvatska,P006,Čokolada 100g,Prehrana,K012,R. Kralj,Zadar,1,1.5,0.0
+2026-06-18,R00934,2,T04,MP Istok,Zagreb,Središnja Hrvatska,P003,Sok naranča 1L,Prehrana,K012,R. Kralj,Zadar,3,9.0,0.0
+2026-06-18,R00935,1,T05,MP Riva,Rijeka,Primorje,P009,Šampon 400ml,Higijena,K007,P. Novak,Zagreb,4,22.4,0.0
+2026-06-18,R00935,2,T05,MP Riva,Rijeka,Primorje,P004,Maslinovo ulje 1L,Prehrana,K007,P. Novak,Zagreb,4,47.6,0.0
+2026-06-18,R00935,3,T05,MP Riva,Rijeka,Primorje,P008,Papirnati ručnici 2/1,Kućanstvo,K007,P. Novak,Zagreb,2,6.8,0.0
+2026-06-18,R00936,1,T05,MP Riva,Rijeka,Primorje,P003,Sok naranča 1L,Prehrana,K006,J. Marić,Rijeka,1,3.0,0.0
+2026-06-18,R00936,2,T05,MP Riva,Rijeka,Primorje,P009,Šampon 400ml,Higijena,K006,J. Marić,Rijeka,3,16.8,0.0
+2026-06-18,R00937,1,T02,MP Sjever,Osijek,Slavonija,P005,Tjestenina 500g,Prehrana,K016,H. Lučić,Osijek,4,7.2,1.0
+2026-06-18,R00937,2,T02,MP Sjever,Osijek,Slavonija,P004,Maslinovo ulje 1L,Prehrana,K016,H. Lučić,Osijek,3,35.7,1.0
+2026-06-18,R00937,3,T02,MP Sjever,Osijek,Slavonija,P002,Deterdžent 2L,Kućanstvo,K016,H. Lučić,Osijek,2,17.0,1.0
+2026-06-18,R00937,4,T02,MP Sjever,Osijek,Slavonija,P009,Šampon 400ml,Higijena,K016,H. Lučić,Osijek,3,16.8,1.0
+2026-06-18,R00938,1,T01,MP Centar,Zagreb,Središnja Hrvatska,P007,Spužve 3/1,Kućanstvo,K007,P. Novak,Zagreb,1,2.2,0.0
+2026-06-18,R00938,2,T01,MP Centar,Zagreb,Središnja Hrvatska,P006,Čokolada 100g,Prehrana,K007,P. Novak,Zagreb,1,1.5,0.0
+2026-06-18,R00939,1,T06,MP Stari grad,Split,Dalmacija,P002,Deterdžent 2L,Kućanstvo,K015,V. Pavić,Varaždin,3,25.5,0.0
+2026-06-18,R00939,2,T06,MP Stari grad,Split,Dalmacija,P007,Spužve 3/1,Kućanstvo,K015,V. Pavić,Varaždin,1,2.2,0.0
+2026-06-18,R00939,3,T06,MP Stari grad,Split,Dalmacija,P009,Šampon 400ml,Higijena,K015,V. Pavić,Varaždin,4,22.4,0.0
+2026-06-18,R00939,4,T06,MP Stari grad,Split,Dalmacija,P005,Tjestenina 500g,Prehrana,K015,V. Pavić,Varaždin,3,5.4,0.0
+2026-06-18,R00940,1,T04,MP Istok,Zagreb,Središnja Hrvatska,P001,Kava 500g,Prehrana,K007,P. Novak,Zagreb,1,7.5,0.0
+2026-06-18,R00940,2,T04,MP Istok,Zagreb,Središnja Hrvatska,P010,Pasta za zube 75ml,Higijena,K007,P. Novak,Zagreb,4,11.6,0.0
+2026-06-18,R00940,3,T04,MP Istok,Zagreb,Središnja Hrvatska,P006,Čokolada 100g,Prehrana,K007,P. Novak,Zagreb,4,6.0,0.0
+2026-06-18,R00940,4,T04,MP Istok,Zagreb,Središnja Hrvatska,P004,Maslinovo ulje 1L,Prehrana,K007,P. Novak,Zagreb,3,35.7,0.0
+2026-06-19,R00941,1,T05,MP Riva,Rijeka,Primorje,P007,Spužve 3/1,Kućanstvo,K012,R. Kralj,Zadar,4,8.8,0.0
+2026-06-19,R00941,2,T05,MP Riva,Rijeka,Primorje,P006,Čokolada 100g,Prehrana,K012,R. Kralj,Zadar,1,1.5,0.0
+2026-06-19,R00942,1,T06,MP Stari grad,Split,Dalmacija,P003,Sok naranča 1L,Prehrana,K001,A. Kovač,Split,1,3.0,1.0
+2026-06-19,R00942,2,T06,MP Stari grad,Split,Dalmacija,P005,Tjestenina 500g,Prehrana,K001,A. Kovač,Split,1,1.8,1.0
+2026-06-19,R00942,3,T06,MP Stari grad,Split,Dalmacija,P007,Spužve 3/1,Kućanstvo,K001,A. Kovač,Split,3,6.6,1.0
+2026-06-19,R00942,4,T06,MP Stari grad,Split,Dalmacija,P006,Čokolada 100g,Prehrana,K001,A. Kovač,Split,3,4.5,1.0
+2026-06-19,R00943,1,T02,MP Sjever,Osijek,Slavonija,P008,Papirnati ručnici 2/1,Kućanstvo,K003,I. Šimić,Osijek,4,13.6,0.0
+2026-06-19,R00943,2,T02,MP Sjever,Osijek,Slavonija,P007,Spužve 3/1,Kućanstvo,K003,I. Šimić,Osijek,3,6.6,0.0
+2026-06-19,R00944,1,T06,MP Stari grad,Split,Dalmacija,P009,Šampon 400ml,Higijena,K013,M. Šarić,Split,2,11.2,0.0
+2026-06-19,R00944,2,T06,MP Stari grad,Split,Dalmacija,P003,Sok naranča 1L,Prehrana,K013,M. Šarić,Split,2,6.0,0.0
+2026-06-19,R00944,3,T06,MP Stari grad,Split,Dalmacija,P004,Maslinovo ulje 1L,Prehrana,K013,M. Šarić,Split,1,11.9,0.0
+2026-06-19,R00944,4,T06,MP Stari grad,Split,Dalmacija,P002,Deterdžent 2L,Kućanstvo,K013,M. Šarić,Split,4,34.0,0.0
+2026-06-19,R00945,1,T06,MP Stari grad,Split,Dalmacija,P003,Sok naranča 1L,Prehrana,K005,L. Babić,Split,4,12.0,0.0
+2026-06-19,R00946,1,T02,MP Sjever,Osijek,Slavonija,P005,Tjestenina 500g,Prehrana,K003,I. Šimić,Osijek,2,3.6,1.0
+2026-06-19,R00946,2,T02,MP Sjever,Osijek,Slavonija,P007,Spužve 3/1,Kućanstvo,K003,I. Šimić,Osijek,4,8.8,1.0
+2026-06-19,R00946,3,T02,MP Sjever,Osijek,Slavonija,P003,Sok naranča 1L,Prehrana,K003,I. Šimić,Osijek,2,6.0,1.0
+2026-06-19,R00947,1,T03,MP Jadran,Split,Dalmacija,P005,Tjestenina 500g,Prehrana,K001,A. Kovač,Split,4,7.2,0.0
+2026-06-19,R00948,1,T05,MP Riva,Rijeka,Primorje,P008,Papirnati ručnici 2/1,Kućanstvo,K011,F. Matić,Rijeka,1,3.4,0.0
+2026-06-19,R00949,1,T04,MP Istok,Zagreb,Središnja Hrvatska,P005,Tjestenina 500g,Prehrana,K019,Z. Bošnjak,V. Gorica,2,3.6,0.0
+2026-06-19,R00949,2,T04,MP Istok,Zagreb,Središnja Hrvatska,P009,Šampon 400ml,Higijena,K019,Z. Bošnjak,V. Gorica,4,22.4,0.0
+2026-06-19,R00949,3,T04,MP Istok,Zagreb,Središnja Hrvatska,P001,Kava 500g,Prehrana,K019,Z. Bošnjak,V. Gorica,1,7.5,0.0
+2026-06-19,R00950,1,T03,MP Jadran,Split,Dalmacija,P003,Sok naranča 1L,Prehrana,K008,D. Jurić,Split,2,6.0,2.0
+2026-06-19,R00950,2,T03,MP Jadran,Split,Dalmacija,P008,Papirnati ručnici 2/1,Kućanstvo,K008,D. Jurić,Split,3,10.2,2.0
+2026-06-19,R00951,1,T03,MP Jadran,Split,Dalmacija,P002,Deterdžent 2L,Kućanstvo,K004,T. Horvat,Zagreb,2,17.0,0.0
+2026-06-20,R00952,1,T02,MP Sjever,Osijek,Slavonija,P006,Čokolada 100g,Prehrana,K011,F. Matić,Rijeka,3,4.5,0.0
+2026-06-20,R00953,1,T04,MP Istok,Zagreb,Središnja Hrvatska,P010,Pasta za zube 75ml,Higijena,K014,B. Tomić,Zagreb,2,5.8,0.0
+2026-06-20,R00953,2,T04,MP Istok,Zagreb,Središnja Hrvatska,P005,Tjestenina 500g,Prehrana,K014,B. Tomić,Zagreb,1,1.8,0.0
+2026-06-20,R00954,1,T05,MP Riva,Rijeka,Primorje,P005,Tjestenina 500g,Prehrana,K017,G. Filipović,Rijeka,4,7.2,1.0
+2026-06-20,R00954,2,T05,MP Riva,Rijeka,Primorje,P007,Spužve 3/1,Kućanstvo,K017,G. Filipović,Rijeka,2,4.4,1.0
+2026-06-20,R00954,3,T05,MP Riva,Rijeka,Primorje,P009,Šampon 400ml,Higijena,K017,G. Filipović,Rijeka,3,16.8,1.0
+2026-06-20,R00955,1,T06,MP Stari grad,Split,Dalmacija,P006,Čokolada 100g,Prehrana,K012,R. Kralj,Zadar,1,1.5,0.0
+2026-06-20,R00955,2,T06,MP Stari grad,Split,Dalmacija,P010,Pasta za zube 75ml,Higijena,K012,R. Kralj,Zadar,2,5.8,0.0
+2026-06-20,R00956,1,T02,MP Sjever,Osijek,Slavonija,P004,Maslinovo ulje 1L,Prehrana,K003,I. Šimić,Osijek,3,35.7,0.0
+2026-06-20,R00956,2,T02,MP Sjever,Osijek,Slavonija,P005,Tjestenina 500g,Prehrana,K003,I. Šimić,Osijek,3,5.4,0.0
+2026-06-20,R00957,1,T04,MP Istok,Zagreb,Središnja Hrvatska,P004,Maslinovo ulje 1L,Prehrana,K014,B. Tomić,Zagreb,2,23.8,2.0
+2026-06-20,R00957,2,T04,MP Istok,Zagreb,Središnja Hrvatska,P003,Sok naranča 1L,Prehrana,K014,B. Tomić,Zagreb,3,9.0,2.0
+2026-06-20,R00957,3,T04,MP Istok,Zagreb,Središnja Hrvatska,P007,Spužve 3/1,Kućanstvo,K014,B. Tomić,Zagreb,2,4.4,2.0
+2026-06-20,R00957,4,T04,MP Istok,Zagreb,Središnja Hrvatska,P008,Papirnati ručnici 2/1,Kućanstvo,K014,B. Tomić,Zagreb,1,3.4,2.0
+2026-06-20,R00958,1,T01,MP Centar,Zagreb,Središnja Hrvatska,P008,Papirnati ručnici 2/1,Kućanstvo,K004,T. Horvat,Zagreb,1,3.4,0.0
+2026-06-20,R00958,2,T01,MP Centar,Zagreb,Središnja Hrvatska,P006,Čokolada 100g,Prehrana,K004,T. Horvat,Zagreb,3,4.5,0.0
+2026-06-20,R00959,1,T02,MP Sjever,Osijek,Slavonija,P006,Čokolada 100g,Prehrana,K003,I. Šimić,Osijek,3,4.5,0.0
+2026-06-20,R00959,2,T02,MP Sjever,Osijek,Slavonija,P008,Papirnati ručnici 2/1,Kućanstvo,K003,I. Šimić,Osijek,1,3.4,0.0
+2026-06-20,R00959,3,T02,MP Sjever,Osijek,Slavonija,P010,Pasta za zube 75ml,Higijena,K003,I. Šimić,Osijek,1,2.9,0.0
+2026-06-20,R00959,4,T02,MP Sjever,Osijek,Slavonija,P003,Sok naranča 1L,Prehrana,K003,I. Šimić,Osijek,4,12.0,0.0
+2026-06-21,R00960,1,T02,MP Sjever,Osijek,Slavonija,P003,Sok naranča 1L,Prehrana,K003,I. Šimić,Osijek,3,9.0,1.0
+2026-06-21,R00960,2,T02,MP Sjever,Osijek,Slavonija,P009,Šampon 400ml,Higijena,K003,I. Šimić,Osijek,4,22.4,1.0
+2026-06-21,R00960,3,T02,MP Sjever,Osijek,Slavonija,P006,Čokolada 100g,Prehrana,K003,I. Šimić,Osijek,4,6.0,1.0
+2026-06-21,R00961,1,T02,MP Sjever,Osijek,Slavonija,P008,Papirnati ručnici 2/1,Kućanstvo,K016,H. Lučić,Osijek,4,13.6,1.0
+2026-06-21,R00961,2,T02,MP Sjever,Osijek,Slavonija,P004,Maslinovo ulje 1L,Prehrana,K016,H. Lučić,Osijek,1,11.9,1.0
+2026-06-21,R00961,3,T02,MP Sjever,Osijek,Slavonija,P005,Tjestenina 500g,Prehrana,K016,H. Lučić,Osijek,1,1.8,1.0
+2026-06-21,R00962,1,T05,MP Riva,Rijeka,Primorje,P002,Deterdžent 2L,Kućanstvo,K012,R. Kralj,Zadar,1,8.5,0.0
+2026-06-21,R00962,2,T05,MP Riva,Rijeka,Primorje,P005,Tjestenina 500g,Prehrana,K012,R. Kralj,Zadar,4,7.2,0.0
+2026-06-21,R00962,3,T05,MP Riva,Rijeka,Primorje,P006,Čokolada 100g,Prehrana,K012,R. Kralj,Zadar,1,1.5,0.0
+2026-06-21,R00963,1,T03,MP Jadran,Split,Dalmacija,P010,Pasta za zube 75ml,Higijena,K008,D. Jurić,Split,3,8.7,0.0
+2026-06-21,R00964,1,T03,MP Jadran,Split,Dalmacija,P008,Papirnati ručnici 2/1,Kućanstvo,K004,T. Horvat,Zagreb,2,6.8,0.0
+2026-06-21,R00964,2,T03,MP Jadran,Split,Dalmacija,P005,Tjestenina 500g,Prehrana,K004,T. Horvat,Zagreb,3,5.4,0.0
+2026-06-21,R00964,3,T03,MP Jadran,Split,Dalmacija,P003,Sok naranča 1L,Prehrana,K004,T. Horvat,Zagreb,2,6.0,0.0
+2026-06-21,R00964,4,T03,MP Jadran,Split,Dalmacija,P010,Pasta za zube 75ml,Higijena,K004,T. Horvat,Zagreb,2,5.8,0.0
+2026-06-21,R00965,1,T04,MP Istok,Zagreb,Središnja Hrvatska,P001,Kava 500g,Prehrana,K015,V. Pavić,Varaždin,2,15.0,0.0
+2026-06-21,R00966,1,T04,MP Istok,Zagreb,Središnja Hrvatska,P006,Čokolada 100g,Prehrana,K018,E. Radić,Zagreb,3,4.5,0.0
+2026-06-21,R00967,1,T03,MP Jadran,Split,Dalmacija,P006,Čokolada 100g,Prehrana,K001,A. Kovač,Split,1,1.5,1.0
+2026-06-21,R00967,2,T03,MP Jadran,Split,Dalmacija,P004,Maslinovo ulje 1L,Prehrana,K001,A. Kovač,Split,2,23.8,1.0
+2026-06-21,R00968,1,T03,MP Jadran,Split,Dalmacija,P007,Spužve 3/1,Kućanstvo,K001,A. Kovač,Split,2,4.4,0.0
+2026-06-21,R00968,2,T03,MP Jadran,Split,Dalmacija,P005,Tjestenina 500g,Prehrana,K001,A. Kovač,Split,3,5.4,0.0
+2026-06-21,R00969,1,T05,MP Riva,Rijeka,Primorje,P010,Pasta za zube 75ml,Higijena,K019,Z. Bošnjak,V. Gorica,3,8.7,0.0
+2026-06-21,R00969,2,T05,MP Riva,Rijeka,Primorje,P006,Čokolada 100g,Prehrana,K019,Z. Bošnjak,V. Gorica,4,6.0,0.0
+2026-06-21,R00969,3,T05,MP Riva,Rijeka,Primorje,P007,Spužve 3/1,Kućanstvo,K019,Z. Bošnjak,V. Gorica,1,2.2,0.0
+2026-06-22,R00970,1,T06,MP Stari grad,Split,Dalmacija,P007,Spužve 3/1,Kućanstvo,K008,D. Jurić,Split,3,6.6,2.0
+2026-06-22,R00970,2,T06,MP Stari grad,Split,Dalmacija,P002,Deterdžent 2L,Kućanstvo,K008,D. Jurić,Split,1,8.5,2.0
+2026-06-22,R00971,1,T06,MP Stari grad,Split,Dalmacija,P004,Maslinovo ulje 1L,Prehrana,K001,A. Kovač,Split,3,35.7,0.0
+2026-06-22,R00972,1,T01,MP Centar,Zagreb,Središnja Hrvatska,P010,Pasta za zube 75ml,Higijena,K017,G. Filipović,Rijeka,3,8.7,0.0
+2026-06-22,R00972,2,T01,MP Centar,Zagreb,Središnja Hrvatska,P002,Deterdžent 2L,Kućanstvo,K017,G. Filipović,Rijeka,4,34.0,0.0
+2026-06-22,R00972,3,T01,MP Centar,Zagreb,Središnja Hrvatska,P008,Papirnati ručnici 2/1,Kućanstvo,K017,G. Filipović,Rijeka,2,6.8,0.0
+2026-06-22,R00973,1,T01,MP Centar,Zagreb,Središnja Hrvatska,P004,Maslinovo ulje 1L,Prehrana,K007,P. Novak,Zagreb,1,11.9,0.0
+2026-06-22,R00973,2,T01,MP Centar,Zagreb,Središnja Hrvatska,P001,Kava 500g,Prehrana,K007,P. Novak,Zagreb,3,22.5,0.0
+2026-06-22,R00974,1,T04,MP Istok,Zagreb,Središnja Hrvatska,P007,Spužve 3/1,Kućanstvo,K001,A. Kovač,Split,1,2.2,0.0
+2026-06-22,R00975,1,T02,MP Sjever,Osijek,Slavonija,P004,Maslinovo ulje 1L,Prehrana,K003,I. Šimić,Osijek,2,23.8,0.0
+2026-06-22,R00975,2,T02,MP Sjever,Osijek,Slavonija,P006,Čokolada 100g,Prehrana,K003,I. Šimić,Osijek,2,3.0,0.0
+2026-06-22,R00975,3,T02,MP Sjever,Osijek,Slavonija,P001,Kava 500g,Prehrana,K003,I. Šimić,Osijek,3,22.5,0.0
+2026-06-22,R00975,4,T02,MP Sjever,Osijek,Slavonija,P009,Šampon 400ml,Higijena,K003,I. Šimić,Osijek,4,22.4,0.0
+2026-06-22,R00976,1,T06,MP Stari grad,Split,Dalmacija,P001,Kava 500g,Prehrana,K001,A. Kovač,Split,1,7.5,0.0
+2026-06-22,R00977,1,T01,MP Centar,Zagreb,Središnja Hrvatska,P002,Deterdžent 2L,Kućanstvo,K007,P. Novak,Zagreb,4,34.0,0.0
+2026-06-22,R00977,2,T01,MP Centar,Zagreb,Središnja Hrvatska,P007,Spužve 3/1,Kućanstvo,K007,P. Novak,Zagreb,3,6.6,0.0
+2026-06-23,R00978,1,T01,MP Centar,Zagreb,Središnja Hrvatska,P009,Šampon 400ml,Higijena,K019,Z. Bošnjak,V. Gorica,4,22.4,0.0
+2026-06-23,R00978,2,T01,MP Centar,Zagreb,Središnja Hrvatska,P001,Kava 500g,Prehrana,K019,Z. Bošnjak,V. Gorica,2,15.0,0.0
+2026-06-23,R00978,3,T01,MP Centar,Zagreb,Središnja Hrvatska,P005,Tjestenina 500g,Prehrana,K019,Z. Bošnjak,V. Gorica,4,7.2,0.0
+2026-06-23,R00978,4,T01,MP Centar,Zagreb,Središnja Hrvatska,P010,Pasta za zube 75ml,Higijena,K019,Z. Bošnjak,V. Gorica,3,8.7,0.0
+2026-06-23,R00979,1,T02,MP Sjever,Osijek,Slavonija,P002,Deterdžent 2L,Kućanstvo,K009,S. Knežević,Osijek,2,17.0,0.0
+2026-06-23,R00979,2,T02,MP Sjever,Osijek,Slavonija,P006,Čokolada 100g,Prehrana,K009,S. Knežević,Osijek,1,1.5,0.0
+2026-06-23,R00979,3,T02,MP Sjever,Osijek,Slavonija,P009,Šampon 400ml,Higijena,K009,S. Knežević,Osijek,1,5.6,0.0
+2026-06-23,R00979,4,T02,MP Sjever,Osijek,Slavonija,P005,Tjestenina 500g,Prehrana,K009,S. Knežević,Osijek,3,5.4,0.0
+2026-06-23,R00980,1,T02,MP Sjever,Osijek,Slavonija,P009,Šampon 400ml,Higijena,K020,C. Grgić,Split,4,22.4,0.0
+2026-06-23,R00981,1,T02,MP Sjever,Osijek,Slavonija,P001,Kava 500g,Prehrana,K003,I. Šimić,Osijek,1,7.5,0.0
+2026-06-23,R00982,1,T01,MP Centar,Zagreb,Središnja Hrvatska,P010,Pasta za zube 75ml,Higijena,K007,P. Novak,Zagreb,3,8.7,0.0
+2026-06-23,R00982,2,T01,MP Centar,Zagreb,Središnja Hrvatska,P008,Papirnati ručnici 2/1,Kućanstvo,K007,P. Novak,Zagreb,2,6.8,0.0
+2026-06-23,R00982,3,T01,MP Centar,Zagreb,Središnja Hrvatska,P007,Spužve 3/1,Kućanstvo,K007,P. Novak,Zagreb,2,4.4,0.0
+2026-06-23,R00982,4,T01,MP Centar,Zagreb,Središnja Hrvatska,P002,Deterdžent 2L,Kućanstvo,K007,P. Novak,Zagreb,2,17.0,0.0
+2026-06-23,R00983,1,T04,MP Istok,Zagreb,Središnja Hrvatska,P002,Deterdžent 2L,Kućanstvo,K001,A. Kovač,Split,3,25.5,0.0
+2026-06-23,R00983,2,T04,MP Istok,Zagreb,Središnja Hrvatska,P001,Kava 500g,Prehrana,K001,A. Kovač,Split,1,7.5,0.0
+2026-06-23,R00984,1,T06,MP Stari grad,Split,Dalmacija,P008,Papirnati ručnici 2/1,Kućanstvo,K015,V. Pavić,Varaždin,4,13.6,0.0
+2026-06-23,R00985,1,T02,MP Sjever,Osijek,Slavonija,P005,Tjestenina 500g,Prehrana,K016,H. Lučić,Osijek,2,3.6,1.0
+2026-06-23,R00985,2,T02,MP Sjever,Osijek,Slavonija,P008,Papirnati ručnici 2/1,Kućanstvo,K016,H. Lučić,Osijek,3,10.2,1.0
+2026-06-23,R00985,3,T02,MP Sjever,Osijek,Slavonija,P007,Spužve 3/1,Kućanstvo,K016,H. Lučić,Osijek,1,2.2,1.0
+2026-06-23,R00985,4,T02,MP Sjever,Osijek,Slavonija,P001,Kava 500g,Prehrana,K016,H. Lučić,Osijek,2,15.0,1.0
+2026-06-23,R00986,1,T02,MP Sjever,Osijek,Slavonija,P009,Šampon 400ml,Higijena,K003,I. Šimić,Osijek,3,16.8,0.0
+2026-06-23,R00986,2,T02,MP Sjever,Osijek,Slavonija,P001,Kava 500g,Prehrana,K003,I. Šimić,Osijek,4,30.0,0.0
+2026-06-23,R00986,3,T02,MP Sjever,Osijek,Slavonija,P003,Sok naranča 1L,Prehrana,K003,I. Šimić,Osijek,3,9.0,0.0
+2026-06-23,R00986,4,T02,MP Sjever,Osijek,Slavonija,P005,Tjestenina 500g,Prehrana,K003,I. Šimić,Osijek,4,7.2,0.0
+2026-06-24,R00987,1,T06,MP Stari grad,Split,Dalmacija,P005,Tjestenina 500g,Prehrana,K019,Z. Bošnjak,V. Gorica,4,7.2,0.0
+2026-06-24,R00987,2,T06,MP Stari grad,Split,Dalmacija,P002,Deterdžent 2L,Kućanstvo,K019,Z. Bošnjak,V. Gorica,1,8.5,0.0
+2026-06-24,R00988,1,T02,MP Sjever,Osijek,Slavonija,P005,Tjestenina 500g,Prehrana,K012,R. Kralj,Zadar,2,3.6,0.0
+2026-06-24,R00989,1,T02,MP Sjever,Osijek,Slavonija,P002,Deterdžent 2L,Kućanstvo,K009,S. Knežević,Osijek,2,17.0,0.0
+2026-06-24,R00989,2,T02,MP Sjever,Osijek,Slavonija,P010,Pasta za zube 75ml,Higijena,K009,S. Knežević,Osijek,3,8.7,0.0
+2026-06-24,R00989,3,T02,MP Sjever,Osijek,Slavonija,P005,Tjestenina 500g,Prehrana,K009,S. Knežević,Osijek,4,7.2,0.0
+2026-06-24,R00989,4,T02,MP Sjever,Osijek,Slavonija,P006,Čokolada 100g,Prehrana,K009,S. Knežević,Osijek,2,3.0,0.0
+2026-06-24,R00990,1,T04,MP Istok,Zagreb,Središnja Hrvatska,P001,Kava 500g,Prehrana,K010,N. Vuković,Zagreb,4,30.0,0.0
+2026-06-24,R00991,1,T05,MP Riva,Rijeka,Primorje,P001,Kava 500g,Prehrana,K006,J. Marić,Rijeka,4,30.0,0.0
+2026-06-24,R00991,2,T05,MP Riva,Rijeka,Primorje,P005,Tjestenina 500g,Prehrana,K006,J. Marić,Rijeka,3,5.4,0.0
+2026-06-24,R00992,1,T04,MP Istok,Zagreb,Središnja Hrvatska,P007,Spužve 3/1,Kućanstvo,K014,B. Tomić,Zagreb,3,6.6,0.0
+2026-06-24,R00992,2,T04,MP Istok,Zagreb,Središnja Hrvatska,P010,Pasta za zube 75ml,Higijena,K014,B. Tomić,Zagreb,2,5.8,0.0
+2026-06-24,R00992,3,T04,MP Istok,Zagreb,Središnja Hrvatska,P006,Čokolada 100g,Prehrana,K014,B. Tomić,Zagreb,3,4.5,0.0
+2026-06-24,R00992,4,T04,MP Istok,Zagreb,Središnja Hrvatska,P005,Tjestenina 500g,Prehrana,K014,B. Tomić,Zagreb,2,3.6,0.0
+2026-06-24,R00993,1,T03,MP Jadran,Split,Dalmacija,P004,Maslinovo ulje 1L,Prehrana,K007,P. Novak,Zagreb,1,11.9,0.0
+2026-06-24,R00993,2,T03,MP Jadran,Split,Dalmacija,P010,Pasta za zube 75ml,Higijena,K007,P. Novak,Zagreb,4,11.6,0.0
+2026-06-24,R00993,3,T03,MP Jadran,Split,Dalmacija,P008,Papirnati ručnici 2/1,Kućanstvo,K007,P. Novak,Zagreb,1,3.4,0.0
+2026-06-24,R00993,4,T03,MP Jadran,Split,Dalmacija,P001,Kava 500g,Prehrana,K007,P. Novak,Zagreb,4,30.0,0.0
+2026-06-24,R00994,1,T06,MP Stari grad,Split,Dalmacija,P001,Kava 500g,Prehrana,K001,A. Kovač,Split,1,7.5,0.0
+2026-06-24,R00995,1,T01,MP Centar,Zagreb,Središnja Hrvatska,P002,Deterdžent 2L,Kućanstvo,K010,N. Vuković,Zagreb,3,25.5,0.0
+2026-06-24,R00995,2,T01,MP Centar,Zagreb,Središnja Hrvatska,P010,Pasta za zube 75ml,Higijena,K010,N. Vuković,Zagreb,2,5.8,0.0
+2026-06-24,R00995,3,T01,MP Centar,Zagreb,Središnja Hrvatska,P003,Sok naranča 1L,Prehrana,K010,N. Vuković,Zagreb,4,12.0,0.0
+2026-06-24,R00995,4,T01,MP Centar,Zagreb,Središnja Hrvatska,P008,Papirnati ručnici 2/1,Kućanstvo,K010,N. Vuković,Zagreb,3,10.2,0.0
+2026-06-25,R00996,1,T04,MP Istok,Zagreb,Središnja Hrvatska,P001,Kava 500g,Prehrana,K018,E. Radić,Zagreb,3,22.5,0.0
+2026-06-25,R00996,2,T04,MP Istok,Zagreb,Središnja Hrvatska,P005,Tjestenina 500g,Prehrana,K018,E. Radić,Zagreb,2,3.6,0.0
+2026-06-25,R00997,1,T06,MP Stari grad,Split,Dalmacija,P009,Šampon 400ml,Higijena,K012,R. Kralj,Zadar,3,16.8,0.0
+2026-06-25,R00997,2,T06,MP Stari grad,Split,Dalmacija,P010,Pasta za zube 75ml,Higijena,K012,R. Kralj,Zadar,4,11.6,0.0
+2026-06-25,R00997,3,T06,MP Stari grad,Split,Dalmacija,P008,Papirnati ručnici 2/1,Kućanstvo,K012,R. Kralj,Zadar,4,13.6,0.0
+2026-06-25,R00998,1,T02,MP Sjever,Osijek,Slavonija,P002,Deterdžent 2L,Kućanstvo,K016,H. Lučić,Osijek,1,8.5,0.0
+2026-06-25,R00998,2,T02,MP Sjever,Osijek,Slavonija,P009,Šampon 400ml,Higijena,K016,H. Lučić,Osijek,1,5.6,0.0
+2026-06-25,R00999,1,T05,MP Riva,Rijeka,Primorje,P008,Papirnati ručnici 2/1,Kućanstvo,K011,F. Matić,Rijeka,4,13.6,0.0
+2026-06-25,R00999,2,T05,MP Riva,Rijeka,Primorje,P004,Maslinovo ulje 1L,Prehrana,K011,F. Matić,Rijeka,4,47.6,0.0
+2026-06-25,R01000,1,T04,MP Istok,Zagreb,Središnja Hrvatska,P004,Maslinovo ulje 1L,Prehrana,K014,B. Tomić,Zagreb,2,23.8,0.0
+2026-06-25,R01000,2,T04,MP Istok,Zagreb,Središnja Hrvatska,P005,Tjestenina 500g,Prehrana,K014,B. Tomić,Zagreb,1,1.8,0.0
+2026-06-25,R01001,1,T01,MP Centar,Zagreb,Središnja Hrvatska,P010,Pasta za zube 75ml,Higijena,K018,E. Radić,Zagreb,4,11.6,0.0
+2026-06-25,R01001,2,T01,MP Centar,Zagreb,Središnja Hrvatska,P008,Papirnati ručnici 2/1,Kućanstvo,K018,E. Radić,Zagreb,2,6.8,0.0
+2026-06-25,R01001,3,T01,MP Centar,Zagreb,Središnja Hrvatska,P004,Maslinovo ulje 1L,Prehrana,K018,E. Radić,Zagreb,2,23.8,0.0
+2026-06-25,R01002,1,T02,MP Sjever,Osijek,Slavonija,P001,Kava 500g,Prehrana,K010,N. Vuković,Zagreb,1,7.5,0.0
+2026-06-25,R01002,2,T02,MP Sjever,Osijek,Slavonija,P003,Sok naranča 1L,Prehrana,K010,N. Vuković,Zagreb,1,3.0,0.0
+2026-06-25,R01002,3,T02,MP Sjever,Osijek,Slavonija,P010,Pasta za zube 75ml,Higijena,K010,N. Vuković,Zagreb,3,8.7,0.0
+2026-06-25,R01002,4,T02,MP Sjever,Osijek,Slavonija,P006,Čokolada 100g,Prehrana,K010,N. Vuković,Zagreb,2,3.0,0.0
+2026-06-25,R01003,1,T04,MP Istok,Zagreb,Središnja Hrvatska,P009,Šampon 400ml,Higijena,K020,C. Grgić,Split,3,16.8,0.0
+2026-06-25,R01004,1,T02,MP Sjever,Osijek,Slavonija,P004,Maslinovo ulje 1L,Prehrana,K016,H. Lučić,Osijek,4,47.6,0.0
+2026-06-25,R01004,2,T02,MP Sjever,Osijek,Slavonija,P005,Tjestenina 500g,Prehrana,K016,H. Lučić,Osijek,2,3.6,0.0
+2026-06-25,R01004,3,T02,MP Sjever,Osijek,Slavonija,P008,Papirnati ručnici 2/1,Kućanstvo,K016,H. Lučić,Osijek,4,13.6,0.0
+2026-06-25,R01005,1,T06,MP Stari grad,Split,Dalmacija,P004,Maslinovo ulje 1L,Prehrana,K001,A. Kovač,Split,2,23.8,0.0
+2026-06-25,R01005,2,T06,MP Stari grad,Split,Dalmacija,P002,Deterdžent 2L,Kućanstvo,K001,A. Kovač,Split,3,25.5,0.0
+2026-06-25,R01005,3,T06,MP Stari grad,Split,Dalmacija,P007,Spužve 3/1,Kućanstvo,K001,A. Kovač,Split,2,4.4,0.0
+2026-06-25,R01005,4,T06,MP Stari grad,Split,Dalmacija,P003,Sok naranča 1L,Prehrana,K001,A. Kovač,Split,1,3.0,0.0
+2026-06-26,R01006,1,T06,MP Stari grad,Split,Dalmacija,P002,Deterdžent 2L,Kućanstvo,K003,I. Šimić,Osijek,4,34.0,0.0
+2026-06-26,R01006,2,T06,MP Stari grad,Split,Dalmacija,P003,Sok naranča 1L,Prehrana,K003,I. Šimić,Osijek,2,6.0,0.0
+2026-06-26,R01006,3,T06,MP Stari grad,Split,Dalmacija,P009,Šampon 400ml,Higijena,K003,I. Šimić,Osijek,2,11.2,0.0
+2026-06-26,R01006,4,T06,MP Stari grad,Split,Dalmacija,P005,Tjestenina 500g,Prehrana,K003,I. Šimić,Osijek,2,3.6,0.0
+2026-06-26,R01007,1,T06,MP Stari grad,Split,Dalmacija,P010,Pasta za zube 75ml,Higijena,K005,L. Babić,Split,1,2.9,0.0
+2026-06-26,R01007,2,T06,MP Stari grad,Split,Dalmacija,P008,Papirnati ručnici 2/1,Kućanstvo,K005,L. Babić,Split,4,13.6,0.0
+2026-06-26,R01007,3,T06,MP Stari grad,Split,Dalmacija,P007,Spužve 3/1,Kućanstvo,K005,L. Babić,Split,2,4.4,0.0
+2026-06-26,R01007,4,T06,MP Stari grad,Split,Dalmacija,P001,Kava 500g,Prehrana,K005,L. Babić,Split,2,15.0,0.0
+2026-06-26,R01008,1,T05,MP Riva,Rijeka,Primorje,P005,Tjestenina 500g,Prehrana,K012,R. Kralj,Zadar,4,7.2,0.0
+2026-06-26,R01008,2,T05,MP Riva,Rijeka,Primorje,P001,Kava 500g,Prehrana,K012,R. Kralj,Zadar,3,22.5,0.0
+2026-06-26,R01009,1,T02,MP Sjever,Osijek,Slavonija,P004,Maslinovo ulje 1L,Prehrana,K009,S. Knežević,Osijek,1,11.9,0.0
+2026-06-26,R01010,1,T06,MP Stari grad,Split,Dalmacija,P009,Šampon 400ml,Higijena,K004,T. Horvat,Zagreb,2,11.2,0.0
+2026-06-26,R01010,2,T06,MP Stari grad,Split,Dalmacija,P007,Spužve 3/1,Kućanstvo,K004,T. Horvat,Zagreb,2,4.4,0.0
+2026-06-26,R01010,3,T06,MP Stari grad,Split,Dalmacija,P008,Papirnati ručnici 2/1,Kućanstvo,K004,T. Horvat,Zagreb,3,10.2,0.0
+2026-06-26,R01010,4,T06,MP Stari grad,Split,Dalmacija,P002,Deterdžent 2L,Kućanstvo,K004,T. Horvat,Zagreb,1,8.5,0.0
+2026-06-26,R01011,1,T02,MP Sjever,Osijek,Slavonija,P001,Kava 500g,Prehrana,K003,I. Šimić,Osijek,2,15.0,0.0
+2026-06-26,R01011,2,T02,MP Sjever,Osijek,Slavonija,P007,Spužve 3/1,Kućanstvo,K003,I. Šimić,Osijek,2,4.4,0.0
+2026-06-26,R01012,1,T05,MP Riva,Rijeka,Primorje,P010,Pasta za zube 75ml,Higijena,K017,G. Filipović,Rijeka,1,2.9,0.0
+2026-06-26,R01013,1,T02,MP Sjever,Osijek,Slavonija,P005,Tjestenina 500g,Prehrana,K016,H. Lučić,Osijek,1,1.8,0.0
+2026-06-26,R01013,2,T02,MP Sjever,Osijek,Slavonija,P006,Čokolada 100g,Prehrana,K016,H. Lučić,Osijek,1,1.5,0.0
+2026-06-26,R01013,3,T02,MP Sjever,Osijek,Slavonija,P002,Deterdžent 2L,Kućanstvo,K016,H. Lučić,Osijek,2,17.0,0.0
+2026-06-26,R01013,4,T02,MP Sjever,Osijek,Slavonija,P010,Pasta za zube 75ml,Higijena,K016,H. Lučić,Osijek,1,2.9,0.0
+2026-06-27,R01014,1,T04,MP Istok,Zagreb,Središnja Hrvatska,P003,Sok naranča 1L,Prehrana,K018,E. Radić,Zagreb,3,9.0,1.0
+2026-06-27,R01015,1,T04,MP Istok,Zagreb,Središnja Hrvatska,P007,Spužve 3/1,Kućanstvo,K011,F. Matić,Rijeka,1,2.2,0.0
+2026-06-27,R01015,2,T04,MP Istok,Zagreb,Središnja Hrvatska,P003,Sok naranča 1L,Prehrana,K011,F. Matić,Rijeka,1,3.0,0.0
+2026-06-27,R01016,1,T03,MP Jadran,Split,Dalmacija,P007,Spužve 3/1,Kućanstvo,K005,L. Babić,Split,4,8.8,0.0
+2026-06-27,R01017,1,T02,MP Sjever,Osijek,Slavonija,P007,Spužve 3/1,Kućanstvo,K003,I. Šimić,Osijek,3,6.6,0.0
+2026-06-27,R01017,2,T02,MP Sjever,Osijek,Slavonija,P001,Kava 500g,Prehrana,K003,I. Šimić,Osijek,1,7.5,0.0
+2026-06-27,R01017,3,T02,MP Sjever,Osijek,Slavonija,P005,Tjestenina 500g,Prehrana,K003,I. Šimić,Osijek,3,5.4,0.0
+2026-06-27,R01018,1,T01,MP Centar,Zagreb,Središnja Hrvatska,P009,Šampon 400ml,Higijena,K015,V. Pavić,Varaždin,2,11.2,0.0
+2026-06-27,R01018,2,T01,MP Centar,Zagreb,Središnja Hrvatska,P007,Spužve 3/1,Kućanstvo,K015,V. Pavić,Varaždin,3,6.6,0.0
+2026-06-27,R01018,3,T01,MP Centar,Zagreb,Središnja Hrvatska,P003,Sok naranča 1L,Prehrana,K015,V. Pavić,Varaždin,3,9.0,0.0
+2026-06-27,R01018,4,T01,MP Centar,Zagreb,Središnja Hrvatska,P010,Pasta za zube 75ml,Higijena,K015,V. Pavić,Varaždin,3,8.7,0.0
+2026-06-27,R01019,1,T06,MP Stari grad,Split,Dalmacija,P004,Maslinovo ulje 1L,Prehrana,K019,Z. Bošnjak,V. Gorica,2,23.8,0.0
+2026-06-27,R01019,2,T06,MP Stari grad,Split,Dalmacija,P002,Deterdžent 2L,Kućanstvo,K019,Z. Bošnjak,V. Gorica,4,34.0,0.0
+2026-06-27,R01020,1,T02,MP Sjever,Osijek,Slavonija,P006,Čokolada 100g,Prehrana,K003,I. Šimić,Osijek,2,3.0,0.0
+2026-06-28,R01021,1,T04,MP Istok,Zagreb,Središnja Hrvatska,P009,Šampon 400ml,Higijena,K019,Z. Bošnjak,V. Gorica,1,5.6,3.0
+2026-06-28,R01022,1,T04,MP Istok,Zagreb,Središnja Hrvatska,P008,Papirnati ručnici 2/1,Kućanstvo,K010,N. Vuković,Zagreb,1,3.4,1.0
+2026-06-28,R01022,2,T04,MP Istok,Zagreb,Središnja Hrvatska,P001,Kava 500g,Prehrana,K010,N. Vuković,Zagreb,1,7.5,1.0
+2026-06-28,R01022,3,T04,MP Istok,Zagreb,Središnja Hrvatska,P002,Deterdžent 2L,Kućanstvo,K010,N. Vuković,Zagreb,3,25.5,1.0
+2026-06-28,R01022,4,T04,MP Istok,Zagreb,Središnja Hrvatska,P004,Maslinovo ulje 1L,Prehrana,K010,N. Vuković,Zagreb,3,35.7,1.0
+2026-06-28,R01023,1,T05,MP Riva,Rijeka,Primorje,P003,Sok naranča 1L,Prehrana,K017,G. Filipović,Rijeka,2,6.0,0.0
+2026-06-28,R01023,2,T05,MP Riva,Rijeka,Primorje,P005,Tjestenina 500g,Prehrana,K017,G. Filipović,Rijeka,4,7.2,0.0
+2026-06-28,R01023,3,T05,MP Riva,Rijeka,Primorje,P001,Kava 500g,Prehrana,K017,G. Filipović,Rijeka,2,15.0,0.0
+2026-06-28,R01024,1,T05,MP Riva,Rijeka,Primorje,P006,Čokolada 100g,Prehrana,K011,F. Matić,Rijeka,3,4.5,0.0
+2026-06-28,R01024,2,T05,MP Riva,Rijeka,Primorje,P003,Sok naranča 1L,Prehrana,K011,F. Matić,Rijeka,4,12.0,0.0
+2026-06-28,R01025,1,T04,MP Istok,Zagreb,Središnja Hrvatska,P010,Pasta za zube 75ml,Higijena,K004,T. Horvat,Zagreb,2,5.8,2.0
+2026-06-28,R01025,2,T04,MP Istok,Zagreb,Središnja Hrvatska,P004,Maslinovo ulje 1L,Prehrana,K004,T. Horvat,Zagreb,3,35.7,2.0
+2026-06-28,R01025,3,T04,MP Istok,Zagreb,Središnja Hrvatska,P002,Deterdžent 2L,Kućanstvo,K004,T. Horvat,Zagreb,2,17.0,2.0
+2026-06-28,R01025,4,T04,MP Istok,Zagreb,Središnja Hrvatska,P005,Tjestenina 500g,Prehrana,K004,T. Horvat,Zagreb,3,5.4,2.0
+2026-06-28,R01026,1,T03,MP Jadran,Split,Dalmacija,P009,Šampon 400ml,Higijena,K008,D. Jurić,Split,3,16.8,0.0
+2026-06-28,R01026,2,T03,MP Jadran,Split,Dalmacija,P004,Maslinovo ulje 1L,Prehrana,K008,D. Jurić,Split,4,47.6,0.0
+2026-06-28,R01027,1,T02,MP Sjever,Osijek,Slavonija,P004,Maslinovo ulje 1L,Prehrana,K003,I. Šimić,Osijek,4,47.6,0.0
+2026-06-29,R01028,1,T03,MP Jadran,Split,Dalmacija,P009,Šampon 400ml,Higijena,K013,M. Šarić,Split,1,5.6,0.0
+2026-06-29,R01028,2,T03,MP Jadran,Split,Dalmacija,P001,Kava 500g,Prehrana,K013,M. Šarić,Split,2,15.0,0.0
+2026-06-29,R01028,3,T03,MP Jadran,Split,Dalmacija,P002,Deterdžent 2L,Kućanstvo,K013,M. Šarić,Split,4,34.0,0.0
+2026-06-29,R01029,1,T02,MP Sjever,Osijek,Slavonija,P003,Sok naranča 1L,Prehrana,K003,I. Šimić,Osijek,4,12.0,0.0
+2026-06-29,R01029,2,T02,MP Sjever,Osijek,Slavonija,P004,Maslinovo ulje 1L,Prehrana,K003,I. Šimić,Osijek,4,47.6,0.0
+2026-06-29,R01029,3,T02,MP Sjever,Osijek,Slavonija,P001,Kava 500g,Prehrana,K003,I. Šimić,Osijek,2,15.0,0.0
+2026-06-29,R01030,1,T01,MP Centar,Zagreb,Središnja Hrvatska,P005,Tjestenina 500g,Prehrana,K015,V. Pavić,Varaždin,1,1.8,1.0
+2026-06-29,R01030,2,T01,MP Centar,Zagreb,Središnja Hrvatska,P004,Maslinovo ulje 1L,Prehrana,K015,V. Pavić,Varaždin,4,47.6,1.0
+2026-06-29,R01031,1,T03,MP Jadran,Split,Dalmacija,P008,Papirnati ručnici 2/1,Kućanstvo,K001,A. Kovač,Split,1,3.4,0.0
+2026-06-29,R01031,2,T03,MP Jadran,Split,Dalmacija,P004,Maslinovo ulje 1L,Prehrana,K001,A. Kovač,Split,4,47.6,0.0
+2026-06-29,R01031,3,T03,MP Jadran,Split,Dalmacija,P007,Spužve 3/1,Kućanstvo,K001,A. Kovač,Split,1,2.2,0.0
+2026-06-29,R01032,1,T04,MP Istok,Zagreb,Središnja Hrvatska,P007,Spužve 3/1,Kućanstvo,K002,M. Perić,V. Gorica,4,8.8,0.0
+2026-06-29,R01032,2,T04,MP Istok,Zagreb,Središnja Hrvatska,P002,Deterdžent 2L,Kućanstvo,K002,M. Perić,V. Gorica,4,34.0,0.0
+2026-06-29,R01033,1,T03,MP Jadran,Split,Dalmacija,P007,Spužve 3/1,Kućanstvo,K013,M. Šarić,Split,2,4.4,0.0
+2026-06-29,R01034,1,T05,MP Riva,Rijeka,Primorje,P006,Čokolada 100g,Prehrana,K015,V. Pavić,Varaždin,3,4.5,0.0
+2026-06-29,R01034,2,T05,MP Riva,Rijeka,Primorje,P005,Tjestenina 500g,Prehrana,K015,V. Pavić,Varaždin,2,3.6,0.0
+2026-06-29,R01034,3,T05,MP Riva,Rijeka,Primorje,P001,Kava 500g,Prehrana,K015,V. Pavić,Varaždin,4,30.0,0.0
+2026-06-29,R01034,4,T05,MP Riva,Rijeka,Primorje,P009,Šampon 400ml,Higijena,K015,V. Pavić,Varaždin,1,5.6,0.0
+2026-06-30,R01035,1,T04,MP Istok,Zagreb,Središnja Hrvatska,P009,Šampon 400ml,Higijena,K014,B. Tomić,Zagreb,1,5.6,1.0
+2026-06-30,R01036,1,T02,MP Sjever,Osijek,Slavonija,P001,Kava 500g,Prehrana,K009,S. Knežević,Osijek,3,22.5,0.0
+2026-06-30,R01036,2,T02,MP Sjever,Osijek,Slavonija,P006,Čokolada 100g,Prehrana,K009,S. Knežević,Osijek,1,1.5,0.0
+2026-06-30,R01036,3,T02,MP Sjever,Osijek,Slavonija,P005,Tjestenina 500g,Prehrana,K009,S. Knežević,Osijek,2,3.6,0.0
+2026-06-30,R01037,1,T03,MP Jadran,Split,Dalmacija,P006,Čokolada 100g,Prehrana,K001,A. Kovač,Split,4,6.0,0.0
+2026-06-30,R01037,2,T03,MP Jadran,Split,Dalmacija,P001,Kava 500g,Prehrana,K001,A. Kovač,Split,2,15.0,0.0
+2026-06-30,R01038,1,T03,MP Jadran,Split,Dalmacija,P006,Čokolada 100g,Prehrana,K001,A. Kovač,Split,3,4.5,0.0
+2026-06-30,R01039,1,T03,MP Jadran,Split,Dalmacija,P009,Šampon 400ml,Higijena,K001,A. Kovač,Split,2,11.2,0.0
+2026-06-30,R01039,2,T03,MP Jadran,Split,Dalmacija,P007,Spužve 3/1,Kućanstvo,K001,A. Kovač,Split,3,6.6,0.0
+2026-06-30,R01039,3,T03,MP Jadran,Split,Dalmacija,P004,Maslinovo ulje 1L,Prehrana,K001,A. Kovač,Split,2,23.8,0.0
+2026-06-30,R01039,4,T03,MP Jadran,Split,Dalmacija,P001,Kava 500g,Prehrana,K001,A. Kovač,Split,3,22.5,0.0
+2026-06-30,R01040,1,T03,MP Jadran,Split,Dalmacija,P008,Papirnati ručnici 2/1,Kućanstvo,K020,C. Grgić,Split,3,10.2,0.0
+2026-06-30,R01040,2,T03,MP Jadran,Split,Dalmacija,P007,Spužve 3/1,Kućanstvo,K020,C. Grgić,Split,4,8.8,0.0
+2026-06-30,R01041,1,T04,MP Istok,Zagreb,Središnja Hrvatska,P005,Tjestenina 500g,Prehrana,K001,A. Kovač,Split,4,7.2,0.0
+2026-06-30,R01041,2,T04,MP Istok,Zagreb,Središnja Hrvatska,P003,Sok naranča 1L,Prehrana,K001,A. Kovač,Split,1,3.0,0.0
+2026-06-30,R01042,1,T05,MP Riva,Rijeka,Primorje,P010,Pasta za zube 75ml,Higijena,K005,L. Babić,Split,2,5.8,0.0
+2026-06-30,R01042,2,T05,MP Riva,Rijeka,Primorje,P006,Čokolada 100g,Prehrana,K005,L. Babić,Split,2,3.0,0.0
+2026-06-30,R01043,1,T05,MP Riva,Rijeka,Primorje,P004,Maslinovo ulje 1L,Prehrana,K012,R. Kralj,Zadar,4,47.6,0.0
+2026-06-30,R01043,2,T05,MP Riva,Rijeka,Primorje,P009,Šampon 400ml,Higijena,K012,R. Kralj,Zadar,3,16.8,0.0
+2026-06-30,R01044,1,T02,MP Sjever,Osijek,Slavonija,P005,Tjestenina 500g,Prehrana,K003,I. Šimić,Osijek,2,3.6,0.0
+2026-06-30,R01044,2,T02,MP Sjever,Osijek,Slavonija,P008,Papirnati ručnici 2/1,Kućanstvo,K003,I. Šimić,Osijek,2,6.8,0.0
+2026-07-01,R01045,1,T03,MP Jadran,Split,Dalmacija,P010,Pasta za zube 75ml,Higijena,K001,A. Kovač,Split,4,11.6,0.0
+2026-07-01,R01045,2,T03,MP Jadran,Split,Dalmacija,P007,Spužve 3/1,Kućanstvo,K001,A. Kovač,Split,1,2.2,0.0
+2026-07-01,R01045,3,T03,MP Jadran,Split,Dalmacija,P001,Kava 500g,Prehrana,K001,A. Kovač,Split,4,30.0,0.0
+2026-07-01,R01045,4,T03,MP Jadran,Split,Dalmacija,P002,Deterdžent 2L,Kućanstvo,K001,A. Kovač,Split,1,8.5,0.0
+2026-07-01,R01046,1,T03,MP Jadran,Split,Dalmacija,P006,Čokolada 100g,Prehrana,K001,A. Kovač,Split,4,6.0,1.0
+2026-07-01,R01046,2,T03,MP Jadran,Split,Dalmacija,P010,Pasta za zube 75ml,Higijena,K001,A. Kovač,Split,2,5.8,1.0
+2026-07-01,R01046,3,T03,MP Jadran,Split,Dalmacija,P008,Papirnati ručnici 2/1,Kućanstvo,K001,A. Kovač,Split,2,6.8,1.0
+2026-07-01,R01047,1,T04,MP Istok,Zagreb,Središnja Hrvatska,P009,Šampon 400ml,Higijena,K007,P. Novak,Zagreb,1,5.6,2.0
+2026-07-01,R01048,1,T02,MP Sjever,Osijek,Slavonija,P004,Maslinovo ulje 1L,Prehrana,K003,I. Šimić,Osijek,3,35.7,3.0
+2026-07-01,R01048,2,T02,MP Sjever,Osijek,Slavonija,P007,Spužve 3/1,Kućanstvo,K003,I. Šimić,Osijek,2,4.4,3.0
+2026-07-01,R01048,3,T02,MP Sjever,Osijek,Slavonija,P005,Tjestenina 500g,Prehrana,K003,I. Šimić,Osijek,2,3.6,3.0
+2026-07-01,R01048,4,T02,MP Sjever,Osijek,Slavonija,P010,Pasta za zube 75ml,Higijena,K003,I. Šimić,Osijek,3,8.7,3.0
+2026-07-01,R01049,1,T06,MP Stari grad,Split,Dalmacija,P004,Maslinovo ulje 1L,Prehrana,K002,M. Perić,V. Gorica,4,47.6,0.0
+2026-07-01,R01050,1,T02,MP Sjever,Osijek,Slavonija,P007,Spužve 3/1,Kućanstvo,K016,H. Lučić,Osijek,4,8.8,0.0
+2026-07-01,R01050,2,T02,MP Sjever,Osijek,Slavonija,P001,Kava 500g,Prehrana,K016,H. Lučić,Osijek,4,30.0,0.0
+2026-07-01,R01050,3,T02,MP Sjever,Osijek,Slavonija,P006,Čokolada 100g,Prehrana,K016,H. Lučić,Osijek,4,6.0,0.0
+2026-07-01,R01051,1,T05,MP Riva,Rijeka,Primorje,P008,Papirnati ručnici 2/1,Kućanstvo,K006,J. Marić,Rijeka,2,6.8,2.0
+2026-07-01,R01052,1,T06,MP Stari grad,Split,Dalmacija,P001,Kava 500g,Prehrana,K001,A. Kovač,Split,1,7.5,2.0
+2026-07-01,R01053,1,T05,MP Riva,Rijeka,Primorje,P002,Deterdžent 2L,Kućanstvo,K017,G. Filipović,Rijeka,2,17.0,0.0
+2026-07-02,R01054,1,T05,MP Riva,Rijeka,Primorje,P010,Pasta za zube 75ml,Higijena,K001,A. Kovač,Split,1,2.9,0.0
+2026-07-02,R01055,1,T02,MP Sjever,Osijek,Slavonija,P002,Deterdžent 2L,Kućanstvo,K019,Z. Bošnjak,V. Gorica,2,17.0,0.0
+2026-07-02,R01055,2,T02,MP Sjever,Osijek,Slavonija,P004,Maslinovo ulje 1L,Prehrana,K019,Z. Bošnjak,V. Gorica,2,23.8,0.0
+2026-07-02,R01056,1,T04,MP Istok,Zagreb,Središnja Hrvatska,P006,Čokolada 100g,Prehrana,K014,B. Tomić,Zagreb,4,6.0,0.0
+2026-07-02,R01057,1,T02,MP Sjever,Osijek,Slavonija,P002,Deterdžent 2L,Kućanstvo,K016,H. Lučić,Osijek,3,25.5,0.0
+2026-07-02,R01057,2,T02,MP Sjever,Osijek,Slavonija,P004,Maslinovo ulje 1L,Prehrana,K016,H. Lučić,Osijek,3,35.7,0.0
+2026-07-02,R01057,3,T02,MP Sjever,Osijek,Slavonija,P006,Čokolada 100g,Prehrana,K016,H. Lučić,Osijek,3,4.5,0.0
+2026-07-02,R01057,4,T02,MP Sjever,Osijek,Slavonija,P008,Papirnati ručnici 2/1,Kućanstvo,K016,H. Lučić,Osijek,4,13.6,0.0
+2026-07-02,R01058,1,T02,MP Sjever,Osijek,Slavonija,P004,Maslinovo ulje 1L,Prehrana,K009,S. Knežević,Osijek,3,35.7,0.0
+2026-07-02,R01058,2,T02,MP Sjever,Osijek,Slavonija,P008,Papirnati ručnici 2/1,Kućanstvo,K009,S. Knežević,Osijek,1,3.4,0.0
+2026-07-02,R01058,3,T02,MP Sjever,Osijek,Slavonija,P010,Pasta za zube 75ml,Higijena,K009,S. Knežević,Osijek,2,5.8,0.0
+2026-07-02,R01059,1,T02,MP Sjever,Osijek,Slavonija,P003,Sok naranča 1L,Prehrana,K003,I. Šimić,Osijek,1,3.0,0.0
+2026-07-02,R01059,2,T02,MP Sjever,Osijek,Slavonija,P002,Deterdžent 2L,Kućanstvo,K003,I. Šimić,Osijek,4,34.0,0.0
+2026-07-02,R01060,1,T03,MP Jadran,Split,Dalmacija,P008,Papirnati ručnici 2/1,Kućanstvo,K005,L. Babić,Split,1,3.4,0.0
+2026-07-02,R01060,2,T03,MP Jadran,Split,Dalmacija,P005,Tjestenina 500g,Prehrana,K005,L. Babić,Split,1,1.8,0.0
+2026-07-02,R01060,3,T03,MP Jadran,Split,Dalmacija,P006,Čokolada 100g,Prehrana,K005,L. Babić,Split,1,1.5,0.0
+2026-07-02,R01060,4,T03,MP Jadran,Split,Dalmacija,P009,Šampon 400ml,Higijena,K005,L. Babić,Split,3,16.8,0.0
+2026-07-02,R01061,1,T04,MP Istok,Zagreb,Središnja Hrvatska,P010,Pasta za zube 75ml,Higijena,K004,T. Horvat,Zagreb,2,5.8,0.0
+2026-07-02,R01061,2,T04,MP Istok,Zagreb,Središnja Hrvatska,P002,Deterdžent 2L,Kućanstvo,K004,T. Horvat,Zagreb,3,25.5,0.0
+2026-07-03,R01062,1,T04,MP Istok,Zagreb,Središnja Hrvatska,P009,Šampon 400ml,Higijena,K014,B. Tomić,Zagreb,2,11.2,0.0
+2026-07-03,R01062,2,T04,MP Istok,Zagreb,Središnja Hrvatska,P002,Deterdžent 2L,Kućanstvo,K014,B. Tomić,Zagreb,1,8.5,0.0
+2026-07-03,R01062,3,T04,MP Istok,Zagreb,Središnja Hrvatska,P006,Čokolada 100g,Prehrana,K014,B. Tomić,Zagreb,1,1.5,0.0
+2026-07-03,R01063,1,T04,MP Istok,Zagreb,Središnja Hrvatska,P002,Deterdžent 2L,Kućanstvo,K018,E. Radić,Zagreb,3,25.5,0.0
+2026-07-03,R01063,2,T04,MP Istok,Zagreb,Središnja Hrvatska,P006,Čokolada 100g,Prehrana,K018,E. Radić,Zagreb,2,3.0,0.0
+2026-07-03,R01063,3,T04,MP Istok,Zagreb,Središnja Hrvatska,P009,Šampon 400ml,Higijena,K018,E. Radić,Zagreb,2,11.2,0.0
+2026-07-03,R01063,4,T04,MP Istok,Zagreb,Središnja Hrvatska,P010,Pasta za zube 75ml,Higijena,K018,E. Radić,Zagreb,1,2.9,0.0
+2026-07-03,R01064,1,T02,MP Sjever,Osijek,Slavonija,P007,Spužve 3/1,Kućanstvo,K002,M. Perić,V. Gorica,1,2.2,0.0
+2026-07-03,R01065,1,T01,MP Centar,Zagreb,Središnja Hrvatska,P001,Kava 500g,Prehrana,K018,E. Radić,Zagreb,1,7.5,0.0
+2026-07-03,R01065,2,T01,MP Centar,Zagreb,Središnja Hrvatska,P010,Pasta za zube 75ml,Higijena,K018,E. Radić,Zagreb,4,11.6,0.0
+2026-07-03,R01065,3,T01,MP Centar,Zagreb,Središnja Hrvatska,P005,Tjestenina 500g,Prehrana,K018,E. Radić,Zagreb,4,7.2,0.0
+2026-07-03,R01065,4,T01,MP Centar,Zagreb,Središnja Hrvatska,P003,Sok naranča 1L,Prehrana,K018,E. Radić,Zagreb,4,12.0,0.0
+2026-07-03,R01066,1,T03,MP Jadran,Split,Dalmacija,P010,Pasta za zube 75ml,Higijena,K012,R. Kralj,Zadar,2,5.8,0.0
+2026-07-03,R01066,2,T03,MP Jadran,Split,Dalmacija,P007,Spužve 3/1,Kućanstvo,K012,R. Kralj,Zadar,1,2.2,0.0
+2026-07-03,R01067,1,T02,MP Sjever,Osijek,Slavonija,P003,Sok naranča 1L,Prehrana,K003,I. Šimić,Osijek,2,6.0,0.0
+2026-07-03,R01067,2,T02,MP Sjever,Osijek,Slavonija,P010,Pasta za zube 75ml,Higijena,K003,I. Šimić,Osijek,1,2.9,0.0
+2026-07-03,R01067,3,T02,MP Sjever,Osijek,Slavonija,P008,Papirnati ručnici 2/1,Kućanstvo,K003,I. Šimić,Osijek,1,3.4,0.0
+2026-07-03,R01068,1,T02,MP Sjever,Osijek,Slavonija,P004,Maslinovo ulje 1L,Prehrana,K003,I. Šimić,Osijek,4,47.6,0.0
+2026-07-03,R01069,1,T02,MP Sjever,Osijek,Slavonija,P007,Spužve 3/1,Kućanstvo,K016,H. Lučić,Osijek,2,4.4,3.0
+2026-07-03,R01069,2,T02,MP Sjever,Osijek,Slavonija,P006,Čokolada 100g,Prehrana,K016,H. Lučić,Osijek,4,6.0,3.0
+2026-07-03,R01069,3,T02,MP Sjever,Osijek,Slavonija,P008,Papirnati ručnici 2/1,Kućanstvo,K016,H. Lučić,Osijek,1,3.4,3.0
+2026-07-03,R01069,4,T02,MP Sjever,Osijek,Slavonija,P001,Kava 500g,Prehrana,K016,H. Lučić,Osijek,2,15.0,3.0
+2026-07-03,R01070,1,T03,MP Jadran,Split,Dalmacija,P005,Tjestenina 500g,Prehrana,K013,M. Šarić,Split,1,1.8,0.0
+2026-07-04,R01071,1,T04,MP Istok,Zagreb,Središnja Hrvatska,P010,Pasta za zube 75ml,Higijena,K018,E. Radić,Zagreb,4,11.6,0.0
+2026-07-04,R01072,1,T05,MP Riva,Rijeka,Primorje,P001,Kava 500g,Prehrana,K003,I. Šimić,Osijek,4,30.0,0.0
+2026-07-04,R01072,2,T05,MP Riva,Rijeka,Primorje,P006,Čokolada 100g,Prehrana,K003,I. Šimić,Osijek,1,1.5,0.0
+2026-07-04,R01073,1,T06,MP Stari grad,Split,Dalmacija,P003,Sok naranča 1L,Prehrana,K005,L. Babić,Split,1,3.0,0.0
+2026-07-04,R01074,1,T01,MP Centar,Zagreb,Središnja Hrvatska,P002,Deterdžent 2L,Kućanstvo,K018,E. Radić,Zagreb,1,8.5,0.0
+2026-07-04,R01074,2,T01,MP Centar,Zagreb,Središnja Hrvatska,P008,Papirnati ručnici 2/1,Kućanstvo,K018,E. Radić,Zagreb,3,10.2,0.0
+2026-07-04,R01074,3,T01,MP Centar,Zagreb,Središnja Hrvatska,P010,Pasta za zube 75ml,Higijena,K018,E. Radić,Zagreb,2,5.8,0.0
+2026-07-04,R01075,1,T03,MP Jadran,Split,Dalmacija,P008,Papirnati ručnici 2/1,Kućanstvo,K013,M. Šarić,Split,1,3.4,0.0
+2026-07-04,R01076,1,T01,MP Centar,Zagreb,Središnja Hrvatska,P007,Spužve 3/1,Kućanstvo,K014,B. Tomić,Zagreb,1,2.2,0.0
+2026-07-04,R01076,2,T01,MP Centar,Zagreb,Središnja Hrvatska,P006,Čokolada 100g,Prehrana,K014,B. Tomić,Zagreb,3,4.5,0.0
+2026-07-04,R01076,3,T01,MP Centar,Zagreb,Središnja Hrvatska,P001,Kava 500g,Prehrana,K014,B. Tomić,Zagreb,4,30.0,0.0
+2026-07-04,R01076,4,T01,MP Centar,Zagreb,Središnja Hrvatska,P003,Sok naranča 1L,Prehrana,K014,B. Tomić,Zagreb,3,9.0,0.0
+2026-07-04,R01077,1,T01,MP Centar,Zagreb,Središnja Hrvatska,P001,Kava 500g,Prehrana,K007,P. Novak,Zagreb,2,15.0,0.0
+2026-07-04,R01077,2,T01,MP Centar,Zagreb,Središnja Hrvatska,P005,Tjestenina 500g,Prehrana,K007,P. Novak,Zagreb,4,7.2,0.0
+2026-07-04,R01077,3,T01,MP Centar,Zagreb,Središnja Hrvatska,P007,Spužve 3/1,Kućanstvo,K007,P. Novak,Zagreb,3,6.6,0.0
+2026-07-05,R01078,1,T04,MP Istok,Zagreb,Središnja Hrvatska,P008,Papirnati ručnici 2/1,Kućanstvo,K015,V. Pavić,Varaždin,4,13.6,0.0
+2026-07-05,R01078,2,T04,MP Istok,Zagreb,Središnja Hrvatska,P010,Pasta za zube 75ml,Higijena,K015,V. Pavić,Varaždin,3,8.7,0.0
+2026-07-05,R01078,3,T04,MP Istok,Zagreb,Središnja Hrvatska,P009,Šampon 400ml,Higijena,K015,V. Pavić,Varaždin,3,16.8,0.0
+2026-07-05,R01078,4,T04,MP Istok,Zagreb,Središnja Hrvatska,P002,Deterdžent 2L,Kućanstvo,K015,V. Pavić,Varaždin,2,17.0,0.0
+2026-07-05,R01079,1,T05,MP Riva,Rijeka,Primorje,P010,Pasta za zube 75ml,Higijena,K017,G. Filipović,Rijeka,1,2.9,0.0
+2026-07-05,R01080,1,T06,MP Stari grad,Split,Dalmacija,P006,Čokolada 100g,Prehrana,K001,A. Kovač,Split,4,6.0,0.0
+2026-07-05,R01080,2,T06,MP Stari grad,Split,Dalmacija,P003,Sok naranča 1L,Prehrana,K001,A. Kovač,Split,4,12.0,0.0
+2026-07-05,R01080,3,T06,MP Stari grad,Split,Dalmacija,P010,Pasta za zube 75ml,Higijena,K001,A. Kovač,Split,4,11.6,0.0
+2026-07-05,R01081,1,T02,MP Sjever,Osijek,Slavonija,P009,Šampon 400ml,Higijena,K003,I. Šimić,Osijek,1,5.6,0.0
+2026-07-05,R01081,2,T02,MP Sjever,Osijek,Slavonija,P004,Maslinovo ulje 1L,Prehrana,K003,I. Šimić,Osijek,4,47.6,0.0
+2026-07-05,R01081,3,T02,MP Sjever,Osijek,Slavonija,P006,Čokolada 100g,Prehrana,K003,I. Šimić,Osijek,2,3.0,0.0
+2026-07-05,R01082,1,T05,MP Riva,Rijeka,Primorje,P006,Čokolada 100g,Prehrana,K006,J. Marić,Rijeka,3,4.5,0.0
+2026-07-05,R01082,2,T05,MP Riva,Rijeka,Primorje,P005,Tjestenina 500g,Prehrana,K006,J. Marić,Rijeka,1,1.8,0.0
+2026-07-05,R01082,3,T05,MP Riva,Rijeka,Primorje,P007,Spužve 3/1,Kućanstvo,K006,J. Marić,Rijeka,4,8.8,0.0
+2026-07-05,R01082,4,T05,MP Riva,Rijeka,Primorje,P002,Deterdžent 2L,Kućanstvo,K006,J. Marić,Rijeka,3,25.5,0.0
+2026-07-05,R01083,1,T02,MP Sjever,Osijek,Slavonija,P007,Spužve 3/1,Kućanstvo,K009,S. Knežević,Osijek,4,8.8,0.0
+2026-07-05,R01084,1,T02,MP Sjever,Osijek,Slavonija,P004,Maslinovo ulje 1L,Prehrana,K016,H. Lučić,Osijek,3,35.7,0.0
+2026-07-05,R01084,2,T02,MP Sjever,Osijek,Slavonija,P001,Kava 500g,Prehrana,K016,H. Lučić,Osijek,4,30.0,0.0
+2026-07-05,R01085,1,T04,MP Istok,Zagreb,Središnja Hrvatska,P006,Čokolada 100g,Prehrana,K010,N. Vuković,Zagreb,2,3.0,0.0
+2026-07-05,R01085,2,T04,MP Istok,Zagreb,Središnja Hrvatska,P003,Sok naranča 1L,Prehrana,K010,N. Vuković,Zagreb,2,6.0,0.0
+2026-07-05,R01086,1,T03,MP Jadran,Split,Dalmacija,P010,Pasta za zube 75ml,Higijena,K017,G. Filipović,Rijeka,1,2.9,0.0
+2026-07-05,R01087,1,T02,MP Sjever,Osijek,Slavonija,P008,Papirnati ručnici 2/1,Kućanstvo,K003,I. Šimić,Osijek,3,10.2,3.0
+2026-07-06,R01088,1,T03,MP Jadran,Split,Dalmacija,P005,Tjestenina 500g,Prehrana,K019,Z. Bošnjak,V. Gorica,4,7.2,0.0
+2026-07-06,R01088,2,T03,MP Jadran,Split,Dalmacija,P010,Pasta za zube 75ml,Higijena,K019,Z. Bošnjak,V. Gorica,1,2.9,0.0
+2026-07-06,R01089,1,T02,MP Sjever,Osijek,Slavonija,P003,Sok naranča 1L,Prehrana,K016,H. Lučić,Osijek,2,6.0,0.0
+2026-07-06,R01089,2,T02,MP Sjever,Osijek,Slavonija,P005,Tjestenina 500g,Prehrana,K016,H. Lučić,Osijek,4,7.2,0.0
+2026-07-06,R01089,3,T02,MP Sjever,Osijek,Slavonija,P004,Maslinovo ulje 1L,Prehrana,K016,H. Lučić,Osijek,3,35.7,0.0
+2026-07-06,R01089,4,T02,MP Sjever,Osijek,Slavonija,P008,Papirnati ručnici 2/1,Kućanstvo,K016,H. Lučić,Osijek,4,13.6,0.0
+2026-07-06,R01090,1,T03,MP Jadran,Split,Dalmacija,P009,Šampon 400ml,Higijena,K020,C. Grgić,Split,3,16.8,0.0
+2026-07-06,R01090,2,T03,MP Jadran,Split,Dalmacija,P010,Pasta za zube 75ml,Higijena,K020,C. Grgić,Split,2,5.8,0.0
+2026-07-06,R01091,1,T06,MP Stari grad,Split,Dalmacija,P006,Čokolada 100g,Prehrana,K017,G. Filipović,Rijeka,3,4.5,0.0
+2026-07-06,R01091,2,T06,MP Stari grad,Split,Dalmacija,P009,Šampon 400ml,Higijena,K017,G. Filipović,Rijeka,4,22.4,0.0
+2026-07-06,R01091,3,T06,MP Stari grad,Split,Dalmacija,P007,Spužve 3/1,Kućanstvo,K017,G. Filipović,Rijeka,1,2.2,0.0
+2026-07-06,R01091,4,T06,MP Stari grad,Split,Dalmacija,P002,Deterdžent 2L,Kućanstvo,K017,G. Filipović,Rijeka,2,17.0,0.0
+2026-07-06,R01092,1,T06,MP Stari grad,Split,Dalmacija,P007,Spužve 3/1,Kućanstvo,K004,T. Horvat,Zagreb,2,4.4,0.0
+2026-07-06,R01092,2,T06,MP Stari grad,Split,Dalmacija,P006,Čokolada 100g,Prehrana,K004,T. Horvat,Zagreb,2,3.0,0.0
+2026-07-06,R01092,3,T06,MP Stari grad,Split,Dalmacija,P009,Šampon 400ml,Higijena,K004,T. Horvat,Zagreb,3,16.8,0.0
+2026-07-06,R01092,4,T06,MP Stari grad,Split,Dalmacija,P010,Pasta za zube 75ml,Higijena,K004,T. Horvat,Zagreb,4,11.6,0.0
+2026-07-06,R01093,1,T01,MP Centar,Zagreb,Središnja Hrvatska,P001,Kava 500g,Prehrana,K014,B. Tomić,Zagreb,3,22.5,0.0
+2026-07-06,R01093,2,T01,MP Centar,Zagreb,Središnja Hrvatska,P007,Spužve 3/1,Kućanstvo,K014,B. Tomić,Zagreb,4,8.8,0.0
+2026-07-06,R01093,3,T01,MP Centar,Zagreb,Središnja Hrvatska,P006,Čokolada 100g,Prehrana,K014,B. Tomić,Zagreb,1,1.5,0.0
+2026-07-06,R01094,1,T05,MP Riva,Rijeka,Primorje,P005,Tjestenina 500g,Prehrana,K011,F. Matić,Rijeka,3,5.4,0.0
+2026-07-06,R01094,2,T05,MP Riva,Rijeka,Primorje,P006,Čokolada 100g,Prehrana,K011,F. Matić,Rijeka,2,3.0,0.0
+2026-07-06,R01094,3,T05,MP Riva,Rijeka,Primorje,P002,Deterdžent 2L,Kućanstvo,K011,F. Matić,Rijeka,2,17.0,0.0
+2026-07-06,R01094,4,T05,MP Riva,Rijeka,Primorje,P003,Sok naranča 1L,Prehrana,K011,F. Matić,Rijeka,4,12.0,0.0
+2026-07-07,R01095,1,T02,MP Sjever,Osijek,Slavonija,P008,Papirnati ručnici 2/1,Kućanstvo,K009,S. Knežević,Osijek,1,3.4,0.0
+2026-07-07,R01096,1,T04,MP Istok,Zagreb,Središnja Hrvatska,P010,Pasta za zube 75ml,Higijena,K007,P. Novak,Zagreb,1,2.9,0.0
+2026-07-07,R01097,1,T04,MP Istok,Zagreb,Središnja Hrvatska,P003,Sok naranča 1L,Prehrana,K010,N. Vuković,Zagreb,2,6.0,0.0
+2026-07-07,R01097,2,T04,MP Istok,Zagreb,Središnja Hrvatska,P009,Šampon 400ml,Higijena,K010,N. Vuković,Zagreb,4,22.4,0.0
+2026-07-07,R01097,3,T04,MP Istok,Zagreb,Središnja Hrvatska,P005,Tjestenina 500g,Prehrana,K010,N. Vuković,Zagreb,3,5.4,0.0
+2026-07-07,R01098,1,T02,MP Sjever,Osijek,Slavonija,P010,Pasta za zube 75ml,Higijena,K016,H. Lučić,Osijek,1,2.9,0.0
+2026-07-07,R01099,1,T01,MP Centar,Zagreb,Središnja Hrvatska,P005,Tjestenina 500g,Prehrana,K004,T. Horvat,Zagreb,1,1.8,0.0
+2026-07-07,R01100,1,T06,MP Stari grad,Split,Dalmacija,P004,Maslinovo ulje 1L,Prehrana,K003,I. Šimić,Osijek,1,11.9,0.0
+2026-07-07,R01100,2,T06,MP Stari grad,Split,Dalmacija,P002,Deterdžent 2L,Kućanstvo,K003,I. Šimić,Osijek,3,25.5,0.0
+2026-07-07,R01100,3,T06,MP Stari grad,Split,Dalmacija,P006,Čokolada 100g,Prehrana,K003,I. Šimić,Osijek,3,4.5,0.0
+2026-07-07,R01101,1,T04,MP Istok,Zagreb,Središnja Hrvatska,P009,Šampon 400ml,Higijena,K018,E. Radić,Zagreb,2,11.2,3.0
+2026-07-07,R01102,1,T02,MP Sjever,Osijek,Slavonija,P010,Pasta za zube 75ml,Higijena,K003,I. Šimić,Osijek,3,8.7,0.0
+2026-07-07,R01102,2,T02,MP Sjever,Osijek,Slavonija,P004,Maslinovo ulje 1L,Prehrana,K003,I. Šimić,Osijek,4,47.6,0.0
+2026-07-07,R01102,3,T02,MP Sjever,Osijek,Slavonija,P002,Deterdžent 2L,Kućanstvo,K003,I. Šimić,Osijek,1,8.5,0.0
+2026-07-07,R01103,1,T04,MP Istok,Zagreb,Središnja Hrvatska,P005,Tjestenina 500g,Prehrana,K004,T. Horvat,Zagreb,4,7.2,0.0
+2026-07-07,R01103,2,T04,MP Istok,Zagreb,Središnja Hrvatska,P010,Pasta za zube 75ml,Higijena,K004,T. Horvat,Zagreb,4,11.6,0.0
+2026-07-07,R01103,3,T04,MP Istok,Zagreb,Središnja Hrvatska,P007,Spužve 3/1,Kućanstvo,K004,T. Horvat,Zagreb,3,6.6,0.0
+2026-07-08,R01104,1,T06,MP Stari grad,Split,Dalmacija,P004,Maslinovo ulje 1L,Prehrana,K001,A. Kovač,Split,2,23.8,0.0
+2026-07-08,R01104,2,T06,MP Stari grad,Split,Dalmacija,P009,Šampon 400ml,Higijena,K001,A. Kovač,Split,3,16.8,0.0
+2026-07-08,R01105,1,T03,MP Jadran,Split,Dalmacija,P007,Spužve 3/1,Kućanstvo,K005,L. Babić,Split,2,4.4,2.0
+2026-07-08,R01105,2,T03,MP Jadran,Split,Dalmacija,P006,Čokolada 100g,Prehrana,K005,L. Babić,Split,4,6.0,2.0
+2026-07-08,R01106,1,T06,MP Stari grad,Split,Dalmacija,P001,Kava 500g,Prehrana,K013,M. Šarić,Split,2,15.0,1.0
+2026-07-08,R01106,2,T06,MP Stari grad,Split,Dalmacija,P002,Deterdžent 2L,Kućanstvo,K013,M. Šarić,Split,4,34.0,1.0
+2026-07-08,R01106,3,T06,MP Stari grad,Split,Dalmacija,P004,Maslinovo ulje 1L,Prehrana,K013,M. Šarić,Split,2,23.8,1.0
+2026-07-08,R01107,1,T02,MP Sjever,Osijek,Slavonija,P006,Čokolada 100g,Prehrana,K003,I. Šimić,Osijek,2,3.0,0.0
+2026-07-08,R01107,2,T02,MP Sjever,Osijek,Slavonija,P007,Spužve 3/1,Kućanstvo,K003,I. Šimić,Osijek,1,2.2,0.0
+2026-07-08,R01107,3,T02,MP Sjever,Osijek,Slavonija,P005,Tjestenina 500g,Prehrana,K003,I. Šimić,Osijek,3,5.4,0.0
+2026-07-08,R01107,4,T02,MP Sjever,Osijek,Slavonija,P003,Sok naranča 1L,Prehrana,K003,I. Šimić,Osijek,3,9.0,0.0
+2026-07-08,R01108,1,T01,MP Centar,Zagreb,Središnja Hrvatska,P005,Tjestenina 500g,Prehrana,K010,N. Vuković,Zagreb,1,1.8,0.0
+2026-07-08,R01108,2,T01,MP Centar,Zagreb,Središnja Hrvatska,P007,Spužve 3/1,Kućanstvo,K010,N. Vuković,Zagreb,4,8.8,0.0
+2026-07-08,R01109,1,T06,MP Stari grad,Split,Dalmacija,P009,Šampon 400ml,Higijena,K001,A. Kovač,Split,1,5.6,0.0
+2026-07-08,R01109,2,T06,MP Stari grad,Split,Dalmacija,P007,Spužve 3/1,Kućanstvo,K001,A. Kovač,Split,2,4.4,0.0
+2026-07-08,R01110,1,T05,MP Riva,Rijeka,Primorje,P009,Šampon 400ml,Higijena,K011,F. Matić,Rijeka,1,5.6,0.0
+2026-07-08,R01110,2,T05,MP Riva,Rijeka,Primorje,P005,Tjestenina 500g,Prehrana,K011,F. Matić,Rijeka,2,3.6,0.0
+2026-07-08,R01111,1,T02,MP Sjever,Osijek,Slavonija,P003,Sok naranča 1L,Prehrana,K003,I. Šimić,Osijek,3,9.0,0.0
+2026-07-08,R01111,2,T02,MP Sjever,Osijek,Slavonija,P010,Pasta za zube 75ml,Higijena,K003,I. Šimić,Osijek,2,5.8,0.0
+2026-07-08,R01111,3,T02,MP Sjever,Osijek,Slavonija,P008,Papirnati ručnici 2/1,Kućanstvo,K003,I. Šimić,Osijek,2,6.8,0.0
+2026-07-08,R01111,4,T02,MP Sjever,Osijek,Slavonija,P009,Šampon 400ml,Higijena,K003,I. Šimić,Osijek,3,16.8,0.0
+2026-07-09,R01112,1,T05,MP Riva,Rijeka,Primorje,P007,Spužve 3/1,Kućanstvo,K011,F. Matić,Rijeka,1,2.2,1.0
+2026-07-09,R01112,2,T05,MP Riva,Rijeka,Primorje,P005,Tjestenina 500g,Prehrana,K011,F. Matić,Rijeka,2,3.6,1.0
+2026-07-09,R01113,1,T01,MP Centar,Zagreb,Središnja Hrvatska,P005,Tjestenina 500g,Prehrana,K014,B. Tomić,Zagreb,1,1.8,0.0
+2026-07-09,R01113,2,T01,MP Centar,Zagreb,Središnja Hrvatska,P003,Sok naranča 1L,Prehrana,K014,B. Tomić,Zagreb,1,3.0,0.0
+2026-07-09,R01113,3,T01,MP Centar,Zagreb,Središnja Hrvatska,P004,Maslinovo ulje 1L,Prehrana,K014,B. Tomić,Zagreb,2,23.8,0.0
+2026-07-09,R01114,1,T03,MP Jadran,Split,Dalmacija,P004,Maslinovo ulje 1L,Prehrana,K013,M. Šarić,Split,3,35.7,0.0
+2026-07-09,R01114,2,T03,MP Jadran,Split,Dalmacija,P007,Spužve 3/1,Kućanstvo,K013,M. Šarić,Split,2,4.4,0.0
+2026-07-09,R01114,3,T03,MP Jadran,Split,Dalmacija,P009,Šampon 400ml,Higijena,K013,M. Šarić,Split,1,5.6,0.0
+2026-07-09,R01115,1,T02,MP Sjever,Osijek,Slavonija,P001,Kava 500g,Prehrana,K016,H. Lučić,Osijek,1,7.5,0.0
+2026-07-09,R01115,2,T02,MP Sjever,Osijek,Slavonija,P002,Deterdžent 2L,Kućanstvo,K016,H. Lučić,Osijek,1,8.5,0.0
+2026-07-09,R01115,3,T02,MP Sjever,Osijek,Slavonija,P008,Papirnati ručnici 2/1,Kućanstvo,K016,H. Lučić,Osijek,3,10.2,0.0
+2026-07-09,R01115,4,T02,MP Sjever,Osijek,Slavonija,P006,Čokolada 100g,Prehrana,K016,H. Lučić,Osijek,3,4.5,0.0
+2026-07-09,R01116,1,T05,MP Riva,Rijeka,Primorje,P009,Šampon 400ml,Higijena,K011,F. Matić,Rijeka,1,5.6,0.0
+2026-07-09,R01116,2,T05,MP Riva,Rijeka,Primorje,P003,Sok naranča 1L,Prehrana,K011,F. Matić,Rijeka,1,3.0,0.0
+2026-07-09,R01116,3,T05,MP Riva,Rijeka,Primorje,P006,Čokolada 100g,Prehrana,K011,F. Matić,Rijeka,2,3.0,0.0
+2026-07-09,R01116,4,T05,MP Riva,Rijeka,Primorje,P005,Tjestenina 500g,Prehrana,K011,F. Matić,Rijeka,1,1.8,0.0
+2026-07-09,R01117,1,T04,MP Istok,Zagreb,Središnja Hrvatska,P007,Spužve 3/1,Kućanstvo,K014,B. Tomić,Zagreb,4,8.8,0.0
+2026-07-09,R01117,2,T04,MP Istok,Zagreb,Središnja Hrvatska,P002,Deterdžent 2L,Kućanstvo,K014,B. Tomić,Zagreb,1,8.5,0.0
+2026-07-09,R01117,3,T04,MP Istok,Zagreb,Središnja Hrvatska,P008,Papirnati ručnici 2/1,Kućanstvo,K014,B. Tomić,Zagreb,3,10.2,0.0
+2026-07-09,R01118,1,T06,MP Stari grad,Split,Dalmacija,P004,Maslinovo ulje 1L,Prehrana,K001,A. Kovač,Split,4,47.6,0.0
+2026-07-09,R01118,2,T06,MP Stari grad,Split,Dalmacija,P009,Šampon 400ml,Higijena,K001,A. Kovač,Split,2,11.2,0.0
+2026-07-09,R01118,3,T06,MP Stari grad,Split,Dalmacija,P007,Spužve 3/1,Kućanstvo,K001,A. Kovač,Split,1,2.2,0.0
+2026-07-09,R01119,1,T04,MP Istok,Zagreb,Središnja Hrvatska,P006,Čokolada 100g,Prehrana,K017,G. Filipović,Rijeka,3,4.5,0.0
+2026-07-09,R01119,2,T04,MP Istok,Zagreb,Središnja Hrvatska,P005,Tjestenina 500g,Prehrana,K017,G. Filipović,Rijeka,1,1.8,0.0
+2026-07-09,R01119,3,T04,MP Istok,Zagreb,Središnja Hrvatska,P004,Maslinovo ulje 1L,Prehrana,K017,G. Filipović,Rijeka,4,47.6,0.0
+2026-07-09,R01119,4,T04,MP Istok,Zagreb,Središnja Hrvatska,P008,Papirnati ručnici 2/1,Kućanstvo,K017,G. Filipović,Rijeka,4,13.6,0.0
+2026-07-09,R01120,1,T03,MP Jadran,Split,Dalmacija,P001,Kava 500g,Prehrana,K020,C. Grgić,Split,3,22.5,0.0
+2026-07-09,R01120,2,T03,MP Jadran,Split,Dalmacija,P004,Maslinovo ulje 1L,Prehrana,K020,C. Grgić,Split,4,47.6,0.0
+2026-07-09,R01120,3,T03,MP Jadran,Split,Dalmacija,P002,Deterdžent 2L,Kućanstvo,K020,C. Grgić,Split,1,8.5,0.0
+2026-07-09,R01120,4,T03,MP Jadran,Split,Dalmacija,P008,Papirnati ručnici 2/1,Kućanstvo,K020,C. Grgić,Split,2,6.8,0.0
+2026-07-10,R01121,1,T02,MP Sjever,Osijek,Slavonija,P003,Sok naranča 1L,Prehrana,K009,S. Knežević,Osijek,4,12.0,0.0
+2026-07-10,R01122,1,T01,MP Centar,Zagreb,Središnja Hrvatska,P008,Papirnati ručnici 2/1,Kućanstvo,K019,Z. Bošnjak,V. Gorica,2,6.8,0.0
+2026-07-10,R01122,2,T01,MP Centar,Zagreb,Središnja Hrvatska,P004,Maslinovo ulje 1L,Prehrana,K019,Z. Bošnjak,V. Gorica,1,11.9,0.0
+2026-07-10,R01122,3,T01,MP Centar,Zagreb,Središnja Hrvatska,P010,Pasta za zube 75ml,Higijena,K019,Z. Bošnjak,V. Gorica,2,5.8,0.0
+2026-07-10,R01122,4,T01,MP Centar,Zagreb,Središnja Hrvatska,P009,Šampon 400ml,Higijena,K019,Z. Bošnjak,V. Gorica,4,22.4,0.0
+2026-07-10,R01123,1,T02,MP Sjever,Osijek,Slavonija,P005,Tjestenina 500g,Prehrana,K009,S. Knežević,Osijek,4,7.2,0.0
+2026-07-10,R01123,2,T02,MP Sjever,Osijek,Slavonija,P004,Maslinovo ulje 1L,Prehrana,K009,S. Knežević,Osijek,4,47.6,0.0
+2026-07-10,R01123,3,T02,MP Sjever,Osijek,Slavonija,P008,Papirnati ručnici 2/1,Kućanstvo,K009,S. Knežević,Osijek,4,13.6,0.0
+2026-07-10,R01124,1,T04,MP Istok,Zagreb,Središnja Hrvatska,P010,Pasta za zube 75ml,Higijena,K007,P. Novak,Zagreb,4,11.6,0.0
+2026-07-10,R01124,2,T04,MP Istok,Zagreb,Središnja Hrvatska,P009,Šampon 400ml,Higijena,K007,P. Novak,Zagreb,2,11.2,0.0
+2026-07-10,R01125,1,T06,MP Stari grad,Split,Dalmacija,P003,Sok naranča 1L,Prehrana,K005,L. Babić,Split,1,3.0,0.0
+2026-07-10,R01125,2,T06,MP Stari grad,Split,Dalmacija,P007,Spužve 3/1,Kućanstvo,K005,L. Babić,Split,3,6.6,0.0
+2026-07-10,R01126,1,T03,MP Jadran,Split,Dalmacija,P003,Sok naranča 1L,Prehrana,K008,D. Jurić,Split,4,12.0,0.0
+2026-07-10,R01127,1,T02,MP Sjever,Osijek,Slavonija,P006,Čokolada 100g,Prehrana,K003,I. Šimić,Osijek,3,4.5,0.0
+2026-07-10,R01127,2,T02,MP Sjever,Osijek,Slavonija,P005,Tjestenina 500g,Prehrana,K003,I. Šimić,Osijek,3,5.4,0.0
+2026-07-10,R01127,3,T02,MP Sjever,Osijek,Slavonija,P003,Sok naranča 1L,Prehrana,K003,I. Šimić,Osijek,1,3.0,0.0
+2026-07-10,R01128,1,T06,MP Stari grad,Split,Dalmacija,P001,Kava 500g,Prehrana,K018,E. Radić,Zagreb,1,7.5,0.0
+2026-07-10,R01128,2,T06,MP Stari grad,Split,Dalmacija,P007,Spužve 3/1,Kućanstvo,K018,E. Radić,Zagreb,1,2.2,0.0
+2026-07-10,R01128,3,T06,MP Stari grad,Split,Dalmacija,P002,Deterdžent 2L,Kućanstvo,K018,E. Radić,Zagreb,3,25.5,0.0
+2026-07-10,R01129,1,T03,MP Jadran,Split,Dalmacija,P004,Maslinovo ulje 1L,Prehrana,K020,C. Grgić,Split,2,23.8,0.0
+2026-07-10,R01129,2,T03,MP Jadran,Split,Dalmacija,P001,Kava 500g,Prehrana,K020,C. Grgić,Split,2,15.0,0.0
+2026-07-10,R01129,3,T03,MP Jadran,Split,Dalmacija,P008,Papirnati ručnici 2/1,Kućanstvo,K020,C. Grgić,Split,4,13.6,0.0
+2026-07-10,R01130,1,T01,MP Centar,Zagreb,Središnja Hrvatska,P006,Čokolada 100g,Prehrana,K004,T. Horvat,Zagreb,3,4.5,0.0
+2026-07-10,R01130,2,T01,MP Centar,Zagreb,Središnja Hrvatska,P007,Spužve 3/1,Kućanstvo,K004,T. Horvat,Zagreb,1,2.2,0.0
+2026-07-10,R01130,3,T01,MP Centar,Zagreb,Središnja Hrvatska,P009,Šampon 400ml,Higijena,K004,T. Horvat,Zagreb,4,22.4,0.0
+2026-07-11,R01131,1,T01,MP Centar,Zagreb,Središnja Hrvatska,P007,Spužve 3/1,Kućanstvo,K018,E. Radić,Zagreb,4,8.8,0.0
+2026-07-11,R01131,2,T01,MP Centar,Zagreb,Središnja Hrvatska,P009,Šampon 400ml,Higijena,K018,E. Radić,Zagreb,1,5.6,0.0
+2026-07-11,R01131,3,T01,MP Centar,Zagreb,Središnja Hrvatska,P004,Maslinovo ulje 1L,Prehrana,K018,E. Radić,Zagreb,1,11.9,0.0
+2026-07-11,R01132,1,T01,MP Centar,Zagreb,Središnja Hrvatska,P003,Sok naranča 1L,Prehrana,K015,V. Pavić,Varaždin,1,3.0,0.0
+2026-07-11,R01133,1,T02,MP Sjever,Osijek,Slavonija,P004,Maslinovo ulje 1L,Prehrana,K003,I. Šimić,Osijek,2,23.8,0.0
+2026-07-11,R01133,2,T02,MP Sjever,Osijek,Slavonija,P007,Spužve 3/1,Kućanstvo,K003,I. Šimić,Osijek,3,6.6,0.0
+2026-07-11,R01133,3,T02,MP Sjever,Osijek,Slavonija,P005,Tjestenina 500g,Prehrana,K003,I. Šimić,Osijek,1,1.8,0.0
+2026-07-11,R01133,4,T02,MP Sjever,Osijek,Slavonija,P006,Čokolada 100g,Prehrana,K003,I. Šimić,Osijek,3,4.5,0.0
+2026-07-11,R01134,1,T05,MP Riva,Rijeka,Primorje,P007,Spužve 3/1,Kućanstvo,K006,J. Marić,Rijeka,4,8.8,0.0
+2026-07-11,R01134,2,T05,MP Riva,Rijeka,Primorje,P010,Pasta za zube 75ml,Higijena,K006,J. Marić,Rijeka,4,11.6,0.0
+2026-07-11,R01134,3,T05,MP Riva,Rijeka,Primorje,P004,Maslinovo ulje 1L,Prehrana,K006,J. Marić,Rijeka,4,47.6,0.0
+2026-07-11,R01134,4,T05,MP Riva,Rijeka,Primorje,P008,Papirnati ručnici 2/1,Kućanstvo,K006,J. Marić,Rijeka,4,13.6,0.0
+2026-07-11,R01135,1,T05,MP Riva,Rijeka,Primorje,P009,Šampon 400ml,Higijena,K011,F. Matić,Rijeka,2,11.2,1.0
+2026-07-11,R01135,2,T05,MP Riva,Rijeka,Primorje,P002,Deterdžent 2L,Kućanstvo,K011,F. Matić,Rijeka,3,25.5,1.0
+2026-07-11,R01136,1,T02,MP Sjever,Osijek,Slavonija,P003,Sok naranča 1L,Prehrana,K016,H. Lučić,Osijek,4,12.0,1.0
+2026-07-11,R01136,2,T02,MP Sjever,Osijek,Slavonija,P006,Čokolada 100g,Prehrana,K016,H. Lučić,Osijek,4,6.0,1.0
+2026-07-11,R01136,3,T02,MP Sjever,Osijek,Slavonija,P007,Spužve 3/1,Kućanstvo,K016,H. Lučić,Osijek,1,2.2,1.0
+2026-07-11,R01136,4,T02,MP Sjever,Osijek,Slavonija,P009,Šampon 400ml,Higijena,K016,H. Lučić,Osijek,3,16.8,1.0
+2026-07-11,R01137,1,T02,MP Sjever,Osijek,Slavonija,P010,Pasta za zube 75ml,Higijena,K003,I. Šimić,Osijek,4,11.6,3.0
+2026-07-11,R01137,2,T02,MP Sjever,Osijek,Slavonija,P007,Spužve 3/1,Kućanstvo,K003,I. Šimić,Osijek,4,8.8,3.0
+2026-07-11,R01137,3,T02,MP Sjever,Osijek,Slavonija,P006,Čokolada 100g,Prehrana,K003,I. Šimić,Osijek,3,4.5,3.0
+2026-07-11,R01138,1,T03,MP Jadran,Split,Dalmacija,P003,Sok naranča 1L,Prehrana,K013,M. Šarić,Split,2,6.0,0.0
+2026-07-11,R01138,2,T03,MP Jadran,Split,Dalmacija,P008,Papirnati ručnici 2/1,Kućanstvo,K013,M. Šarić,Split,2,6.8,0.0
+2026-07-11,R01139,1,T06,MP Stari grad,Split,Dalmacija,P004,Maslinovo ulje 1L,Prehrana,K005,L. Babić,Split,4,47.6,3.0
+2026-07-11,R01139,2,T06,MP Stari grad,Split,Dalmacija,P010,Pasta za zube 75ml,Higijena,K005,L. Babić,Split,4,11.6,3.0
+2026-07-11,R01140,1,T02,MP Sjever,Osijek,Slavonija,P007,Spužve 3/1,Kućanstvo,K003,I. Šimić,Osijek,4,8.8,0.0
+2026-07-11,R01140,2,T02,MP Sjever,Osijek,Slavonija,P008,Papirnati ručnici 2/1,Kućanstvo,K003,I. Šimić,Osijek,1,3.4,0.0
+2026-07-11,R01140,3,T02,MP Sjever,Osijek,Slavonija,P009,Šampon 400ml,Higijena,K003,I. Šimić,Osijek,4,22.4,0.0
+2026-07-11,R01140,4,T02,MP Sjever,Osijek,Slavonija,P006,Čokolada 100g,Prehrana,K003,I. Šimić,Osijek,2,3.0,0.0
+2026-07-11,R01141,1,T03,MP Jadran,Split,Dalmacija,P008,Papirnati ručnici 2/1,Kućanstvo,K001,A. Kovač,Split,3,10.2,0.0
+2026-07-11,R01141,2,T03,MP Jadran,Split,Dalmacija,P006,Čokolada 100g,Prehrana,K001,A. Kovač,Split,2,3.0,0.0
+2026-07-11,R01141,3,T03,MP Jadran,Split,Dalmacija,P004,Maslinovo ulje 1L,Prehrana,K001,A. Kovač,Split,3,35.7,0.0
+2026-07-12,R01142,1,T02,MP Sjever,Osijek,Slavonija,P006,Čokolada 100g,Prehrana,K003,I. Šimić,Osijek,4,6.0,0.0
+2026-07-12,R01142,2,T02,MP Sjever,Osijek,Slavonija,P002,Deterdžent 2L,Kućanstvo,K003,I. Šimić,Osijek,4,34.0,0.0
+2026-07-12,R01142,3,T02,MP Sjever,Osijek,Slavonija,P007,Spužve 3/1,Kućanstvo,K003,I. Šimić,Osijek,2,4.4,0.0
+2026-07-12,R01143,1,T06,MP Stari grad,Split,Dalmacija,P005,Tjestenina 500g,Prehrana,K001,A. Kovač,Split,4,7.2,0.0
+2026-07-12,R01143,2,T06,MP Stari grad,Split,Dalmacija,P007,Spužve 3/1,Kućanstvo,K001,A. Kovač,Split,3,6.6,0.0
+2026-07-12,R01143,3,T06,MP Stari grad,Split,Dalmacija,P010,Pasta za zube 75ml,Higijena,K001,A. Kovač,Split,3,8.7,0.0
+2026-07-12,R01144,1,T03,MP Jadran,Split,Dalmacija,P007,Spužve 3/1,Kućanstvo,K001,A. Kovač,Split,2,4.4,0.0
+2026-07-12,R01145,1,T02,MP Sjever,Osijek,Slavonija,P006,Čokolada 100g,Prehrana,K012,R. Kralj,Zadar,1,1.5,0.0
+2026-07-12,R01146,1,T02,MP Sjever,Osijek,Slavonija,P008,Papirnati ručnici 2/1,Kućanstvo,K003,I. Šimić,Osijek,1,3.4,0.0
+2026-07-12,R01146,2,T02,MP Sjever,Osijek,Slavonija,P003,Sok naranča 1L,Prehrana,K003,I. Šimić,Osijek,2,6.0,0.0
+2026-07-12,R01147,1,T02,MP Sjever,Osijek,Slavonija,P008,Papirnati ručnici 2/1,Kućanstvo,K016,H. Lučić,Osijek,3,10.2,0.0
+2026-07-12,R01147,2,T02,MP Sjever,Osijek,Slavonija,P002,Deterdžent 2L,Kućanstvo,K016,H. Lučić,Osijek,4,34.0,0.0
+2026-07-12,R01148,1,T06,MP Stari grad,Split,Dalmacija,P001,Kava 500g,Prehrana,K015,V. Pavić,Varaždin,2,15.0,0.0
+2026-07-12,R01148,2,T06,MP Stari grad,Split,Dalmacija,P009,Šampon 400ml,Higijena,K015,V. Pavić,Varaždin,2,11.2,0.0
+2026-07-12,R01149,1,T03,MP Jadran,Split,Dalmacija,P008,Papirnati ručnici 2/1,Kućanstvo,K013,M. Šarić,Split,1,3.4,0.0
+2026-07-12,R01149,2,T03,MP Jadran,Split,Dalmacija,P009,Šampon 400ml,Higijena,K013,M. Šarić,Split,2,11.2,0.0
+2026-07-12,R01149,3,T03,MP Jadran,Split,Dalmacija,P010,Pasta za zube 75ml,Higijena,K013,M. Šarić,Split,1,2.9,0.0
+2026-07-12,R01150,1,T03,MP Jadran,Split,Dalmacija,P006,Čokolada 100g,Prehrana,K002,M. Perić,V. Gorica,4,6.0,0.0
+2026-07-12,R01150,2,T03,MP Jadran,Split,Dalmacija,P009,Šampon 400ml,Higijena,K002,M. Perić,V. Gorica,1,5.6,0.0
+2026-07-12,R01150,3,T03,MP Jadran,Split,Dalmacija,P002,Deterdžent 2L,Kućanstvo,K002,M. Perić,V. Gorica,4,34.0,0.0
+2026-07-12,R01151,1,T04,MP Istok,Zagreb,Središnja Hrvatska,P004,Maslinovo ulje 1L,Prehrana,K014,B. Tomić,Zagreb,4,47.6,0.0
+2026-07-12,R01151,2,T04,MP Istok,Zagreb,Središnja Hrvatska,P006,Čokolada 100g,Prehrana,K014,B. Tomić,Zagreb,3,4.5,0.0
+2026-07-12,R01151,3,T04,MP Istok,Zagreb,Središnja Hrvatska,P009,Šampon 400ml,Higijena,K014,B. Tomić,Zagreb,3,16.8,0.0
+2026-07-12,R01152,1,T03,MP Jadran,Split,Dalmacija,P008,Papirnati ručnici 2/1,Kućanstvo,K008,D. Jurić,Split,2,6.8,0.0
+2026-07-12,R01152,2,T03,MP Jadran,Split,Dalmacija,P006,Čokolada 100g,Prehrana,K008,D. Jurić,Split,3,4.5,0.0
+2026-07-12,R01152,3,T03,MP Jadran,Split,Dalmacija,P003,Sok naranča 1L,Prehrana,K008,D. Jurić,Split,2,6.0,0.0
+2026-07-13,R01153,1,T02,MP Sjever,Osijek,Slavonija,P002,Deterdžent 2L,Kućanstvo,K003,I. Šimić,Osijek,2,17.0,0.0
+2026-07-13,R01153,2,T02,MP Sjever,Osijek,Slavonija,P009,Šampon 400ml,Higijena,K003,I. Šimić,Osijek,4,22.4,0.0
+2026-07-13,R01154,1,T01,MP Centar,Zagreb,Središnja Hrvatska,P009,Šampon 400ml,Higijena,K002,M. Perić,V. Gorica,1,5.6,0.0
+2026-07-13,R01154,2,T01,MP Centar,Zagreb,Središnja Hrvatska,P002,Deterdžent 2L,Kućanstvo,K002,M. Perić,V. Gorica,4,34.0,0.0
+2026-07-13,R01154,3,T01,MP Centar,Zagreb,Središnja Hrvatska,P008,Papirnati ručnici 2/1,Kućanstvo,K002,M. Perić,V. Gorica,2,6.8,0.0
+2026-07-13,R01154,4,T01,MP Centar,Zagreb,Središnja Hrvatska,P004,Maslinovo ulje 1L,Prehrana,K002,M. Perić,V. Gorica,2,23.8,0.0
+2026-07-13,R01155,1,T06,MP Stari grad,Split,Dalmacija,P006,Čokolada 100g,Prehrana,K020,C. Grgić,Split,2,3.0,1.0
+2026-07-13,R01155,2,T06,MP Stari grad,Split,Dalmacija,P003,Sok naranča 1L,Prehrana,K020,C. Grgić,Split,2,6.0,1.0
+2026-07-13,R01155,3,T06,MP Stari grad,Split,Dalmacija,P002,Deterdžent 2L,Kućanstvo,K020,C. Grgić,Split,4,34.0,1.0
+2026-07-13,R01155,4,T06,MP Stari grad,Split,Dalmacija,P010,Pasta za zube 75ml,Higijena,K020,C. Grgić,Split,1,2.9,1.0
+2026-07-13,R01156,1,T04,MP Istok,Zagreb,Središnja Hrvatska,P003,Sok naranča 1L,Prehrana,K014,B. Tomić,Zagreb,2,6.0,0.0
+2026-07-13,R01156,2,T04,MP Istok,Zagreb,Središnja Hrvatska,P009,Šampon 400ml,Higijena,K014,B. Tomić,Zagreb,1,5.6,0.0
+2026-07-13,R01156,3,T04,MP Istok,Zagreb,Središnja Hrvatska,P006,Čokolada 100g,Prehrana,K014,B. Tomić,Zagreb,2,3.0,0.0
+2026-07-13,R01157,1,T04,MP Istok,Zagreb,Središnja Hrvatska,P005,Tjestenina 500g,Prehrana,K003,I. Šimić,Osijek,2,3.6,0.0
+2026-07-13,R01157,2,T04,MP Istok,Zagreb,Središnja Hrvatska,P001,Kava 500g,Prehrana,K003,I. Šimić,Osijek,2,15.0,0.0
+2026-07-13,R01157,3,T04,MP Istok,Zagreb,Središnja Hrvatska,P007,Spužve 3/1,Kućanstvo,K003,I. Šimić,Osijek,2,4.4,0.0
+2026-07-13,R01157,4,T04,MP Istok,Zagreb,Središnja Hrvatska,P002,Deterdžent 2L,Kućanstvo,K003,I. Šimić,Osijek,1,8.5,0.0
+2026-07-13,R01158,1,T02,MP Sjever,Osijek,Slavonija,P005,Tjestenina 500g,Prehrana,K016,H. Lučić,Osijek,2,3.6,0.0
+2026-07-13,R01158,2,T02,MP Sjever,Osijek,Slavonija,P007,Spužve 3/1,Kućanstvo,K016,H. Lučić,Osijek,2,4.4,0.0
+2026-07-13,R01159,1,T02,MP Sjever,Osijek,Slavonija,P008,Papirnati ručnici 2/1,Kućanstvo,K017,G. Filipović,Rijeka,4,13.6,0.0
+2026-07-13,R01159,2,T02,MP Sjever,Osijek,Slavonija,P003,Sok naranča 1L,Prehrana,K017,G. Filipović,Rijeka,4,12.0,0.0
+2026-07-13,R01159,3,T02,MP Sjever,Osijek,Slavonija,P009,Šampon 400ml,Higijena,K017,G. Filipović,Rijeka,4,22.4,0.0
+2026-07-13,R01159,4,T02,MP Sjever,Osijek,Slavonija,P001,Kava 500g,Prehrana,K017,G. Filipović,Rijeka,4,30.0,0.0
+2026-07-13,R01160,1,T06,MP Stari grad,Split,Dalmacija,P010,Pasta za zube 75ml,Higijena,K013,M. Šarić,Split,4,11.6,0.0
+2026-07-13,R01161,1,T05,MP Riva,Rijeka,Primorje,P007,Spužve 3/1,Kućanstvo,K006,J. Marić,Rijeka,2,4.4,0.0
+2026-07-13,R01161,2,T05,MP Riva,Rijeka,Primorje,P010,Pasta za zube 75ml,Higijena,K006,J. Marić,Rijeka,1,2.9,0.0
+2026-07-13,R01162,1,T04,MP Istok,Zagreb,Središnja Hrvatska,P006,Čokolada 100g,Prehrana,K004,T. Horvat,Zagreb,1,1.5,0.0
+2026-07-13,R01162,2,T04,MP Istok,Zagreb,Središnja Hrvatska,P009,Šampon 400ml,Higijena,K004,T. Horvat,Zagreb,3,16.8,0.0
+2026-07-13,R01162,3,T04,MP Istok,Zagreb,Središnja Hrvatska,P008,Papirnati ručnici 2/1,Kućanstvo,K004,T. Horvat,Zagreb,1,3.4,0.0
+2026-07-13,R01162,4,T04,MP Istok,Zagreb,Središnja Hrvatska,P003,Sok naranča 1L,Prehrana,K004,T. Horvat,Zagreb,1,3.0,0.0
+2026-07-14,R01163,1,T06,MP Stari grad,Split,Dalmacija,P010,Pasta za zube 75ml,Higijena,K013,M. Šarić,Split,2,5.8,0.0
+2026-07-14,R01164,1,T01,MP Centar,Zagreb,Središnja Hrvatska,P006,Čokolada 100g,Prehrana,K018,E. Radić,Zagreb,1,1.5,0.0
+2026-07-14,R01164,2,T01,MP Centar,Zagreb,Središnja Hrvatska,P004,Maslinovo ulje 1L,Prehrana,K018,E. Radić,Zagreb,3,35.7,0.0
+2026-07-14,R01164,3,T01,MP Centar,Zagreb,Središnja Hrvatska,P003,Sok naranča 1L,Prehrana,K018,E. Radić,Zagreb,2,6.0,0.0
+2026-07-14,R01164,4,T01,MP Centar,Zagreb,Središnja Hrvatska,P001,Kava 500g,Prehrana,K018,E. Radić,Zagreb,4,30.0,0.0
+2026-07-14,R01165,1,T03,MP Jadran,Split,Dalmacija,P005,Tjestenina 500g,Prehrana,K019,Z. Bošnjak,V. Gorica,3,5.4,0.0
+2026-07-14,R01165,2,T03,MP Jadran,Split,Dalmacija,P007,Spužve 3/1,Kućanstvo,K019,Z. Bošnjak,V. Gorica,4,8.8,0.0
+2026-07-14,R01165,3,T03,MP Jadran,Split,Dalmacija,P008,Papirnati ručnici 2/1,Kućanstvo,K019,Z. Bošnjak,V. Gorica,2,6.8,0.0
+2026-07-14,R01165,4,T03,MP Jadran,Split,Dalmacija,P001,Kava 500g,Prehrana,K019,Z. Bošnjak,V. Gorica,4,30.0,0.0
+2026-07-14,R01166,1,T04,MP Istok,Zagreb,Središnja Hrvatska,P004,Maslinovo ulje 1L,Prehrana,K005,L. Babić,Split,1,11.9,0.0
+2026-07-14,R01166,2,T04,MP Istok,Zagreb,Središnja Hrvatska,P001,Kava 500g,Prehrana,K005,L. Babić,Split,1,7.5,0.0
+2026-07-14,R01166,3,T04,MP Istok,Zagreb,Središnja Hrvatska,P002,Deterdžent 2L,Kućanstvo,K005,L. Babić,Split,3,25.5,0.0
+2026-07-14,R01167,1,T03,MP Jadran,Split,Dalmacija,P004,Maslinovo ulje 1L,Prehrana,K005,L. Babić,Split,1,11.9,0.0
+2026-07-14,R01168,1,T05,MP Riva,Rijeka,Primorje,P004,Maslinovo ulje 1L,Prehrana,K017,G. Filipović,Rijeka,2,23.8,0.0
+2026-07-14,R01168,2,T05,MP Riva,Rijeka,Primorje,P010,Pasta za zube 75ml,Higijena,K017,G. Filipović,Rijeka,2,5.8,0.0
+2026-07-14,R01169,1,T02,MP Sjever,Osijek,Slavonija,P009,Šampon 400ml,Higijena,K009,S. Knežević,Osijek,1,5.6,0.0
+2026-07-15,R01170,1,T01,MP Centar,Zagreb,Središnja Hrvatska,P009,Šampon 400ml,Higijena,K003,I. Šimić,Zagreb,2,11.2,0.0
+2026-07-15,R01171,1,T02,MP Sjever,Osijek,Slavonija,P002,Deterdžent 2L,Kućanstvo,K015,V. Pavić,Varaždin,1,8.5,0.0
+2026-07-15,R01172,1,T01,MP Centar,Zagreb,Središnja Hrvatska,P005,Tjestenina 500g,Prehrana,K010,N. Vuković,Zagreb,2,3.6,0.0
+2026-07-15,R01173,1,T06,MP Stari grad,Split,Dalmacija,P009,Šampon 400ml,Higijena,K001,A. Kovač,Split,2,11.2,0.0
+2026-07-15,R01174,1,T04,MP Istok,Zagreb,Središnja Hrvatska,P005,Tjestenina 500g,Prehrana,K004,T. Horvat,Zagreb,4,7.2,1.0
+2026-07-15,R01175,1,T01,MP Centar,Zagreb,Središnja Hrvatska,P004,Maslinovo ulje 1L,Prehrana,K004,T. Horvat,Zagreb,4,47.6,2.0
+2026-07-15,R01175,2,T01,MP Centar,Zagreb,Središnja Hrvatska,P005,Tjestenina 500g,Prehrana,K004,T. Horvat,Zagreb,2,3.6,2.0
+2026-07-15,R01175,3,T01,MP Centar,Zagreb,Središnja Hrvatska,P009,Šampon 400ml,Higijena,K004,T. Horvat,Zagreb,4,22.4,2.0
+2026-07-15,R01176,1,T06,MP Stari grad,Split,Dalmacija,P003,Sok naranča 1L,Prehrana,K001,A. Kovač,Split,3,9.0,0.0
+2026-07-15,R01176,2,T06,MP Stari grad,Split,Dalmacija,P001,Kava 500g,Prehrana,K001,A. Kovač,Split,3,22.5,0.0
+2026-07-16,R01177,1,T01,MP Centar,Zagreb,Središnja Hrvatska,P010,Pasta za zube 75ml,Higijena,K011,F. Matić,Rijeka,1,2.9,0.0
+2026-07-16,R01178,1,T03,MP Jadran,Split,Dalmacija,P005,Tjestenina 500g,Prehrana,K002,M. Perić,V. Gorica,4,7.2,0.0
+2026-07-16,R01178,2,T03,MP Jadran,Split,Dalmacija,P003,Sok naranča 1L,Prehrana,K002,M. Perić,V. Gorica,4,12.0,0.0
+2026-07-16,R01179,1,T01,MP Centar,Zagreb,Središnja Hrvatska,P003,Sok naranča 1L,Prehrana,K015,V. Pavić,Varaždin,2,6.0,0.0
+2026-07-16,R01179,2,T01,MP Centar,Zagreb,Središnja Hrvatska,P009,Šampon 400ml,Higijena,K015,V. Pavić,Varaždin,2,11.2,0.0
+2026-07-16,R01179,3,T01,MP Centar,Zagreb,Središnja Hrvatska,P005,Tjestenina 500g,Prehrana,K015,V. Pavić,Varaždin,1,1.8,0.0
+2026-07-16,R01180,1,T01,MP Centar,Zagreb,Središnja Hrvatska,P004,Maslinovo ulje 1L,Prehrana,K010,N. Vuković,Zagreb,2,23.8,0.0
+2026-07-16,R01180,2,T01,MP Centar,Zagreb,Središnja Hrvatska,P005,Tjestenina 500g,Prehrana,K010,N. Vuković,Zagreb,2,3.6,0.0
+2026-07-16,R01181,1,T04,MP Istok,Zagreb,Središnja Hrvatska,P006,Čokolada 100g,Prehrana,K010,N. Vuković,Zagreb,3,4.5,1.0
+2026-07-16,R01181,2,T04,MP Istok,Zagreb,Središnja Hrvatska,P010,Pasta za zube 75ml,Higijena,K010,N. Vuković,Zagreb,2,5.8,1.0
+2026-07-16,R01182,1,T06,MP Stari grad,Split,Dalmacija,P001,Kava 500g,Prehrana,K013,M. Šarić,Split,4,30.0,0.0
+2026-07-16,R01182,2,T06,MP Stari grad,Split,Dalmacija,P008,Papirnati ručnici 2/1,Kućanstvo,K013,M. Šarić,Split,1,3.4,0.0
+2026-07-16,R01182,3,T06,MP Stari grad,Split,Dalmacija,P007,Spužve 3/1,Kućanstvo,K013,M. Šarić,Split,2,4.4,0.0
+2026-07-16,R01182,4,T06,MP Stari grad,Split,Dalmacija,P010,Pasta za zube 75ml,Higijena,K013,M. Šarić,Split,4,11.6,0.0
+2026-07-16,R01183,1,T01,MP Centar,Zagreb,Središnja Hrvatska,P008,Papirnati ručnici 2/1,Kućanstvo,K007,P. Novak,Zagreb,2,6.8,0.0
+2026-07-16,R01183,2,T01,MP Centar,Zagreb,Središnja Hrvatska,P010,Pasta za zube 75ml,Higijena,K007,P. Novak,Zagreb,2,5.8,0.0
+2026-07-16,R01183,3,T01,MP Centar,Zagreb,Središnja Hrvatska,P009,Šampon 400ml,Higijena,K007,P. Novak,Zagreb,4,22.4,0.0
+2026-07-16,R01184,1,T03,MP Jadran,Split,Dalmacija,P003,Sok naranča 1L,Prehrana,K001,A. Kovač,Split,3,9.0,0.0
+2026-07-16,R01184,2,T03,MP Jadran,Split,Dalmacija,P005,Tjestenina 500g,Prehrana,K001,A. Kovač,Split,2,3.6,0.0
+2026-07-16,R01184,3,T03,MP Jadran,Split,Dalmacija,P007,Spužve 3/1,Kućanstvo,K001,A. Kovač,Split,3,6.6,0.0
+2026-07-16,R01184,4,T03,MP Jadran,Split,Dalmacija,P002,Deterdžent 2L,Kućanstvo,K001,A. Kovač,Split,4,34.0,0.0
+2026-07-16,R01185,1,T06,MP Stari grad,Split,Dalmacija,P002,Deterdžent 2L,Kućanstvo,K020,C. Grgić,Split,1,8.5,0.0
+2026-07-16,R01185,2,T06,MP Stari grad,Split,Dalmacija,P005,Tjestenina 500g,Prehrana,K020,C. Grgić,Split,4,7.2,0.0
+2026-07-16,R01186,1,T02,MP Sjever,Osijek,Slavonija,P001,Kava 500g,Prehrana,K016,H. Lučić,Osijek,1,7.5,2.0
+2026-07-17,R01187,1,T05,MP Riva,Rijeka,Primorje,P002,Deterdžent 2L,Kućanstvo,K012,R. Kralj,Zadar,3,25.5,0.0
+2026-07-17,R01188,1,T06,MP Stari grad,Split,Dalmacija,P001,Kava 500g,Prehrana,K012,R. Kralj,Zadar,1,7.5,3.0
+2026-07-17,R01188,2,T06,MP Stari grad,Split,Dalmacija,P007,Spužve 3/1,Kućanstvo,K012,R. Kralj,Zadar,1,2.2,3.0
+2026-07-17,R01188,3,T06,MP Stari grad,Split,Dalmacija,P005,Tjestenina 500g,Prehrana,K012,R. Kralj,Zadar,1,1.8,3.0
+2026-07-17,R01188,4,T06,MP Stari grad,Split,Dalmacija,P008,Papirnati ručnici 2/1,Kućanstvo,K012,R. Kralj,Zadar,4,13.6,3.0
+2026-07-17,R01189,1,T03,MP Jadran,Split,Dalmacija,P005,Tjestenina 500g,Prehrana,K019,Z. Bošnjak,V. Gorica,1,1.8,0.0
+2026-07-17,R01189,2,T03,MP Jadran,Split,Dalmacija,P003,Sok naranča 1L,Prehrana,K019,Z. Bošnjak,V. Gorica,3,9.0,0.0
+2026-07-17,R01189,3,T03,MP Jadran,Split,Dalmacija,P001,Kava 500g,Prehrana,K019,Z. Bošnjak,V. Gorica,3,22.5,0.0
+2026-07-17,R01190,1,T01,MP Centar,Zagreb,Središnja Hrvatska,P006,Čokolada 100g,Prehrana,K008,D. Jurić,Split,4,6.0,3.0
+2026-07-17,R01191,1,T05,MP Riva,Rijeka,Primorje,P007,Spužve 3/1,Kućanstvo,K011,F. Matić,Rijeka,3,6.6,0.0
+2026-07-17,R01192,1,T01,MP Centar,Zagreb,Središnja Hrvatska,P006,Čokolada 100g,Prehrana,K003,I. Šimić,Zagreb,2,3.0,0.0
+2026-07-17,R01192,2,T01,MP Centar,Zagreb,Središnja Hrvatska,P010,Pasta za zube 75ml,Higijena,K003,I. Šimić,Zagreb,2,5.8,0.0
+2026-07-17,R01193,1,T05,MP Riva,Rijeka,Primorje,P007,Spužve 3/1,Kućanstvo,K006,J. Marić,Rijeka,1,2.2,0.0
+2026-07-17,R01193,2,T05,MP Riva,Rijeka,Primorje,P004,Maslinovo ulje 1L,Prehrana,K006,J. Marić,Rijeka,2,23.8,0.0
+2026-07-17,R01194,1,T04,MP Istok,Zagreb,Središnja Hrvatska,P006,Čokolada 100g,Prehrana,K007,P. Novak,Zagreb,1,1.5,0.0
+2026-07-17,R01194,2,T04,MP Istok,Zagreb,Središnja Hrvatska,P005,Tjestenina 500g,Prehrana,K007,P. Novak,Zagreb,4,7.2,0.0
+2026-07-17,R01195,1,T05,MP Riva,Rijeka,Primorje,P006,Čokolada 100g,Prehrana,K007,P. Novak,Zagreb,2,3.0,0.0
+2026-07-17,R01196,1,T04,MP Istok,Zagreb,Središnja Hrvatska,P007,Spužve 3/1,Kućanstvo,K004,T. Horvat,Zagreb,2,4.4,0.0
+2026-07-18,R01197,1,T04,MP Istok,Zagreb,Središnja Hrvatska,P002,Deterdžent 2L,Kućanstvo,K007,P. Novak,Zagreb,2,17.0,0.0
+2026-07-18,R01197,2,T04,MP Istok,Zagreb,Središnja Hrvatska,P007,Spužve 3/1,Kućanstvo,K007,P. Novak,Zagreb,1,2.2,0.0
+2026-07-18,R01197,3,T04,MP Istok,Zagreb,Središnja Hrvatska,P008,Papirnati ručnici 2/1,Kućanstvo,K007,P. Novak,Zagreb,1,3.4,0.0
+2026-07-18,R01198,1,T03,MP Jadran,Split,Dalmacija,P009,Šampon 400ml,Higijena,K003,I. Šimić,Zagreb,3,16.8,0.0
+2026-07-18,R01199,1,T05,MP Riva,Rijeka,Primorje,P010,Pasta za zube 75ml,Higijena,K006,J. Marić,Rijeka,4,11.6,1.0
+2026-07-18,R01199,2,T05,MP Riva,Rijeka,Primorje,P009,Šampon 400ml,Higijena,K006,J. Marić,Rijeka,3,16.8,1.0
+2026-07-18,R01200,1,T01,MP Centar,Zagreb,Središnja Hrvatska,P010,Pasta za zube 75ml,Higijena,K014,B. Tomić,Zagreb,2,5.8,0.0
+2026-07-18,R01200,2,T01,MP Centar,Zagreb,Središnja Hrvatska,P007,Spužve 3/1,Kućanstvo,K014,B. Tomić,Zagreb,4,8.8,0.0
+2026-07-18,R01200,3,T01,MP Centar,Zagreb,Središnja Hrvatska,P003,Sok naranča 1L,Prehrana,K014,B. Tomić,Zagreb,3,9.0,0.0
+2026-07-18,R01200,4,T01,MP Centar,Zagreb,Središnja Hrvatska,P008,Papirnati ručnici 2/1,Kućanstvo,K014,B. Tomić,Zagreb,4,13.6,0.0
+2026-07-18,R01201,1,T01,MP Centar,Zagreb,Središnja Hrvatska,P006,Čokolada 100g,Prehrana,K018,E. Radić,Zagreb,4,6.0,0.0
+2026-07-18,R01202,1,T04,MP Istok,Zagreb,Središnja Hrvatska,P003,Sok naranča 1L,Prehrana,K007,P. Novak,Zagreb,4,12.0,2.0
+2026-07-18,R01202,2,T04,MP Istok,Zagreb,Središnja Hrvatska,P008,Papirnati ručnici 2/1,Kućanstvo,K007,P. Novak,Zagreb,4,13.6,2.0
+2026-07-18,R01202,3,T04,MP Istok,Zagreb,Središnja Hrvatska,P010,Pasta za zube 75ml,Higijena,K007,P. Novak,Zagreb,2,5.8,2.0
+2026-07-18,R01202,4,T04,MP Istok,Zagreb,Središnja Hrvatska,P009,Šampon 400ml,Higijena,K007,P. Novak,Zagreb,2,11.2,2.0
+2026-07-18,R01203,1,T05,MP Riva,Rijeka,Primorje,P009,Šampon 400ml,Higijena,K016,H. Lučić,Osijek,3,16.8,3.0
+2026-07-18,R01203,2,T05,MP Riva,Rijeka,Primorje,P004,Maslinovo ulje 1L,Prehrana,K016,H. Lučić,Osijek,3,35.7,3.0
+2026-07-18,R01204,1,T03,MP Jadran,Split,Dalmacija,P003,Sok naranča 1L,Prehrana,K009,S. Knežević,Osijek,3,9.0,0.0
+2026-07-18,R01205,1,T02,MP Sjever,Osijek,Slavonija,P004,Maslinovo ulje 1L,Prehrana,K016,H. Lučić,Osijek,2,23.8,0.0
+2026-07-18,R01205,2,T02,MP Sjever,Osijek,Slavonija,P003,Sok naranča 1L,Prehrana,K016,H. Lučić,Osijek,4,12.0,0.0
+2026-07-18,R01206,1,T04,MP Istok,Zagreb,Središnja Hrvatska,P001,Kava 500g,Prehrana,K018,E. Radić,Zagreb,1,7.5,0.0
+2026-07-18,R01206,2,T04,MP Istok,Zagreb,Središnja Hrvatska,P007,Spužve 3/1,Kućanstvo,K018,E. Radić,Zagreb,3,6.6,0.0
+2026-07-18,R01206,3,T04,MP Istok,Zagreb,Središnja Hrvatska,P009,Šampon 400ml,Higijena,K018,E. Radić,Zagreb,2,11.2,0.0
+2026-07-18,R01206,4,T04,MP Istok,Zagreb,Središnja Hrvatska,P008,Papirnati ručnici 2/1,Kućanstvo,K018,E. Radić,Zagreb,3,10.2,0.0
+2026-07-18,R01207,1,T03,MP Jadran,Split,Dalmacija,P001,Kava 500g,Prehrana,K008,D. Jurić,Split,4,30.0,0.0
+2026-07-19,R01208,1,T05,MP Riva,Rijeka,Primorje,P005,Tjestenina 500g,Prehrana,K002,M. Perić,V. Gorica,2,3.6,0.0
+2026-07-19,R01208,2,T05,MP Riva,Rijeka,Primorje,P006,Čokolada 100g,Prehrana,K002,M. Perić,V. Gorica,2,3.0,0.0
+2026-07-19,R01209,1,T04,MP Istok,Zagreb,Središnja Hrvatska,P005,Tjestenina 500g,Prehrana,K018,E. Radić,Zagreb,2,3.6,0.0
+2026-07-19,R01210,1,T01,MP Centar,Zagreb,Središnja Hrvatska,P001,Kava 500g,Prehrana,K010,N. Vuković,Zagreb,2,15.0,0.0
+2026-07-19,R01211,1,T06,MP Stari grad,Split,Dalmacija,P008,Papirnati ručnici 2/1,Kućanstvo,K001,A. Kovač,Split,3,10.2,0.0
+2026-07-19,R01211,2,T06,MP Stari grad,Split,Dalmacija,P003,Sok naranča 1L,Prehrana,K001,A. Kovač,Split,4,12.0,0.0
+2026-07-19,R01211,3,T06,MP Stari grad,Split,Dalmacija,P006,Čokolada 100g,Prehrana,K001,A. Kovač,Split,4,6.0,0.0
+2026-07-19,R01212,1,T05,MP Riva,Rijeka,Primorje,P008,Papirnati ručnici 2/1,Kućanstvo,K011,F. Matić,Rijeka,4,13.6,0.0
+2026-07-19,R01212,2,T05,MP Riva,Rijeka,Primorje,P010,Pasta za zube 75ml,Higijena,K011,F. Matić,Rijeka,4,11.6,0.0
+2026-07-19,R01212,3,T05,MP Riva,Rijeka,Primorje,P005,Tjestenina 500g,Prehrana,K011,F. Matić,Rijeka,3,5.4,0.0
+2026-07-19,R01213,1,T04,MP Istok,Zagreb,Središnja Hrvatska,P009,Šampon 400ml,Higijena,K014,B. Tomić,Zagreb,1,5.6,2.0
+2026-07-19,R01213,2,T04,MP Istok,Zagreb,Središnja Hrvatska,P006,Čokolada 100g,Prehrana,K014,B. Tomić,Zagreb,1,1.5,2.0
+2026-07-19,R01214,1,T06,MP Stari grad,Split,Dalmacija,P009,Šampon 400ml,Higijena,K001,A. Kovač,Split,4,22.4,3.0
+2026-07-19,R01214,2,T06,MP Stari grad,Split,Dalmacija,P002,Deterdžent 2L,Kućanstvo,K001,A. Kovač,Split,1,8.5,3.0
+2026-07-19,R01214,3,T06,MP Stari grad,Split,Dalmacija,P003,Sok naranča 1L,Prehrana,K001,A. Kovač,Split,3,9.0,3.0
+2026-07-20,R01215,1,T06,MP Stari grad,Split,Dalmacija,P009,Šampon 400ml,Higijena,K020,C. Grgić,Split,4,22.4,0.0
+2026-07-20,R01215,2,T06,MP Stari grad,Split,Dalmacija,P006,Čokolada 100g,Prehrana,K020,C. Grgić,Split,4,6.0,0.0
+2026-07-20,R01216,1,T03,MP Jadran,Split,Dalmacija,P004,Maslinovo ulje 1L,Prehrana,K013,M. Šarić,Split,4,47.6,0.0
+2026-07-20,R01216,2,T03,MP Jadran,Split,Dalmacija,P002,Deterdžent 2L,Kućanstvo,K013,M. Šarić,Split,2,17.0,0.0
+2026-07-20,R01216,3,T03,MP Jadran,Split,Dalmacija,P001,Kava 500g,Prehrana,K013,M. Šarić,Split,4,30.0,0.0
+2026-07-20,R01216,4,T03,MP Jadran,Split,Dalmacija,P005,Tjestenina 500g,Prehrana,K013,M. Šarić,Split,4,7.2,0.0
+2026-07-20,R01217,1,T04,MP Istok,Zagreb,Središnja Hrvatska,P006,Čokolada 100g,Prehrana,K014,B. Tomić,Zagreb,1,1.5,0.0
+2026-07-20,R01217,2,T04,MP Istok,Zagreb,Središnja Hrvatska,P008,Papirnati ručnici 2/1,Kućanstvo,K014,B. Tomić,Zagreb,4,13.6,0.0
+2026-07-20,R01217,3,T04,MP Istok,Zagreb,Središnja Hrvatska,P001,Kava 500g,Prehrana,K014,B. Tomić,Zagreb,2,15.0,0.0
+2026-07-20,R01218,1,T04,MP Istok,Zagreb,Središnja Hrvatska,P005,Tjestenina 500g,Prehrana,K012,R. Kralj,Zadar,2,3.6,0.0
+2026-07-20,R01218,2,T04,MP Istok,Zagreb,Središnja Hrvatska,P004,Maslinovo ulje 1L,Prehrana,K012,R. Kralj,Zadar,3,35.7,0.0
+2026-07-20,R01218,3,T04,MP Istok,Zagreb,Središnja Hrvatska,P010,Pasta za zube 75ml,Higijena,K012,R. Kralj,Zadar,3,8.7,0.0
+2026-07-20,R01219,1,T05,MP Riva,Rijeka,Primorje,P010,Pasta za zube 75ml,Higijena,K019,Z. Bošnjak,V. Gorica,2,5.8,0.0
+2026-07-20,R01219,2,T05,MP Riva,Rijeka,Primorje,P003,Sok naranča 1L,Prehrana,K019,Z. Bošnjak,V. Gorica,4,12.0,0.0
+2026-07-20,R01220,1,T02,MP Sjever,Osijek,Slavonija,P002,Deterdžent 2L,Kućanstvo,K019,Z. Bošnjak,V. Gorica,2,17.0,0.0
+2026-07-20,R01220,2,T02,MP Sjever,Osijek,Slavonija,P005,Tjestenina 500g,Prehrana,K019,Z. Bošnjak,V. Gorica,2,3.6,0.0
+2026-07-20,R01220,3,T02,MP Sjever,Osijek,Slavonija,P007,Spužve 3/1,Kućanstvo,K019,Z. Bošnjak,V. Gorica,1,2.2,0.0
+2026-07-20,R01220,4,T02,MP Sjever,Osijek,Slavonija,P004,Maslinovo ulje 1L,Prehrana,K019,Z. Bošnjak,V. Gorica,2,23.8,0.0
+2026-07-20,R01221,1,T01,MP Centar,Zagreb,Središnja Hrvatska,P002,Deterdžent 2L,Kućanstvo,K003,I. Šimić,Zagreb,3,25.5,0.0
+2026-07-20,R01221,2,T01,MP Centar,Zagreb,Središnja Hrvatska,P009,Šampon 400ml,Higijena,K003,I. Šimić,Zagreb,1,5.6,0.0
+2026-07-20,R01222,1,T04,MP Istok,Zagreb,Središnja Hrvatska,P001,Kava 500g,Prehrana,K003,I. Šimić,Zagreb,4,30.0,0.0
+2026-07-21,R01223,1,T01,MP Centar,Zagreb,Središnja Hrvatska,P008,Papirnati ručnici 2/1,Kućanstvo,K015,V. Pavić,Varaždin,4,13.6,0.0
+2026-07-21,R01224,1,T04,MP Istok,Zagreb,Središnja Hrvatska,P006,Čokolada 100g,Prehrana,K018,E. Radić,Zagreb,3,4.5,3.0
+2026-07-21,R01224,2,T04,MP Istok,Zagreb,Središnja Hrvatska,P004,Maslinovo ulje 1L,Prehrana,K018,E. Radić,Zagreb,2,23.8,3.0
+2026-07-21,R01225,1,T06,MP Stari grad,Split,Dalmacija,P004,Maslinovo ulje 1L,Prehrana,K001,A. Kovač,Split,4,47.6,0.0
+2026-07-21,R01225,2,T06,MP Stari grad,Split,Dalmacija,P002,Deterdžent 2L,Kućanstvo,K001,A. Kovač,Split,4,34.0,0.0
+2026-07-21,R01226,1,T05,MP Riva,Rijeka,Primorje,P003,Sok naranča 1L,Prehrana,K017,G. Filipović,Rijeka,2,6.0,0.0
+2026-07-21,R01226,2,T05,MP Riva,Rijeka,Primorje,P002,Deterdžent 2L,Kućanstvo,K017,G. Filipović,Rijeka,3,25.5,0.0
+2026-07-21,R01227,1,T03,MP Jadran,Split,Dalmacija,P010,Pasta za zube 75ml,Higijena,K001,A. Kovač,Split,4,11.6,0.0
+2026-07-21,R01227,2,T03,MP Jadran,Split,Dalmacija,P005,Tjestenina 500g,Prehrana,K001,A. Kovač,Split,1,1.8,0.0
+2026-07-21,R01227,3,T03,MP Jadran,Split,Dalmacija,P009,Šampon 400ml,Higijena,K001,A. Kovač,Split,3,16.8,0.0
+2026-07-21,R01227,4,T03,MP Jadran,Split,Dalmacija,P004,Maslinovo ulje 1L,Prehrana,K001,A. Kovač,Split,1,11.9,0.0
+2026-07-21,R01228,1,T03,MP Jadran,Split,Dalmacija,P009,Šampon 400ml,Higijena,K012,R. Kralj,Zadar,4,22.4,0.0
+2026-07-21,R01228,2,T03,MP Jadran,Split,Dalmacija,P001,Kava 500g,Prehrana,K012,R. Kralj,Zadar,3,22.5,0.0
+2026-07-21,R01228,3,T03,MP Jadran,Split,Dalmacija,P010,Pasta za zube 75ml,Higijena,K012,R. Kralj,Zadar,2,5.8,0.0
+2026-07-21,R01228,4,T03,MP Jadran,Split,Dalmacija,P005,Tjestenina 500g,Prehrana,K012,R. Kralj,Zadar,2,3.6,0.0
+2026-07-21,R01229,1,T01,MP Centar,Zagreb,Središnja Hrvatska,P008,Papirnati ručnici 2/1,Kućanstvo,K001,A. Kovač,Split,2,6.8,3.0
+2026-07-21,R01229,2,T01,MP Centar,Zagreb,Središnja Hrvatska,P005,Tjestenina 500g,Prehrana,K001,A. Kovač,Split,1,1.8,3.0
+2026-07-21,R01229,3,T01,MP Centar,Zagreb,Središnja Hrvatska,P003,Sok naranča 1L,Prehrana,K001,A. Kovač,Split,3,9.0,3.0
+2026-07-21,R01230,1,T01,MP Centar,Zagreb,Središnja Hrvatska,P008,Papirnati ručnici 2/1,Kućanstvo,K004,T. Horvat,Zagreb,2,6.8,0.0
+2026-07-21,R01230,2,T01,MP Centar,Zagreb,Središnja Hrvatska,P009,Šampon 400ml,Higijena,K004,T. Horvat,Zagreb,4,22.4,0.0
+2026-07-21,R01230,3,T01,MP Centar,Zagreb,Središnja Hrvatska,P010,Pasta za zube 75ml,Higijena,K004,T. Horvat,Zagreb,4,11.6,0.0
+2026-07-22,R01231,1,T01,MP Centar,Zagreb,Središnja Hrvatska,P001,Kava 500g,Prehrana,K001,A. Kovač,Split,3,22.5,0.0
+2026-07-22,R01231,2,T01,MP Centar,Zagreb,Središnja Hrvatska,P009,Šampon 400ml,Higijena,K001,A. Kovač,Split,1,5.6,0.0
+2026-07-22,R01231,3,T01,MP Centar,Zagreb,Središnja Hrvatska,P008,Papirnati ručnici 2/1,Kućanstvo,K001,A. Kovač,Split,4,13.6,0.0
+2026-07-22,R01231,4,T01,MP Centar,Zagreb,Središnja Hrvatska,P007,Spužve 3/1,Kućanstvo,K001,A. Kovač,Split,3,6.6,0.0
+2026-07-22,R01232,1,T06,MP Stari grad,Split,Dalmacija,P001,Kava 500g,Prehrana,K001,A. Kovač,Split,3,22.5,3.0
+2026-07-22,R01232,2,T06,MP Stari grad,Split,Dalmacija,P005,Tjestenina 500g,Prehrana,K001,A. Kovač,Split,4,7.2,3.0
+2026-07-22,R01233,1,T06,MP Stari grad,Split,Dalmacija,P008,Papirnati ručnici 2/1,Kućanstvo,K001,A. Kovač,Split,4,13.6,0.0
+2026-07-22,R01233,2,T06,MP Stari grad,Split,Dalmacija,P007,Spužve 3/1,Kućanstvo,K001,A. Kovač,Split,2,4.4,0.0
+2026-07-22,R01233,3,T06,MP Stari grad,Split,Dalmacija,P010,Pasta za zube 75ml,Higijena,K001,A. Kovač,Split,3,8.7,0.0
+2026-07-22,R01234,1,T02,MP Sjever,Osijek,Slavonija,P002,Deterdžent 2L,Kućanstvo,K009,S. Knežević,Osijek,3,25.5,0.0
+2026-07-22,R01234,2,T02,MP Sjever,Osijek,Slavonija,P007,Spužve 3/1,Kućanstvo,K009,S. Knežević,Osijek,3,6.6,0.0
+2026-07-22,R01234,3,T02,MP Sjever,Osijek,Slavonija,P001,Kava 500g,Prehrana,K009,S. Knežević,Osijek,4,30.0,0.0
+2026-07-22,R01235,1,T03,MP Jadran,Split,Dalmacija,P007,Spužve 3/1,Kućanstvo,K020,C. Grgić,Split,3,6.6,1.0
+2026-07-22,R01236,1,T03,MP Jadran,Split,Dalmacija,P003,Sok naranča 1L,Prehrana,K001,A. Kovač,Split,1,3.0,0.0
+2026-07-22,R01236,2,T03,MP Jadran,Split,Dalmacija,P004,Maslinovo ulje 1L,Prehrana,K001,A. Kovač,Split,1,11.9,0.0
+2026-07-22,R01236,3,T03,MP Jadran,Split,Dalmacija,P008,Papirnati ručnici 2/1,Kućanstvo,K001,A. Kovač,Split,4,13.6,0.0
+2026-07-22,R01236,4,T03,MP Jadran,Split,Dalmacija,P007,Spužve 3/1,Kućanstvo,K001,A. Kovač,Split,1,2.2,0.0
+2026-07-22,R01237,1,T05,MP Riva,Rijeka,Primorje,P001,Kava 500g,Prehrana,K005,L. Babić,Split,4,30.0,1.0
+2026-07-22,R01238,1,T05,MP Riva,Rijeka,Primorje,P010,Pasta za zube 75ml,Higijena,K017,G. Filipović,Rijeka,4,11.6,0.0
+2026-07-22,R01238,2,T05,MP Riva,Rijeka,Primorje,P008,Papirnati ručnici 2/1,Kućanstvo,K017,G. Filipović,Rijeka,4,13.6,0.0
+2026-07-22,R01239,1,T05,MP Riva,Rijeka,Primorje,P001,Kava 500g,Prehrana,K017,G. Filipović,Rijeka,4,30.0,1.0
+2026-07-22,R01239,2,T05,MP Riva,Rijeka,Primorje,P005,Tjestenina 500g,Prehrana,K017,G. Filipović,Rijeka,1,1.8,1.0
+2026-07-22,R01239,3,T05,MP Riva,Rijeka,Primorje,P002,Deterdžent 2L,Kućanstvo,K017,G. Filipović,Rijeka,2,17.0,1.0
+2026-07-22,R01239,4,T05,MP Riva,Rijeka,Primorje,P006,Čokolada 100g,Prehrana,K017,G. Filipović,Rijeka,3,4.5,1.0
+2026-07-22,R01240,1,T03,MP Jadran,Split,Dalmacija,P003,Sok naranča 1L,Prehrana,K013,M. Šarić,Split,1,3.0,0.0
+2026-07-22,R01240,2,T03,MP Jadran,Split,Dalmacija,P002,Deterdžent 2L,Kućanstvo,K013,M. Šarić,Split,4,34.0,0.0
+2026-07-22,R01240,3,T03,MP Jadran,Split,Dalmacija,P005,Tjestenina 500g,Prehrana,K013,M. Šarić,Split,1,1.8,0.0
+2026-07-22,R01240,4,T03,MP Jadran,Split,Dalmacija,P004,Maslinovo ulje 1L,Prehrana,K013,M. Šarić,Split,1,11.9,0.0
+2026-07-23,R01241,1,T04,MP Istok,Zagreb,Središnja Hrvatska,P009,Šampon 400ml,Higijena,K014,B. Tomić,Zagreb,1,5.6,0.0
+2026-07-23,R01241,2,T04,MP Istok,Zagreb,Središnja Hrvatska,P010,Pasta za zube 75ml,Higijena,K014,B. Tomić,Zagreb,1,2.9,0.0
+2026-07-23,R01242,1,T05,MP Riva,Rijeka,Primorje,P010,Pasta za zube 75ml,Higijena,K011,F. Matić,Rijeka,4,11.6,0.0
+2026-07-23,R01242,2,T05,MP Riva,Rijeka,Primorje,P006,Čokolada 100g,Prehrana,K011,F. Matić,Rijeka,3,4.5,0.0
+2026-07-23,R01242,3,T05,MP Riva,Rijeka,Primorje,P009,Šampon 400ml,Higijena,K011,F. Matić,Rijeka,2,11.2,0.0
+2026-07-23,R01243,1,T03,MP Jadran,Split,Dalmacija,P008,Papirnati ručnici 2/1,Kućanstvo,K002,M. Perić,V. Gorica,4,13.6,0.0
+2026-07-23,R01243,2,T03,MP Jadran,Split,Dalmacija,P004,Maslinovo ulje 1L,Prehrana,K002,M. Perić,V. Gorica,4,47.6,0.0
+2026-07-23,R01244,1,T04,MP Istok,Zagreb,Središnja Hrvatska,P003,Sok naranča 1L,Prehrana,K002,M. Perić,V. Gorica,1,3.0,0.0
+2026-07-23,R01245,1,T05,MP Riva,Rijeka,Primorje,P010,Pasta za zube 75ml,Higijena,K012,R. Kralj,Zadar,4,11.6,0.0
+2026-07-23,R01245,2,T05,MP Riva,Rijeka,Primorje,P008,Papirnati ručnici 2/1,Kućanstvo,K012,R. Kralj,Zadar,1,3.4,0.0
+2026-07-23,R01245,3,T05,MP Riva,Rijeka,Primorje,P002,Deterdžent 2L,Kućanstvo,K012,R. Kralj,Zadar,3,25.5,0.0
+2026-07-23,R01246,1,T03,MP Jadran,Split,Dalmacija,P005,Tjestenina 500g,Prehrana,K012,R. Kralj,Zadar,3,5.4,0.0
+2026-07-23,R01246,2,T03,MP Jadran,Split,Dalmacija,P004,Maslinovo ulje 1L,Prehrana,K012,R. Kralj,Zadar,3,35.7,0.0
+2026-07-23,R01246,3,T03,MP Jadran,Split,Dalmacija,P002,Deterdžent 2L,Kućanstvo,K012,R. Kralj,Zadar,1,8.5,0.0
+2026-07-23,R01246,4,T03,MP Jadran,Split,Dalmacija,P008,Papirnati ručnici 2/1,Kućanstvo,K012,R. Kralj,Zadar,1,3.4,0.0
+2026-07-23,R01247,1,T01,MP Centar,Zagreb,Središnja Hrvatska,P007,Spužve 3/1,Kućanstvo,K003,I. Šimić,Zagreb,3,6.6,0.0
+2026-07-23,R01247,2,T01,MP Centar,Zagreb,Središnja Hrvatska,P001,Kava 500g,Prehrana,K003,I. Šimić,Zagreb,4,30.0,0.0
+2026-07-23,R01248,1,T02,MP Sjever,Osijek,Slavonija,P003,Sok naranča 1L,Prehrana,K016,H. Lučić,Osijek,2,6.0,0.0
+2026-07-23,R01248,2,T02,MP Sjever,Osijek,Slavonija,P008,Papirnati ručnici 2/1,Kućanstvo,K016,H. Lučić,Osijek,3,10.2,0.0
+2026-07-23,R01249,1,T05,MP Riva,Rijeka,Primorje,P006,Čokolada 100g,Prehrana,K006,J. Marić,Rijeka,4,6.0,0.0
+2026-07-23,R01249,2,T05,MP Riva,Rijeka,Primorje,P005,Tjestenina 500g,Prehrana,K006,J. Marić,Rijeka,3,5.4,0.0
+2026-07-24,R01250,1,T06,MP Stari grad,Split,Dalmacija,P001,Kava 500g,Prehrana,K008,D. Jurić,Split,2,15.0,0.0
+2026-07-24,R01251,1,T01,MP Centar,Zagreb,Središnja Hrvatska,P004,Maslinovo ulje 1L,Prehrana,K002,M. Perić,V. Gorica,2,23.8,1.0
+2026-07-24,R01251,2,T01,MP Centar,Zagreb,Središnja Hrvatska,P002,Deterdžent 2L,Kućanstvo,K002,M. Perić,V. Gorica,2,17.0,1.0
+2026-07-24,R01251,3,T01,MP Centar,Zagreb,Središnja Hrvatska,P001,Kava 500g,Prehrana,K002,M. Perić,V. Gorica,2,15.0,1.0
+2026-07-24,R01251,4,T01,MP Centar,Zagreb,Središnja Hrvatska,P009,Šampon 400ml,Higijena,K002,M. Perić,V. Gorica,4,22.4,1.0
+2026-07-24,R01252,1,T04,MP Istok,Zagreb,Središnja Hrvatska,P001,Kava 500g,Prehrana,K001,A. Kovač,Split,4,30.0,0.0
+2026-07-24,R01252,2,T04,MP Istok,Zagreb,Središnja Hrvatska,P010,Pasta za zube 75ml,Higijena,K001,A. Kovač,Split,2,5.8,0.0
+2026-07-24,R01252,3,T04,MP Istok,Zagreb,Središnja Hrvatska,P007,Spužve 3/1,Kućanstvo,K001,A. Kovač,Split,2,4.4,0.0
+2026-07-24,R01253,1,T03,MP Jadran,Split,Dalmacija,P005,Tjestenina 500g,Prehrana,K013,M. Šarić,Split,2,3.6,0.0
+2026-07-24,R01253,2,T03,MP Jadran,Split,Dalmacija,P003,Sok naranča 1L,Prehrana,K013,M. Šarić,Split,4,12.0,0.0
+2026-07-24,R01254,1,T04,MP Istok,Zagreb,Središnja Hrvatska,P010,Pasta za zube 75ml,Higijena,K003,I. Šimić,Zagreb,1,2.9,0.0
+2026-07-24,R01255,1,T02,MP Sjever,Osijek,Slavonija,P007,Spužve 3/1,Kućanstvo,K009,S. Knežević,Osijek,3,6.6,0.0
+2026-07-24,R01256,1,T03,MP Jadran,Split,Dalmacija,P010,Pasta za zube 75ml,Higijena,K013,M. Šarić,Split,3,8.7,0.0
+2026-07-24,R01256,2,T03,MP Jadran,Split,Dalmacija,P007,Spužve 3/1,Kućanstvo,K013,M. Šarić,Split,2,4.4,0.0
+2026-07-24,R01256,3,T03,MP Jadran,Split,Dalmacija,P009,Šampon 400ml,Higijena,K013,M. Šarić,Split,1,5.6,0.0
+2026-07-24,R01256,4,T03,MP Jadran,Split,Dalmacija,P006,Čokolada 100g,Prehrana,K013,M. Šarić,Split,2,3.0,0.0
+2026-07-24,R01257,1,T04,MP Istok,Zagreb,Središnja Hrvatska,P009,Šampon 400ml,Higijena,K003,I. Šimić,Zagreb,4,22.4,1.0
+2026-07-24,R01257,2,T04,MP Istok,Zagreb,Središnja Hrvatska,P007,Spužve 3/1,Kućanstvo,K003,I. Šimić,Zagreb,4,8.8,1.0
+2026-07-24,R01258,1,T02,MP Sjever,Osijek,Slavonija,P003,Sok naranča 1L,Prehrana,K010,N. Vuković,Zagreb,3,9.0,1.0
+2026-07-24,R01258,2,T02,MP Sjever,Osijek,Slavonija,P005,Tjestenina 500g,Prehrana,K010,N. Vuković,Zagreb,1,1.8,1.0
+2026-07-24,R01258,3,T02,MP Sjever,Osijek,Slavonija,P004,Maslinovo ulje 1L,Prehrana,K010,N. Vuković,Zagreb,4,47.6,1.0
+2026-07-24,R01259,1,T04,MP Istok,Zagreb,Središnja Hrvatska,P010,Pasta za zube 75ml,Higijena,K018,E. Radić,Zagreb,4,11.6,0.0
+2026-07-24,R01259,2,T04,MP Istok,Zagreb,Središnja Hrvatska,P002,Deterdžent 2L,Kućanstvo,K018,E. Radić,Zagreb,3,25.5,0.0
+2026-07-24,R01260,1,T05,MP Riva,Rijeka,Primorje,P009,Šampon 400ml,Higijena,K006,J. Marić,Rijeka,3,16.8,0.0
+2026-07-24,R01260,2,T05,MP Riva,Rijeka,Primorje,P003,Sok naranča 1L,Prehrana,K006,J. Marić,Rijeka,4,12.0,0.0
+2026-07-24,R01260,3,T05,MP Riva,Rijeka,Primorje,P008,Papirnati ručnici 2/1,Kućanstvo,K006,J. Marić,Rijeka,1,3.4,0.0
+2026-07-25,R01261,1,T03,MP Jadran,Split,Dalmacija,P006,Čokolada 100g,Prehrana,K008,D. Jurić,Split,3,4.5,0.0
+2026-07-25,R01261,2,T03,MP Jadran,Split,Dalmacija,P005,Tjestenina 500g,Prehrana,K008,D. Jurić,Split,3,5.4,0.0
+2026-07-25,R01261,3,T03,MP Jadran,Split,Dalmacija,P002,Deterdžent 2L,Kućanstvo,K008,D. Jurić,Split,4,34.0,0.0
+2026-07-25,R01261,4,T03,MP Jadran,Split,Dalmacija,P009,Šampon 400ml,Higijena,K008,D. Jurić,Split,3,16.8,0.0
+2026-07-25,R01262,1,T04,MP Istok,Zagreb,Središnja Hrvatska,P006,Čokolada 100g,Prehrana,K003,I. Šimić,Zagreb,3,4.5,0.0
+2026-07-25,R01262,2,T04,MP Istok,Zagreb,Središnja Hrvatska,P005,Tjestenina 500g,Prehrana,K003,I. Šimić,Zagreb,1,1.8,0.0
+2026-07-25,R01263,1,T06,MP Stari grad,Split,Dalmacija,P004,Maslinovo ulje 1L,Prehrana,K001,A. Kovač,Split,4,47.6,0.0
+2026-07-25,R01263,2,T06,MP Stari grad,Split,Dalmacija,P008,Papirnati ručnici 2/1,Kućanstvo,K001,A. Kovač,Split,4,13.6,0.0
+2026-07-25,R01264,1,T03,MP Jadran,Split,Dalmacija,P007,Spužve 3/1,Kućanstvo,K020,C. Grgić,Split,3,6.6,0.0
+2026-07-25,R01264,2,T03,MP Jadran,Split,Dalmacija,P005,Tjestenina 500g,Prehrana,K020,C. Grgić,Split,3,5.4,0.0
+2026-07-25,R01264,3,T03,MP Jadran,Split,Dalmacija,P009,Šampon 400ml,Higijena,K020,C. Grgić,Split,2,11.2,0.0
+2026-07-25,R01264,4,T03,MP Jadran,Split,Dalmacija,P001,Kava 500g,Prehrana,K020,C. Grgić,Split,1,7.5,0.0
+2026-07-25,R01265,1,T06,MP Stari grad,Split,Dalmacija,P007,Spužve 3/1,Kućanstvo,K013,M. Šarić,Split,3,6.6,0.0
+2026-07-25,R01265,2,T06,MP Stari grad,Split,Dalmacija,P006,Čokolada 100g,Prehrana,K013,M. Šarić,Split,3,4.5,0.0
+2026-07-25,R01265,3,T06,MP Stari grad,Split,Dalmacija,P003,Sok naranča 1L,Prehrana,K013,M. Šarić,Split,2,6.0,0.0
+2026-07-25,R01266,1,T04,MP Istok,Zagreb,Središnja Hrvatska,P005,Tjestenina 500g,Prehrana,K003,I. Šimić,Zagreb,1,1.8,0.0
+2026-07-25,R01266,2,T04,MP Istok,Zagreb,Središnja Hrvatska,P008,Papirnati ručnici 2/1,Kućanstvo,K003,I. Šimić,Zagreb,1,3.4,0.0
+2026-07-25,R01266,3,T04,MP Istok,Zagreb,Središnja Hrvatska,P010,Pasta za zube 75ml,Higijena,K003,I. Šimić,Zagreb,1,2.9,0.0
+2026-07-25,R01266,4,T04,MP Istok,Zagreb,Središnja Hrvatska,P002,Deterdžent 2L,Kućanstvo,K003,I. Šimić,Zagreb,4,34.0,0.0
+2026-07-25,R01267,1,T03,MP Jadran,Split,Dalmacija,P008,Papirnati ručnici 2/1,Kućanstvo,K008,D. Jurić,Split,4,13.6,0.0
+2026-07-25,R01267,2,T03,MP Jadran,Split,Dalmacija,P004,Maslinovo ulje 1L,Prehrana,K008,D. Jurić,Split,4,47.6,0.0
+2026-07-25,R01267,3,T03,MP Jadran,Split,Dalmacija,P010,Pasta za zube 75ml,Higijena,K008,D. Jurić,Split,3,8.7,0.0
+2026-07-25,R01268,1,T01,MP Centar,Zagreb,Središnja Hrvatska,P008,Papirnati ručnici 2/1,Kućanstvo,K003,I. Šimić,Zagreb,4,13.6,0.0
+2026-07-25,R01268,2,T01,MP Centar,Zagreb,Središnja Hrvatska,P004,Maslinovo ulje 1L,Prehrana,K003,I. Šimić,Zagreb,2,23.8,0.0
+2026-07-25,R01268,3,T01,MP Centar,Zagreb,Središnja Hrvatska,P005,Tjestenina 500g,Prehrana,K003,I. Šimić,Zagreb,4,7.2,0.0
+2026-07-25,R01269,1,T01,MP Centar,Zagreb,Središnja Hrvatska,P006,Čokolada 100g,Prehrana,K018,E. Radić,Zagreb,1,1.5,0.0
+2026-07-25,R01270,1,T01,MP Centar,Zagreb,Središnja Hrvatska,P001,Kava 500g,Prehrana,K003,I. Šimić,Zagreb,4,30.0,1.0
+2026-07-25,R01270,2,T01,MP Centar,Zagreb,Središnja Hrvatska,P004,Maslinovo ulje 1L,Prehrana,K003,I. Šimić,Zagreb,3,35.7,1.0
+2026-07-26,R01271,1,T03,MP Jadran,Split,Dalmacija,P005,Tjestenina 500g,Prehrana,K001,A. Kovač,Split,1,1.8,2.0
+2026-07-26,R01271,2,T03,MP Jadran,Split,Dalmacija,P002,Deterdžent 2L,Kućanstvo,K001,A. Kovač,Split,1,8.5,2.0
+2026-07-26,R01271,3,T03,MP Jadran,Split,Dalmacija,P010,Pasta za zube 75ml,Higijena,K001,A. Kovač,Split,3,8.7,2.0
+2026-07-26,R01272,1,T04,MP Istok,Zagreb,Središnja Hrvatska,P005,Tjestenina 500g,Prehrana,K014,B. Tomić,Zagreb,4,7.2,2.0
+2026-07-26,R01272,2,T04,MP Istok,Zagreb,Središnja Hrvatska,P004,Maslinovo ulje 1L,Prehrana,K014,B. Tomić,Zagreb,4,47.6,2.0
+2026-07-26,R01272,3,T04,MP Istok,Zagreb,Središnja Hrvatska,P008,Papirnati ručnici 2/1,Kućanstvo,K014,B. Tomić,Zagreb,4,13.6,2.0
+2026-07-26,R01272,4,T04,MP Istok,Zagreb,Središnja Hrvatska,P001,Kava 500g,Prehrana,K014,B. Tomić,Zagreb,4,30.0,2.0
+2026-07-26,R01273,1,T03,MP Jadran,Split,Dalmacija,P004,Maslinovo ulje 1L,Prehrana,K001,A. Kovač,Split,3,35.7,0.0
+2026-07-26,R01273,2,T03,MP Jadran,Split,Dalmacija,P008,Papirnati ručnici 2/1,Kućanstvo,K001,A. Kovač,Split,3,10.2,0.0
+2026-07-26,R01273,3,T03,MP Jadran,Split,Dalmacija,P003,Sok naranča 1L,Prehrana,K001,A. Kovač,Split,4,12.0,0.0
+2026-07-26,R01273,4,T03,MP Jadran,Split,Dalmacija,P010,Pasta za zube 75ml,Higijena,K001,A. Kovač,Split,1,2.9,0.0
+2026-07-26,R01274,1,T02,MP Sjever,Osijek,Slavonija,P002,Deterdžent 2L,Kućanstvo,K009,S. Knežević,Osijek,2,17.0,0.0
+2026-07-26,R01274,2,T02,MP Sjever,Osijek,Slavonija,P009,Šampon 400ml,Higijena,K009,S. Knežević,Osijek,1,5.6,0.0
+2026-07-26,R01274,3,T02,MP Sjever,Osijek,Slavonija,P006,Čokolada 100g,Prehrana,K009,S. Knežević,Osijek,4,6.0,0.0
+2026-07-26,R01274,4,T02,MP Sjever,Osijek,Slavonija,P003,Sok naranča 1L,Prehrana,K009,S. Knežević,Osijek,2,6.0,0.0
+2026-07-26,R01275,1,T01,MP Centar,Zagreb,Središnja Hrvatska,P008,Papirnati ručnici 2/1,Kućanstvo,K004,T. Horvat,Zagreb,4,13.6,0.0
+2026-07-26,R01275,2,T01,MP Centar,Zagreb,Središnja Hrvatska,P003,Sok naranča 1L,Prehrana,K004,T. Horvat,Zagreb,2,6.0,0.0
+2026-07-26,R01276,1,T06,MP Stari grad,Split,Dalmacija,P008,Papirnati ručnici 2/1,Kućanstvo,K008,D. Jurić,Split,3,10.2,0.0
+2026-07-26,R01276,2,T06,MP Stari grad,Split,Dalmacija,P004,Maslinovo ulje 1L,Prehrana,K008,D. Jurić,Split,2,23.8,0.0
+2026-07-26,R01276,3,T06,MP Stari grad,Split,Dalmacija,P006,Čokolada 100g,Prehrana,K008,D. Jurić,Split,2,3.0,0.0
+2026-07-26,R01277,1,T06,MP Stari grad,Split,Dalmacija,P006,Čokolada 100g,Prehrana,K008,D. Jurić,Split,2,3.0,0.0
+2026-07-26,R01277,2,T06,MP Stari grad,Split,Dalmacija,P010,Pasta za zube 75ml,Higijena,K008,D. Jurić,Split,1,2.9,0.0
+2026-07-26,R01278,1,T06,MP Stari grad,Split,Dalmacija,P007,Spužve 3/1,Kućanstvo,K019,Z. Bošnjak,V. Gorica,4,8.8,0.0
+2026-07-26,R01279,1,T02,MP Sjever,Osijek,Slavonija,P001,Kava 500g,Prehrana,K016,H. Lučić,Osijek,3,22.5,1.0
+2026-07-26,R01280,1,T05,MP Riva,Rijeka,Primorje,P005,Tjestenina 500g,Prehrana,K002,M. Perić,V. Gorica,1,1.8,0.0
+2026-07-26,R01280,2,T05,MP Riva,Rijeka,Primorje,P003,Sok naranča 1L,Prehrana,K002,M. Perić,V. Gorica,3,9.0,0.0
+2026-07-26,R01280,3,T05,MP Riva,Rijeka,Primorje,P008,Papirnati ručnici 2/1,Kućanstvo,K002,M. Perić,V. Gorica,4,13.6,0.0
+2026-07-26,R01280,4,T05,MP Riva,Rijeka,Primorje,P010,Pasta za zube 75ml,Higijena,K002,M. Perić,V. Gorica,3,8.7,0.0
+2026-07-26,R01281,1,T01,MP Centar,Zagreb,Središnja Hrvatska,P003,Sok naranča 1L,Prehrana,K018,E. Radić,Zagreb,4,12.0,0.0
+2026-07-26,R01281,2,T01,MP Centar,Zagreb,Središnja Hrvatska,P001,Kava 500g,Prehrana,K018,E. Radić,Zagreb,4,30.0,0.0
+2026-07-26,R01281,3,T01,MP Centar,Zagreb,Središnja Hrvatska,P009,Šampon 400ml,Higijena,K018,E. Radić,Zagreb,1,5.6,0.0
+2026-07-27,R01282,1,T01,MP Centar,Zagreb,Središnja Hrvatska,P009,Šampon 400ml,Higijena,K014,B. Tomić,Zagreb,3,16.8,0.0
+2026-07-27,R01282,2,T01,MP Centar,Zagreb,Središnja Hrvatska,P010,Pasta za zube 75ml,Higijena,K014,B. Tomić,Zagreb,1,2.9,0.0
+2026-07-27,R01282,3,T01,MP Centar,Zagreb,Središnja Hrvatska,P001,Kava 500g,Prehrana,K014,B. Tomić,Zagreb,1,7.5,0.0
+2026-07-27,R01283,1,T05,MP Riva,Rijeka,Primorje,P010,Pasta za zube 75ml,Higijena,K007,P. Novak,Zagreb,1,2.9,0.0
+2026-07-27,R01283,2,T05,MP Riva,Rijeka,Primorje,P002,Deterdžent 2L,Kućanstvo,K007,P. Novak,Zagreb,3,25.5,0.0
+2026-07-27,R01283,3,T05,MP Riva,Rijeka,Primorje,P001,Kava 500g,Prehrana,K007,P. Novak,Zagreb,1,7.5,0.0
+2026-07-27,R01284,1,T03,MP Jadran,Split,Dalmacija,P001,Kava 500g,Prehrana,K015,V. Pavić,Varaždin,1,7.5,0.0
+2026-07-27,R01284,2,T03,MP Jadran,Split,Dalmacija,P008,Papirnati ručnici 2/1,Kućanstvo,K015,V. Pavić,Varaždin,4,13.6,0.0
+2026-07-27,R01285,1,T06,MP Stari grad,Split,Dalmacija,P010,Pasta za zube 75ml,Higijena,K005,L. Babić,Split,3,8.7,1.0
+2026-07-27,R01285,2,T06,MP Stari grad,Split,Dalmacija,P003,Sok naranča 1L,Prehrana,K005,L. Babić,Split,3,9.0,1.0
+2026-07-27,R01286,1,T04,MP Istok,Zagreb,Središnja Hrvatska,P010,Pasta za zube 75ml,Higijena,K012,R. Kralj,Zadar,4,11.6,3.0
+2026-07-27,R01286,2,T04,MP Istok,Zagreb,Središnja Hrvatska,P001,Kava 500g,Prehrana,K012,R. Kralj,Zadar,2,15.0,3.0
+2026-07-27,R01287,1,T03,MP Jadran,Split,Dalmacija,P003,Sok naranča 1L,Prehrana,K020,C. Grgić,Split,1,3.0,0.0
+2026-07-27,R01287,2,T03,MP Jadran,Split,Dalmacija,P005,Tjestenina 500g,Prehrana,K020,C. Grgić,Split,4,7.2,0.0
+2026-07-27,R01288,1,T05,MP Riva,Rijeka,Primorje,P009,Šampon 400ml,Higijena,K011,F. Matić,Rijeka,1,5.6,0.0
+2026-07-27,R01288,2,T05,MP Riva,Rijeka,Primorje,P003,Sok naranča 1L,Prehrana,K011,F. Matić,Rijeka,1,3.0,0.0
+2026-07-27,R01288,3,T05,MP Riva,Rijeka,Primorje,P002,Deterdžent 2L,Kućanstvo,K011,F. Matić,Rijeka,4,34.0,0.0
+2026-07-27,R01288,4,T05,MP Riva,Rijeka,Primorje,P008,Papirnati ručnici 2/1,Kućanstvo,K011,F. Matić,Rijeka,1,3.4,0.0
+2026-07-27,R01289,1,T02,MP Sjever,Osijek,Slavonija,P004,Maslinovo ulje 1L,Prehrana,K016,H. Lučić,Osijek,4,47.6,0.0
+2026-07-27,R01289,2,T02,MP Sjever,Osijek,Slavonija,P005,Tjestenina 500g,Prehrana,K016,H. Lučić,Osijek,1,1.8,0.0
+2026-07-27,R01290,1,T06,MP Stari grad,Split,Dalmacija,P009,Šampon 400ml,Higijena,K001,A. Kovač,Split,1,5.6,1.0
+2026-07-27,R01290,2,T06,MP Stari grad,Split,Dalmacija,P005,Tjestenina 500g,Prehrana,K001,A. Kovač,Split,3,5.4,1.0
+2026-07-27,R01290,3,T06,MP Stari grad,Split,Dalmacija,P006,Čokolada 100g,Prehrana,K001,A. Kovač,Split,3,4.5,1.0
+2026-07-27,R01291,1,T04,MP Istok,Zagreb,Središnja Hrvatska,P006,Čokolada 100g,Prehrana,K018,E. Radić,Zagreb,4,6.0,0.0
+2026-07-28,R01292,1,T03,MP Jadran,Split,Dalmacija,P009,Šampon 400ml,Higijena,K019,Z. Bošnjak,V. Gorica,1,5.6,0.0
+2026-07-28,R01292,2,T03,MP Jadran,Split,Dalmacija,P010,Pasta za zube 75ml,Higijena,K019,Z. Bošnjak,V. Gorica,4,11.6,0.0
+2026-07-28,R01292,3,T03,MP Jadran,Split,Dalmacija,P001,Kava 500g,Prehrana,K019,Z. Bošnjak,V. Gorica,2,15.0,0.0
+2026-07-28,R01292,4,T03,MP Jadran,Split,Dalmacija,P004,Maslinovo ulje 1L,Prehrana,K019,Z. Bošnjak,V. Gorica,4,47.6,0.0
+2026-07-28,R01293,1,T01,MP Centar,Zagreb,Središnja Hrvatska,P003,Sok naranča 1L,Prehrana,K007,P. Novak,Zagreb,3,9.0,2.0
+2026-07-28,R01293,2,T01,MP Centar,Zagreb,Središnja Hrvatska,P009,Šampon 400ml,Higijena,K007,P. Novak,Zagreb,4,22.4,2.0
+2026-07-28,R01293,3,T01,MP Centar,Zagreb,Središnja Hrvatska,P006,Čokolada 100g,Prehrana,K007,P. Novak,Zagreb,2,3.0,2.0
+2026-07-28,R01293,4,T01,MP Centar,Zagreb,Središnja Hrvatska,P002,Deterdžent 2L,Kućanstvo,K007,P. Novak,Zagreb,1,8.5,2.0
+2026-07-28,R01294,1,T04,MP Istok,Zagreb,Središnja Hrvatska,P005,Tjestenina 500g,Prehrana,K014,B. Tomić,Zagreb,1,1.8,0.0
+2026-07-28,R01294,2,T04,MP Istok,Zagreb,Središnja Hrvatska,P006,Čokolada 100g,Prehrana,K014,B. Tomić,Zagreb,1,1.5,0.0
+2026-07-28,R01294,3,T04,MP Istok,Zagreb,Središnja Hrvatska,P004,Maslinovo ulje 1L,Prehrana,K014,B. Tomić,Zagreb,4,47.6,0.0
+2026-07-28,R01294,4,T04,MP Istok,Zagreb,Središnja Hrvatska,P008,Papirnati ručnici 2/1,Kućanstvo,K014,B. Tomić,Zagreb,3,10.2,0.0
+2026-07-28,R01295,1,T02,MP Sjever,Osijek,Slavonija,P002,Deterdžent 2L,Kućanstvo,K016,H. Lučić,Osijek,2,17.0,0.0
+2026-07-28,R01295,2,T02,MP Sjever,Osijek,Slavonija,P001,Kava 500g,Prehrana,K016,H. Lučić,Osijek,4,30.0,0.0
+2026-07-28,R01296,1,T02,MP Sjever,Osijek,Slavonija,P009,Šampon 400ml,Higijena,K009,S. Knežević,Osijek,4,22.4,0.0
+2026-07-28,R01296,2,T02,MP Sjever,Osijek,Slavonija,P005,Tjestenina 500g,Prehrana,K009,S. Knežević,Osijek,1,1.8,0.0
+2026-07-28,R01296,3,T02,MP Sjever,Osijek,Slavonija,P002,Deterdžent 2L,Kućanstvo,K009,S. Knežević,Osijek,3,25.5,0.0
+2026-07-28,R01296,4,T02,MP Sjever,Osijek,Slavonija,P006,Čokolada 100g,Prehrana,K009,S. Knežević,Osijek,1,1.5,0.0
+2026-07-28,R01297,1,T05,MP Riva,Rijeka,Primorje,P002,Deterdžent 2L,Kućanstvo,K010,N. Vuković,Zagreb,2,17.0,0.0
+2026-07-28,R01297,2,T05,MP Riva,Rijeka,Primorje,P006,Čokolada 100g,Prehrana,K010,N. Vuković,Zagreb,1,1.5,0.0
+2026-07-28,R01297,3,T05,MP Riva,Rijeka,Primorje,P001,Kava 500g,Prehrana,K010,N. Vuković,Zagreb,2,15.0,0.0
+2026-07-28,R01298,1,T02,MP Sjever,Osijek,Slavonija,P009,Šampon 400ml,Higijena,K013,M. Šarić,Split,4,22.4,0.0
+2026-07-29,R01299,1,T01,MP Centar,Zagreb,Središnja Hrvatska,P005,Tjestenina 500g,Prehrana,K014,B. Tomić,Zagreb,1,1.8,0.0
+2026-07-29,R01299,2,T01,MP Centar,Zagreb,Središnja Hrvatska,P001,Kava 500g,Prehrana,K014,B. Tomić,Zagreb,1,7.5,0.0
+2026-07-29,R01300,1,T06,MP Stari grad,Split,Dalmacija,P004,Maslinovo ulje 1L,Prehrana,K005,L. Babić,Split,2,23.8,0.0
+2026-07-29,R01300,2,T06,MP Stari grad,Split,Dalmacija,P003,Sok naranča 1L,Prehrana,K005,L. Babić,Split,4,12.0,0.0
+2026-07-29,R01300,3,T06,MP Stari grad,Split,Dalmacija,P009,Šampon 400ml,Higijena,K005,L. Babić,Split,4,22.4,0.0
+2026-07-29,R01300,4,T06,MP Stari grad,Split,Dalmacija,P001,Kava 500g,Prehrana,K005,L. Babić,Split,4,30.0,0.0
+2026-07-29,R01301,1,T05,MP Riva,Rijeka,Primorje,P005,Tjestenina 500g,Prehrana,K017,G. Filipović,Rijeka,2,3.6,0.0
+2026-07-29,R01302,1,T01,MP Centar,Zagreb,Središnja Hrvatska,P010,Pasta za zube 75ml,Higijena,K003,I. Šimić,Zagreb,4,11.6,0.0
+2026-07-29,R01302,2,T01,MP Centar,Zagreb,Središnja Hrvatska,P007,Spužve 3/1,Kućanstvo,K003,I. Šimić,Zagreb,3,6.6,0.0
+2026-07-29,R01302,3,T01,MP Centar,Zagreb,Središnja Hrvatska,P002,Deterdžent 2L,Kućanstvo,K003,I. Šimić,Zagreb,3,25.5,0.0
+2026-07-29,R01303,1,T06,MP Stari grad,Split,Dalmacija,P008,Papirnati ručnici 2/1,Kućanstvo,K015,V. Pavić,Varaždin,3,10.2,0.0
+2026-07-29,R01303,2,T06,MP Stari grad,Split,Dalmacija,P007,Spužve 3/1,Kućanstvo,K015,V. Pavić,Varaždin,3,6.6,0.0
+2026-07-29,R01303,3,T06,MP Stari grad,Split,Dalmacija,P001,Kava 500g,Prehrana,K015,V. Pavić,Varaždin,4,30.0,0.0
+2026-07-29,R01304,1,T01,MP Centar,Zagreb,Središnja Hrvatska,P005,Tjestenina 500g,Prehrana,K002,M. Perić,V. Gorica,3,5.4,0.0
+2026-07-29,R01304,2,T01,MP Centar,Zagreb,Središnja Hrvatska,P009,Šampon 400ml,Higijena,K002,M. Perić,V. Gorica,3,16.8,0.0
+2026-07-29,R01304,3,T01,MP Centar,Zagreb,Središnja Hrvatska,P007,Spužve 3/1,Kućanstvo,K002,M. Perić,V. Gorica,2,4.4,0.0
+2026-07-29,R01304,4,T01,MP Centar,Zagreb,Središnja Hrvatska,P010,Pasta za zube 75ml,Higijena,K002,M. Perić,V. Gorica,1,2.9,0.0
+2026-07-29,R01305,1,T03,MP Jadran,Split,Dalmacija,P009,Šampon 400ml,Higijena,K009,S. Knežević,Osijek,3,16.8,3.0
+2026-07-29,R01306,1,T06,MP Stari grad,Split,Dalmacija,P009,Šampon 400ml,Higijena,K018,E. Radić,Zagreb,2,11.2,0.0
+2026-07-29,R01306,2,T06,MP Stari grad,Split,Dalmacija,P003,Sok naranča 1L,Prehrana,K018,E. Radić,Zagreb,2,6.0,0.0
+2026-07-29,R01306,3,T06,MP Stari grad,Split,Dalmacija,P004,Maslinovo ulje 1L,Prehrana,K018,E. Radić,Zagreb,2,23.8,0.0
+2026-07-29,R01306,4,T06,MP Stari grad,Split,Dalmacija,P008,Papirnati ručnici 2/1,Kućanstvo,K018,E. Radić,Zagreb,4,13.6,0.0
+2026-07-29,R01307,1,T05,MP Riva,Rijeka,Primorje,P001,Kava 500g,Prehrana,K006,J. Marić,Rijeka,2,15.0,0.0
+2026-07-29,R01307,2,T05,MP Riva,Rijeka,Primorje,P008,Papirnati ručnici 2/1,Kućanstvo,K006,J. Marić,Rijeka,1,3.4,0.0
+2026-07-29,R01307,3,T05,MP Riva,Rijeka,Primorje,P009,Šampon 400ml,Higijena,K006,J. Marić,Rijeka,1,5.6,0.0
+2026-07-29,R01307,4,T05,MP Riva,Rijeka,Primorje,P003,Sok naranča 1L,Prehrana,K006,J. Marić,Rijeka,2,6.0,0.0
+2026-07-29,R01308,1,T01,MP Centar,Zagreb,Središnja Hrvatska,P002,Deterdžent 2L,Kućanstvo,K003,I. Šimić,Zagreb,3,25.5,0.0
+2026-07-29,R01308,2,T01,MP Centar,Zagreb,Središnja Hrvatska,P001,Kava 500g,Prehrana,K003,I. Šimić,Zagreb,2,15.0,0.0
+2026-07-29,R01309,1,T06,MP Stari grad,Split,Dalmacija,P007,Spužve 3/1,Kućanstvo,K001,A. Kovač,Split,2,4.4,0.0
+2026-07-29,R01309,2,T06,MP Stari grad,Split,Dalmacija,P008,Papirnati ručnici 2/1,Kućanstvo,K001,A. Kovač,Split,1,3.4,0.0
+2026-07-29,R01309,3,T06,MP Stari grad,Split,Dalmacija,P006,Čokolada 100g,Prehrana,K001,A. Kovač,Split,1,1.5,0.0
+2026-07-30,R01310,1,T04,MP Istok,Zagreb,Središnja Hrvatska,P009,Šampon 400ml,Higijena,K010,N. Vuković,Zagreb,1,5.6,2.0
+2026-07-30,R01311,1,T04,MP Istok,Zagreb,Središnja Hrvatska,P010,Pasta za zube 75ml,Higijena,K018,E. Radić,Zagreb,2,5.8,0.0
+2026-07-30,R01312,1,T01,MP Centar,Zagreb,Središnja Hrvatska,P007,Spužve 3/1,Kućanstvo,K018,E. Radić,Zagreb,2,4.4,0.0
+2026-07-30,R01312,2,T01,MP Centar,Zagreb,Središnja Hrvatska,P002,Deterdžent 2L,Kućanstvo,K018,E. Radić,Zagreb,4,34.0,0.0
+2026-07-30,R01313,1,T06,MP Stari grad,Split,Dalmacija,P007,Spužve 3/1,Kućanstvo,K020,C. Grgić,Split,3,6.6,0.0
+2026-07-30,R01313,2,T06,MP Stari grad,Split,Dalmacija,P003,Sok naranča 1L,Prehrana,K020,C. Grgić,Split,2,6.0,0.0
+2026-07-30,R01313,3,T06,MP Stari grad,Split,Dalmacija,P001,Kava 500g,Prehrana,K020,C. Grgić,Split,1,7.5,0.0
+2026-07-30,R01313,4,T06,MP Stari grad,Split,Dalmacija,P010,Pasta za zube 75ml,Higijena,K020,C. Grgić,Split,2,5.8,0.0
+2026-07-30,R01314,1,T06,MP Stari grad,Split,Dalmacija,P010,Pasta za zube 75ml,Higijena,K012,R. Kralj,Zadar,1,2.9,0.0
+2026-07-30,R01314,2,T06,MP Stari grad,Split,Dalmacija,P009,Šampon 400ml,Higijena,K012,R. Kralj,Zadar,3,16.8,0.0
+2026-07-30,R01314,3,T06,MP Stari grad,Split,Dalmacija,P004,Maslinovo ulje 1L,Prehrana,K012,R. Kralj,Zadar,4,47.6,0.0
+2026-07-30,R01315,1,T03,MP Jadran,Split,Dalmacija,P009,Šampon 400ml,Higijena,K005,L. Babić,Split,1,5.6,0.0
+2026-07-30,R01316,1,T01,MP Centar,Zagreb,Središnja Hrvatska,P006,Čokolada 100g,Prehrana,K007,P. Novak,Zagreb,4,6.0,1.0
+2026-07-30,R01316,2,T01,MP Centar,Zagreb,Središnja Hrvatska,P009,Šampon 400ml,Higijena,K007,P. Novak,Zagreb,2,11.2,1.0
+2026-07-30,R01317,1,T03,MP Jadran,Split,Dalmacija,P006,Čokolada 100g,Prehrana,K001,A. Kovač,Split,1,1.5,0.0
+2026-07-30,R01317,2,T03,MP Jadran,Split,Dalmacija,P010,Pasta za zube 75ml,Higijena,K001,A. Kovač,Split,2,5.8,0.0
+2026-07-30,R01317,3,T03,MP Jadran,Split,Dalmacija,P004,Maslinovo ulje 1L,Prehrana,K001,A. Kovač,Split,2,23.8,0.0
+2026-07-31,R01318,1,T05,MP Riva,Rijeka,Primorje,P010,Pasta za zube 75ml,Higijena,K004,T. Horvat,Zagreb,4,11.6,0.0
+2026-07-31,R01318,2,T05,MP Riva,Rijeka,Primorje,P003,Sok naranča 1L,Prehrana,K004,T. Horvat,Zagreb,1,3.0,0.0
+2026-07-31,R01318,3,T05,MP Riva,Rijeka,Primorje,P007,Spužve 3/1,Kućanstvo,K004,T. Horvat,Zagreb,4,8.8,0.0
+2026-07-31,R01319,1,T03,MP Jadran,Split,Dalmacija,P005,Tjestenina 500g,Prehrana,K001,A. Kovač,Split,2,3.6,0.0
+2026-07-31,R01319,2,T03,MP Jadran,Split,Dalmacija,P010,Pasta za zube 75ml,Higijena,K001,A. Kovač,Split,1,2.9,0.0
+2026-07-31,R01320,1,T05,MP Riva,Rijeka,Primorje,P005,Tjestenina 500g,Prehrana,K006,J. Marić,Rijeka,1,1.8,0.0
+2026-07-31,R01320,2,T05,MP Riva,Rijeka,Primorje,P007,Spužve 3/1,Kućanstvo,K006,J. Marić,Rijeka,3,6.6,0.0
+2026-07-31,R01321,1,T01,MP Centar,Zagreb,Središnja Hrvatska,P006,Čokolada 100g,Prehrana,K007,P. Novak,Zagreb,1,1.5,0.0
+2026-07-31,R01321,2,T01,MP Centar,Zagreb,Središnja Hrvatska,P001,Kava 500g,Prehrana,K007,P. Novak,Zagreb,2,15.0,0.0
+2026-07-31,R01321,3,T01,MP Centar,Zagreb,Središnja Hrvatska,P007,Spužve 3/1,Kućanstvo,K007,P. Novak,Zagreb,4,8.8,0.0
+2026-07-31,R01322,1,T03,MP Jadran,Split,Dalmacija,P010,Pasta za zube 75ml,Higijena,K012,R. Kralj,Zadar,1,2.9,0.0
+2026-07-31,R01322,2,T03,MP Jadran,Split,Dalmacija,P003,Sok naranča 1L,Prehrana,K012,R. Kralj,Zadar,2,6.0,0.0
+2026-07-31,R01323,1,T03,MP Jadran,Split,Dalmacija,P005,Tjestenina 500g,Prehrana,K001,A. Kovač,Split,1,1.8,1.0
+2026-07-31,R01323,2,T03,MP Jadran,Split,Dalmacija,P006,Čokolada 100g,Prehrana,K001,A. Kovač,Split,1,1.5,1.0
+2026-07-31,R01323,3,T03,MP Jadran,Split,Dalmacija,P003,Sok naranča 1L,Prehrana,K001,A. Kovač,Split,4,12.0,1.0
+2026-07-31,R01324,1,T01,MP Centar,Zagreb,Središnja Hrvatska,P010,Pasta za zube 75ml,Higijena,K008,D. Jurić,Split,3,8.7,0.0
+2026-07-31,R01324,2,T01,MP Centar,Zagreb,Središnja Hrvatska,P008,Papirnati ručnici 2/1,Kućanstvo,K008,D. Jurić,Split,2,6.8,0.0
+2026-07-31,R01324,3,T01,MP Centar,Zagreb,Središnja Hrvatska,P006,Čokolada 100g,Prehrana,K008,D. Jurić,Split,3,4.5,0.0
+2026-07-31,R01325,1,T01,MP Centar,Zagreb,Središnja Hrvatska,P002,Deterdžent 2L,Kućanstvo,K004,T. Horvat,Zagreb,3,25.5,0.0
+2026-07-31,R01325,2,T01,MP Centar,Zagreb,Središnja Hrvatska,P008,Papirnati ručnici 2/1,Kućanstvo,K004,T. Horvat,Zagreb,2,6.8,0.0
+2026-07-31,R01325,3,T01,MP Centar,Zagreb,Središnja Hrvatska,P003,Sok naranča 1L,Prehrana,K004,T. Horvat,Zagreb,4,12.0,0.0
+2026-07-31,R01325,4,T01,MP Centar,Zagreb,Središnja Hrvatska,P006,Čokolada 100g,Prehrana,K004,T. Horvat,Zagreb,4,6.0,0.0
